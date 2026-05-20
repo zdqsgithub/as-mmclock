@@ -1,0 +1,26 @@
+{
+  "pearson_r": 0.1672,
+  "pearson_pval": 4.267588167365145e-09,
+  "mae_weeks": 32.546,
+  "medae_weeks": 26.363,
+  "rmse_weeks": 41.373,
+  "r2": -0.2617,
+  "mae_pct_lifespan": 0.3255,
+  "n_samples": 1219,
+  "n_datasets": 6,
+  "cr_detection_auc": 0.6319,
+  "cr_detection_f1": 0.0809,
+  "cr_cohens_d": 0.4112,
+  "cr_mannwhitney_p": 0.005424,
+  "cross_dataset_mae": 32.793,
+  "threshold_checks": {
+    "pearson_r": "FAIL 0.1672 target > 0.9",
+    "mae_weeks": "FAIL 32.546 target < 3.5",
+    "medae_weeks": "FAIL 26.363 target < 3.0",
+    "r2": "FAIL -0.2617 target > 0.8",
+    "cr_detection_auc": "FAIL 0.6319 target > 0.8",
+    "cr_detection_f1": "FAIL 0.0809 target > 0.75",
+    "cr_cohens_d": "FAIL 0.4112 target > 0.8",
+    "cross_dataset_mae": "FAIL 32.793 target < 5.0"
+  }
+}

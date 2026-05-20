@@ -63,6 +63,17 @@ results/**
 !results/v22_biological_signal_screen/*.md
 !results/v22_biological_signal_screen/predictions/
 !results/v22_biological_signal_screen/predictions/*.csv
+!results/v22_dl_optimization/
+!results/v22_dl_optimization/*.csv
+!results/v22_dl_optimization/*.json
+!results/v22_dl_optimization/*.md
+!results/v22_dl_optimization/random_label_sanity/
+!results/v22_dl_optimization/random_label_sanity/**/
+!results/v22_dl_optimization/random_label_sanity/**/benchmark_result.json
+!results/v22_dl_optimization/random_label_sanity/**/result.json
+!results/v22_dl_optimization/final_all_data_model/
+!results/v22_dl_optimization/final_all_data_model/result.json
+!results/v22_dl_optimization/final_all_data_model/selected_features.csv
 
 # OS/editor noise
 .DS_Store

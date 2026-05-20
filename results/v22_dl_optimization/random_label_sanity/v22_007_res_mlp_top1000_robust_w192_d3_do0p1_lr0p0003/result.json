@@ -1,0 +1,112 @@
+{
+  "architecture": "res_mlp",
+  "cuda_available": true,
+  "cuda_device": "NVIDIA GeForce RTX 5090",
+  "cv_strategy": "GroupKFold_dataset_batch",
+  "eval_mode": "groupkfold",
+  "exec_time_sec": 31.5,
+  "fold_rows": [
+    {
+      "best_val_mae_target": 0.7961519956588745,
+      "epochs_ran": 33,
+      "fold": 1,
+      "n_features_after_all_filters": 12192,
+      "n_features_agebin": 65869,
+      "n_features_presence": 65870,
+      "n_features_selected": 1000,
+      "n_features_stability": 12192
+    },
+    {
+      "best_val_mae_target": 0.8185093402862549,
+      "epochs_ran": 34,
+      "fold": 2,
+      "n_features_after_all_filters": 13013,
+      "n_features_agebin": 65859,
+      "n_features_presence": 65870,
+      "n_features_selected": 1000,
+      "n_features_stability": 13014
+    },
+    {
+      "best_val_mae_target": 0.7281993627548218,
+      "epochs_ran": 42,
+      "fold": 3,
+      "n_features_after_all_filters": 12333,
+      "n_features_agebin": 65865,
+      "n_features_presence": 65870,
+      "n_features_selected": 1000,
+      "n_features_stability": 12333
+    },
+    {
+      "best_val_mae_target": 0.8280779123306274,
+      "epochs_ran": 32,
+      "fold": 4,
+      "n_features_after_all_filters": 14274,
+      "n_features_agebin": 65868,
+      "n_features_presence": 65870,
+      "n_features_selected": 1000,
+      "n_features_stability": 14274
+    },
+    {
+      "best_val_mae_target": 0.7547217011451721,
+      "epochs_ran": 38,
+      "fold": 5,
+      "n_features_after_all_filters": 19454,
+      "n_features_agebin": 65856,
+      "n_features_presence": 65870,
+      "n_features_selected": 1000,
+      "n_features_stability": 19457
+    }
+  ],
+  "heldout_dataset": null,
+  "imputation": "median",
+  "leakage_controls": [
+    "cv_split_before_feature_selection",
+    "feature_presence_filter_fit_train_fold_only",
+    "dataset_stability_filter_fit_train_fold_only",
+    "agebin_presence_filter_fit_train_fold_only",
+    "feature_selection_fit_train_fold_only",
+    "imputer_fit_train_fold_only",
+    "scaler_fit_train_fold_only",
+    "model_fit_train_fold_only"
+  ],
+  "mae_weeks": 32.546,
+  "max_train_dataset_mean_shift": 0.125,
+  "medae_weeks": 26.363,
+  "min_train_agebin_feature_presence": 0.8,
+  "min_train_feature_presence": 0.8,
+  "min_train_group_feature_presence": 0.8,
+  "model_config": {
+    "architecture": "res_mlp",
+    "bottleneck": 64,
+    "cnn_channels": 64,
+    "cnn_kernel": 15,
+    "dae_latent": 64,
+    "depth": 3,
+    "dropout": 0.1,
+    "token_dim": 16,
+    "transformer_heads": 4,
+    "transformer_layers": 2,
+    "width": 192
+  },
+  "n_feature_prefilter": "1000",
+  "n_features_total": 65870,
+  "n_samples": 1219,
+  "pearson_pval": 4.267590322026542e-09,
+  "pearson_r": 0.1672,
+  "preprocess": "robust",
+  "r2": -0.2617,
+  "random_seed": 99,
+  "randomize_labels": true,
+  "rmse_weeks": 41.373,
+  "target_transform": "log1p_days",
+  "torch_version": "2.11.0+cu128",
+  "training": {
+    "amp": true,
+    "batch_size": 64,
+    "device": "cuda",
+    "epochs": 300,
+    "lr": 0.0003,
+    "patience": 30,
+    "weight_decay": 0.001
+  }
+}

@@ -14,7 +14,9 @@ import pandas as pd
 from scipy import stats
 
 
-ROOT = Path("/home/zdq-as/mouse_methyl_work")
+LOCAL_ROOT = Path("/home/zdq-as/mouse_methyl_work")
+REMOTE_ROOT = Path("/root/autodl-tmp/mouse_methyl_work")
+ROOT = REMOTE_ROOT if REMOTE_ROOT.exists() else LOCAL_ROOT
 DEFAULT_MATRIX = ROOT / "results" / "multidataset_v8_3_ablation" / "all6" / "all_rrbs_region_matrix_5kb.parquet"
 DEFAULT_METADATA = ROOT / "metadata" / "model_sample_metadata_v8.csv"
 DEFAULT_ML_FEATURES = ROOT / "results" / "autoresearch_v19_ml_baseline" / "final_all_data_model" / "selected_features.csv"

@@ -74,6 +74,19 @@ results/**
 !results/v22_dl_optimization/final_all_data_model/
 !results/v22_dl_optimization/final_all_data_model/result.json
 !results/v22_dl_optimization/final_all_data_model/selected_features.csv
+!results/v23_cloud_max_batch/
+!results/v23_cloud_max_batch/*.csv
+!results/v23_cloud_max_batch/*.json
+!results/v23_cloud_max_batch/*.md
+!results/v23_cloud_max_batch/biology_sidecars/
+!results/v23_cloud_max_batch/biology_sidecars/*/
+!results/v23_cloud_max_batch/biology_sidecars/*/*.csv
+!results/v23_cloud_max_batch/biology_sidecars/*/*.json
+!results/v23_cloud_max_batch/biology_sidecars/*/*.md
+!results/v23_cloud_max_batch/feature_interpretation/
+!results/v23_cloud_max_batch/feature_interpretation/*.csv
+!results/v23_cloud_max_batch/feature_interpretation/*.json
+!results/v23_cloud_max_batch/feature_interpretation/*.md
 
 # OS/editor noise
 .DS_Store

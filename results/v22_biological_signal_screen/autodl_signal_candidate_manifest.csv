@@ -1,0 +1,7 @@
+target_id,target_kind,architecture,n_feature_prefilter,preprocess,local_training_authorized,autodl_only,priority,notes
+age_weeks,regression,tabular_res_mlp_or_autoencoder_probe,500;1000;2000,standard;robust,False,True,primary,Use same held-out and random-label gates as local ML; CpGPT/MethFormer only as optional embedding experiment.
+sex_binary,binary,tabular_res_mlp_or_autoencoder_probe,500;1000;2000,standard;robust,False,True,auxiliary,Use same held-out and random-label gates as local ML; CpGPT/MethFormer only as optional embedding experiment.
+tissue_multiclass,multiclass,tabular_res_mlp_or_autoencoder_probe,500;1000;2000,standard;robust,False,True,auxiliary,Use same held-out and random-label gates as local ML; CpGPT/MethFormer only as optional embedding experiment.
+cr_vs_control,binary,tabular_res_mlp_or_autoencoder_probe,500;1000;2000,standard;robust,False,True,primary_aux,Use same held-out and random-label gates as local ML; CpGPT/MethFormer only as optional embedding experiment.
+old_castration_vs_control,binary,tabular_res_mlp_or_autoencoder_probe,500;1000;2000,standard;robust,False,True,exploratory,Use same held-out and random-label gates as local ML; CpGPT/MethFormer only as optional embedding experiment.
+condition_family_multiclass,multiclass,tabular_res_mlp_or_autoencoder_probe,500;1000;2000,standard;robust,False,True,exploratory,Use same held-out and random-label gates as local ML; CpGPT/MethFormer only as optional embedding experiment.

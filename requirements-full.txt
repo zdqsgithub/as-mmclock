@@ -1,0 +1,7 @@
+-r requirements-core.txt
+-r requirements-viz.txt
+pyarrow>=14.0
+fastparquet>=2023.0
+lightgbm>=4.0
+torch>=2.1
+lightning>=2.2

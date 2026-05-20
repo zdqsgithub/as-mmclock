@@ -1,0 +1,911 @@
+age_weeks,characteristics,dataset,intervention_guess,raw_age_token,raw_age_unit,sample_id,source_name,tissue_guess,title
+21.729,strain: C3B6F1 | gender: female | diet: control-fed (AL) | age: 5 months | tissue: liver,GSE92486,,age: 5 mo,mo,GSM2430552,AL 5m RNA-seq,liver,AL 5m Rep1 RNA-seq
+21.729,strain: C3B6F1 | gender: female | diet: control-fed (AL) | age: 5 months | tissue: liver,GSE92486,,age: 5 mo,mo,GSM2430553,AL 5m RNA-seq,liver,AL 5m Rep2 RNA-seq
+21.729,strain: C3B6F1 | gender: female | diet: control-fed (AL) | age: 5 months | tissue: liver,GSE92486,,age: 5 mo,mo,GSM2430554,AL 5m RNA-seq,liver,AL 5m Rep3 RNA-seq
+21.729,strain: C3B6F1 | gender: female | diet: dietary-restricted (DR) | age: 5 months | tissue: liver,GSE92486,,age: 5 mo,mo,GSM2430555,DR 5m RNA-seq,liver,DR 5m Rep1 RNA-seq
+21.729,strain: C3B6F1 | gender: female | diet: dietary-restricted (DR) | age: 5 months | tissue: liver,GSE92486,,age: 5 mo,mo,GSM2430556,DR 5m RNA-seq,liver,DR 5m Rep2 RNA-seq
+21.729,strain: C3B6F1 | gender: female | diet: dietary-restricted (DR) | age: 5 months | tissue: liver,GSE92486,,age: 5 mo,mo,GSM2430557,DR 5m RNA-seq,liver,DR 5m Rep3 RNA-seq
+112.989,strain: C3B6F1 | gender: female | diet: control-fed (AL) | age: 26 months | tissue: liver,GSE92486,,age: 26 mo,mo,GSM2430558,AL 26m RNA-seq,liver,AL 26m Rep1 RNA-seq
+112.989,strain: C3B6F1 | gender: female | diet: control-fed (AL) | age: 26 months | tissue: liver,GSE92486,,age: 26 mo,mo,GSM2430559,AL 26m RNA-seq,liver,AL 26m Rep2 RNA-seq
+112.989,strain: C3B6F1 | gender: female | diet: control-fed (AL) | age: 26 months | tissue: liver,GSE92486,,age: 26 mo,mo,GSM2430560,AL 26m RNA-seq,liver,AL 26m Rep3 RNA-seq
+112.989,strain: C3B6F1 | gender: female | diet: dietary-restricted (DR) | age: 26 months | tissue: liver,GSE92486,,age: 26 mo,mo,GSM2430561,DR 26m RNA-seq,liver,DR 26m Rep1 RNA-seq
+112.989,strain: C3B6F1 | gender: female | diet: dietary-restricted (DR) | age: 26 months | tissue: liver,GSE92486,,age: 26 mo,mo,GSM2430562,DR 26m RNA-seq,liver,DR 26m Rep2 RNA-seq
+112.989,strain: C3B6F1 | gender: female | diet: dietary-restricted (DR) | age: 26 months | tissue: liver,GSE92486,,age: 26 mo,mo,GSM2430563,DR 26m RNA-seq,liver,DR 26m Rep3 RNA-seq
+21.729,strain: C3B6F1 | gender: female | diet: control-fed (AL) | age: 5 months | tissue: liver,GSE92486,,age: 5 mo,mo,GSM2430564,AL 5m BS-seq,liver,AL 5m Rep1 BS-seq
+21.729,strain: C3B6F1 | gender: female | diet: control-fed (AL) | age: 5 months | tissue: liver,GSE92486,,age: 5 mo,mo,GSM2430565,AL 5m BS-seq,liver,AL 5m Rep2 BS-seq
+21.729,strain: C3B6F1 | gender: female | diet: control-fed (AL) | age: 5 months | tissue: liver,GSE92486,,age: 5 mo,mo,GSM2430566,AL 5m BS-seq,liver,AL 5m Rep3 BS-seq
+21.729,strain: C3B6F1 | gender: female | diet: dietary-restricted (DR) | age: 5 months | tissue: liver,GSE92486,,age: 5 mo,mo,GSM2430567,DR 5m BS-seq,liver,DR 5m Rep1 BS-seq
+21.729,strain: C3B6F1 | gender: female | diet: dietary-restricted (DR) | age: 5 months | tissue: liver,GSE92486,,age: 5 mo,mo,GSM2430568,DR 5m BS-seq,liver,DR 5m Rep2 BS-seq
+21.729,strain: C3B6F1 | gender: female | diet: dietary-restricted (DR) | age: 5 months | tissue: liver,GSE92486,,age: 5 mo,mo,GSM2430569,DR 5m BS-seq,liver,DR 5m Rep3 BS-seq
+112.989,strain: C3B6F1 | gender: female | diet: control-fed (AL) | age: 26 months | tissue: liver,GSE92486,,age: 26 mo,mo,GSM2430570,AL 26m PE BS-seq,liver,AL 26m PE Rep1 BS-seq
+112.989,strain: C3B6F1 | gender: female | diet: control-fed (AL) | age: 26 months | tissue: liver,GSE92486,,age: 26 mo,mo,GSM2430571,AL 26m PE BS-seq,liver,AL 26m PE Rep2 BS-seq
+112.989,strain: C3B6F1 | gender: female | diet: control-fed (AL) | age: 26 months | tissue: liver,GSE92486,,age: 26 mo,mo,GSM2430572,AL 26m PE BS-seq,liver,AL 26m PE Rep3 BS-seq
+112.989,strain: C3B6F1 | gender: female | diet: dietary-restricted (DR) | age: 26 months | tissue: liver,GSE92486,,age: 26 mo,mo,GSM2430573,DR 26m PE BS-seq,liver,DR 26m PE Rep1 BS-seq
+112.989,strain: C3B6F1 | gender: female | diet: dietary-restricted (DR) | age: 26 months | tissue: liver,GSE92486,,age: 26 mo,mo,GSM2430574,DR 26m PE BS-seq,liver,DR 26m PE Rep2 BS-seq
+112.989,strain: C3B6F1 | gender: female | diet: dietary-restricted (DR) | age: 26 months | tissue: liver,GSE92486,,age: 26 mo,mo,GSM2430575,DR 26m PE BS-seq,liver,DR 26m PE Rep3 BS-seq
+112.989,strain: C3B6F2 | gender: female | diet: control-fed (AL) | age: 26 months | tissue: liver,GSE92486,,age: 26 mo,mo,GSM2430576,AL 26m SE BS-seq,liver,AL 26m SE Rep1 BS-seq
+112.989,strain: C3B6F3 | gender: female | diet: control-fed (AL) | age: 26 months | tissue: liver,GSE92486,,age: 26 mo,mo,GSM2430577,AL 26m SE BS-seq,liver,AL 26m SE Rep2 BS-seq
+112.989,strain: C3B6F4 | gender: female | diet: control-fed (AL) | age: 26 months | tissue: liver,GSE92486,,age: 26 mo,mo,GSM2430578,AL 26m SE BS-seq,liver,AL 26m SE Rep3 BS-seq
+112.989,strain: C3B6F5 | gender: female | diet: dietary-restricted (DR) | age: 26 months | tissue: liver,GSE92486,,age: 26 mo,mo,GSM2430579,DR 26m SE BS-seq,liver,DR 26m SE Rep1 BS-seq
+112.989,strain: C3B6F6 | gender: female | diet: dietary-restricted (DR) | age: 26 months | tissue: liver,GSE92486,,age: 26 mo,mo,GSM2430580,DR 26m SE BS-seq,liver,DR 26m SE Rep2 BS-seq
+112.989,strain: C3B6F7 | gender: female | diet: dietary-restricted (DR) | age: 26 months | tissue: liver,GSE92486,,age: 26 mo,mo,GSM2430581,DR 26m SE BS-seq,liver,DR 26m SE Rep3 BS-seq
+17.383,tissue: Skeletal Muscle | group: Sedentary | age: 4mo,GSE175410,exercise,age: 4mo,mo,GSM5333067,tibialis anterior,skeletal_muscle,Young Sedentary 1
+17.383,tissue: Skeletal Muscle | group: Sedentary | age: 4mo,GSE175410,exercise,age: 4mo,mo,GSM5333068,tibialis anterior,skeletal_muscle,Young Sedentary 2
+17.383,tissue: Skeletal Muscle | group: Sedentary | age: 4mo,GSE175410,exercise,age: 4mo,mo,GSM5333069,tibialis anterior,skeletal_muscle,Young Sedentary 3
+17.383,tissue: Skeletal Muscle | group: Sedentary | age: 4mo,GSE175410,exercise,age: 4mo,mo,GSM5333070,tibialis anterior,skeletal_muscle,Young Sedentary 4
+17.383,tissue: Skeletal Muscle | group: Sedentary | age: 4mo,GSE175410,exercise,age: 4mo,mo,GSM5333071,tibialis anterior,skeletal_muscle,Young Sedentary 5
+104.297,tissue: Skeletal Muscle | group: Sedentary | age: 24mo,GSE175410,exercise,age: 24mo,mo,GSM5333072,tibialis anterior,skeletal_muscle,Old Sedentary 1
+104.297,tissue: Skeletal Muscle | group: Sedentary | age: 24mo,GSE175410,exercise,age: 24mo,mo,GSM5333073,tibialis anterior,skeletal_muscle,Old Sedentary 2
+104.297,tissue: Skeletal Muscle | group: Sedentary | age: 24mo,GSE175410,exercise,age: 24mo,mo,GSM5333074,tibialis anterior,skeletal_muscle,Old Sedentary 3
+104.297,tissue: Skeletal Muscle | group: Sedentary | age: 24mo,GSE175410,exercise,age: 24mo,mo,GSM5333075,tibialis anterior,skeletal_muscle,Old Sedentary 4
+104.297,tissue: Skeletal Muscle | group: Sedentary | age: 24mo,GSE175410,exercise,age: 24mo,mo,GSM5333076,tibialis anterior,skeletal_muscle,Old Sedentary 5
+104.297,tissue: Skeletal Muscle | group: Exercise | age: 24mo,GSE175410,exercise,age: 24mo,mo,GSM5333077,tibialis anterior,skeletal_muscle,Old Exercise 1
+104.297,tissue: Skeletal Muscle | group: Exercise | age: 24mo,GSE175410,exercise,age: 24mo,mo,GSM5333078,tibialis anterior,skeletal_muscle,Old Exercise 2
+104.297,tissue: Skeletal Muscle | group: Exercise | age: 24mo,GSE175410,exercise,age: 24mo,mo,GSM5333079,tibialis anterior,skeletal_muscle,Old Exercise 3
+104.297,tissue: Skeletal Muscle | group: Exercise | age: 24mo,GSE175410,exercise,age: 24mo,mo,GSM5333080,tibialis anterior,skeletal_muscle,Old Exercise 4
+104.297,tissue: Skeletal Muscle | group: Exercise | age: 24mo,GSE175410,exercise,age: 24mo,mo,GSM5333081,tibialis anterior,skeletal_muscle,Old Exercise 5
+17.383,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,4 month,month,GSM6590383,Lower Small Intestine Epithelium,intestine,4 month LSI_GFP-_A
+17.383,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,4 month,month,GSM6590384,Lower Small Intestine Epithelium,intestine,4 month LSI_GFP-_B
+17.383,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,4 month,month,GSM6590385,Lower Small Intestine Epithelium,intestine,4 month LSI_GFP+_A
+17.383,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,4 month,month,GSM6590386,Lower Small Intestine Epithelium,intestine,4 month LSI_GFP+_B
+17.383,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,4 month,month,GSM6590387,Upper Small Intestine Epithelium,intestine,4 month USI_GFP-_A
+17.383,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,4 month,month,GSM6590388,Upper Small Intestine Epithelium,intestine,4 month USI_GFP-_B
+,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,,,GSM6590389,Upper Small Intestine Epithelium,intestine,4 monthUSI_GFP+_A
+17.383,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,4 month,month,GSM6590390,Upper Small Intestine Epithelium,intestine,4 month USI_GFP+_B
+17.383,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,4 month,month,GSM6590391,Colon Epithelium,intestine,4 month COL_GFP-_A
+17.383,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,4 month,month,GSM6590392,Colon Epithelium,intestine,4 month COL_GFP-_B
+17.383,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,4 month,month,GSM6590393,Colon Epithelium,intestine,4 month COL_GFP+_A
+17.383,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,4 month,month,GSM6590394,Colon Epithelium,intestine,4 month COL_GFP+_B
+52.149,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,12 month,month,GSM6590395,Lower Small Intestine Epithelium,intestine,12 month LSI_GFP-_A
+52.149,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,12 month,month,GSM6590396,Lower Small Intestine Epithelium,intestine,12 month LSI_GFP-_B
+52.149,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,12 month,month,GSM6590397,Upper Small Intestine Epithelium,intestine,12 month USI_GFP-_A
+52.149,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,12 month,month,GSM6590398,Upper Small Intestine Epithelium,intestine,12 month USI_GFP-_B
+52.149,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,12 month,month,GSM6590399,Colon Epithelium,intestine,12 month COL_GFP-_A
+52.149,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,12 month,month,GSM6590400,Colon Epithelium,intestine,12 month COL_GFP-_B
+52.149,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,12 month,month,GSM6590401,Colon Epithelium,intestine,12 month COL_GFP+_A
+52.149,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,12 month,month,GSM6590402,Colon Epithelium,intestine,12 month COL_GFP+_B
+78.223,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,18 month,month,GSM6590403,Lower Small Intestine Epithelium,intestine,18 month LSI_GFP-_A
+78.223,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,18 month,month,GSM6590404,Lower Small Intestine Epithelium,intestine,18 month LSI_GFP-_B
+78.223,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,18 month,month,GSM6590405,Lower Small Intestine Epithelium,intestine,18 month LSI_GFP+_A
+78.223,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,18 month,month,GSM6590406,Lower Small Intestine Epithelium,intestine,18 month LSI_GFP+_B
+78.223,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,18 month,month,GSM6590407,Upper Small Intestine Epithelium,intestine,18 month USI_GFP-_A
+78.223,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,18 month,month,GSM6590408,Upper Small Intestine Epithelium,intestine,18 month USI_GFP-_B
+,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,,,GSM6590409,Upper Small Intestine Epithelium,intestine,18 monthUSI_GFP+_A
+78.223,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,18 month,month,GSM6590410,Upper Small Intestine Epithelium,intestine,18 month USI_GFP+_B
+78.223,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,18 month,month,GSM6590411,Colon Epithelium,intestine,18 month COL_GFP-_A
+78.223,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,18 month,month,GSM6590412,Colon Epithelium,intestine,18 month COL_GFP-_B
+78.223,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,18 month,month,GSM6590413,Colon Epithelium,intestine,18 month COL_GFP+_A
+78.223,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,18 month,month,GSM6590414,Colon Epithelium,intestine,18 month COL_GFP+_B
+104.297,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590415,Lower Small Intestine Epithelium,intestine,24 month LSI_GFP-_A
+104.297,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590416,Lower Small Intestine Epithelium,intestine,24 month LSI_GFP-_B
+104.297,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590417,Lower Small Intestine Epithelium,intestine,24 month LSI_GFP+_A
+104.297,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590418,Lower Small Intestine Epithelium,intestine,24 month LSI_GFP+_B
+104.297,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590419,Upper Small Intestine Epithelium,intestine,24 month USI_GFP-_A
+104.297,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590420,Upper Small Intestine Epithelium,intestine,24 month USI_GFP-_B
+,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,,,GSM6590421,Upper Small Intestine Epithelium,intestine,24 monthUSI_GFP+_A
+104.297,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590422,Upper Small Intestine Epithelium,intestine,24 month USI_GFP+_B
+104.297,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590423,Colon Epithelium,intestine,24 month COL_GFP-_A
+104.297,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590424,Colon Epithelium,intestine,24 month COL_GFP-_B
+104.297,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590425,Colon Epithelium,intestine,24 month COL_GFP+_A
+104.297,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590426,Colon Epithelium,intestine,24 month COL_GFP+_B
+17.383,cell type: Whole Blood | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,4 month,month,GSM6590427,Whole Blood,blood,4 month whole blood_A
+17.383,cell type: Whole Blood | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,4 month,month,GSM6590428,Whole Blood,blood,4 month whole blood_B
+17.383,cell type: Whole Blood | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,4 month,month,GSM6590429,Whole Blood,blood,4 month whole blood_C
+52.149,cell type: Whole Blood | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,12 month,month,GSM6590430,Whole Blood,blood,12 month whole blood_A
+52.149,cell type: Whole Blood | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,12 month,month,GSM6590431,Whole Blood,blood,12 month whole blood_B
+52.149,cell type: Whole Blood | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,12 month,month,GSM6590432,Whole Blood,blood,12 month whole blood_C
+104.297,cell type: Whole Blood | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590433,Whole Blood,blood,24 month whole blood_A
+104.297,cell type: Whole Blood | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590434,Whole Blood,blood,24 month whole blood_B
+104.297,cell type: Whole Blood | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590435,Whole Blood,blood,24 month whole blood_C
+104.297,cell type: Whole Blood | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590436,Whole Blood,blood,24 month whole blood_D
+17.383,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,4 month,month,GSM6590437,Heart,heart,4 month Heart_A
+17.383,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,4 month,month,GSM6590438,Heart,heart,4 month Heart_B
+17.383,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,4 month,month,GSM6590439,Heart,heart,4 month Heart_C
+17.383,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,4 month,month,GSM6590440,Heart,heart,4 month Heart_D
+17.383,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,4 month,month,GSM6590441,Heart,heart,4 month Heart_E
+17.383,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,4 month,month,GSM6590442,Heart,heart,4 month Heart_F
+52.149,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,12 month,month,GSM6590443,Heart,heart,12 month Heart_A
+52.149,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,12 month,month,GSM6590444,Heart,heart,12 month Heart_B
+52.149,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,12 month,month,GSM6590445,Heart,heart,12 month Heart_C
+52.149,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,12 month,month,GSM6590446,Heart,heart,12 month Heart_D
+52.149,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,12 month,month,GSM6590447,Heart,heart,12 month Heart_E
+52.149,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,12 month,month,GSM6590448,Heart,heart,12 month Heart_F
+104.297,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590449,Heart,heart,24 month Heart_A
+104.297,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590450,Heart,heart,24 month Heart_B
+104.297,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590451,Heart,heart,24 month Heart_C
+104.297,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590452,Heart,heart,24 month Heart_D
+104.297,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590453,Heart,heart,24 month Heart_E
+104.297,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590454,Heart,heart,24 month Heart_F
+108.643,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,25 month,month,GSM6590455,Heart,heart,25 month Heart_G
+112.989,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,26 month,month,GSM6590456,Heart,heart,26 month Heart_H
+117.334,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,27 month,month,GSM6590457,Heart,heart,27 month Heart_I
+121.68,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,28 month,month,GSM6590458,Heart,heart,28 month Heart_J
+17.383,cell type: Kidney | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,4 month,month,GSM6590459,Kidney,kidney,4 month Kidney_A
+17.383,cell type: Kidney | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,4 month,month,GSM6590460,Kidney,kidney,4 month Kidney_B
+17.383,cell type: Kidney | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,4 month,month,GSM6590461,Kidney,kidney,4 month Kidney_C
+52.149,cell type: Kidney | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,12 month,month,GSM6590462,Kidney,kidney,12 month Kidney_A
+52.149,cell type: Kidney | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,12 month,month,GSM6590463,Kidney,kidney,12 month Kidney_B
+52.149,cell type: Kidney | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,12 month,month,GSM6590464,Kidney,kidney,12 month Kidney_C
+104.297,cell type: Kidney | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590465,Kidney,kidney,24 month Kidney_A
+104.297,cell type: Kidney | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590466,Kidney,kidney,24 month Kidney_B
+104.297,cell type: Kidney | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590467,Kidney,kidney,24 month Kidney_C
+104.297,cell type: Kidney | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590468,Kidney,kidney,24 month Kidney_D
+17.383,cell type: Liver | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,4 month,month,GSM6590469,Liver,liver,4 month Liver_A
+17.383,cell type: Liver | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,4 month,month,GSM6590470,Liver,liver,4 month Liver_B
+52.149,cell type: Liver | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,12 month,month,GSM6590471,Liver,liver,12 month Liver_A
+52.149,cell type: Liver | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,12 month,month,GSM6590472,Liver,liver,12 month Liver_B
+104.297,cell type: Liver | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590473,Liver,liver,24 month Liver_A
+104.297,cell type: Liver | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590474,Liver,liver,24 month Liver_B
+17.383,cell type: Lung | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,4 month,month,GSM6590475,Lung,lung,4 month Lung_A
+17.383,cell type: Lung | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,4 month,month,GSM6590476,Lung,lung,4 month Lung_B
+52.149,cell type: Lung | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,12 month,month,GSM6590477,Lung,lung,12 month Lung_A
+52.149,cell type: Lung | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,12 month,month,GSM6590478,Lung,lung,12 month Lung_B
+104.297,cell type: Lung | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590479,Lung,lung,24 month Lung_A
+104.297,cell type: Lung | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590480,Lung,lung,24 month Lung_B
+17.383,cell type: Skeletal muscle | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,4 month,month,GSM6590481,Skeletal muscle,skeletal_muscle,4 month Skeletal muscle_A
+17.383,cell type: Skeletal muscle | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,4 month,month,GSM6590482,Skeletal muscle,skeletal_muscle,4 month Skeletal muscle_B
+52.149,cell type: Skeletal muscle | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,12 month,month,GSM6590483,Skeletal muscle,skeletal_muscle,12 month Skeletal muscle_A
+52.149,cell type: Skeletal muscle | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,12 month,month,GSM6590484,Skeletal muscle,skeletal_muscle,12 month Skeletal muscle_B
+104.297,cell type: Skeletal muscle | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590485,Skeletal muscle,skeletal_muscle,24 month Skeletal muscle_A
+104.297,cell type: Skeletal muscle | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590486,Skeletal muscle,skeletal_muscle,24 month Skeletal muscle_B
+17.383,cell type: Spleen | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,4 month,month,GSM6590487,Spleen,spleen,4 month Spleen_A
+17.383,cell type: Spleen | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,4 month,month,GSM6590488,Spleen,spleen,4 month Spleen_B
+17.383,cell type: Spleen | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,4 month,month,GSM6590489,Spleen,spleen,4 month Spleen_C
+17.383,cell type: Spleen | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,4 month,month,GSM6590490,Spleen,spleen,4 month Spleen_D
+17.383,cell type: Spleen | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,4 month,month,GSM6590491,Spleen,spleen,4 month Spleen_E
+52.149,cell type: Spleen | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,12 month,month,GSM6590492,Spleen,spleen,12 month Spleen_A
+52.149,cell type: Spleen | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,12 month,month,GSM6590493,Spleen,spleen,12 month Spleen_B
+52.149,cell type: Spleen | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,12 month,month,GSM6590494,Spleen,spleen,12 month Spleen_C
+52.149,cell type: Spleen | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,12 month,month,GSM6590495,Spleen,spleen,12 month Spleen_D
+52.149,cell type: Spleen | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,12 month,month,GSM6590496,Spleen,spleen,12 month Spleent_E
+104.297,cell type: Spleen | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590497,Spleen,spleen,24 month Spleen_A
+104.297,cell type: Spleen | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590498,Spleen,spleen,24 month Spleen_B
+104.297,cell type: Spleen | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590499,Spleen,spleen,24 month Spleen_C
+104.297,cell type: Spleen | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590500,Spleen,spleen,24 month Spleen_D
+104.297,cell type: Spleen | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590501,Spleen,spleen,24 month Spleen_E
+104.297,cell type: Spleen | strain: Lgr5-FP-IRES-CreERT2,GSE213628,,24 month,month,GSM6590502,Spleen,spleen,24 month Spleen_F
+26.071,mouse strain: C57BL/6 WT | tissue: liver | age (years): 0.5 | mouseid: YoungIso6 | condition: Young isochronic parabiosis,GSE224442,parabiosis;recovery,age (years): 0.5,years,GSM7022431,liver,liver,DNA from liver from YoungIso6
+26.071,mouse strain: C57BL/6 WT | tissue: liver | age (years): 0.5 | mouseid: YoungIso1 | condition: Young isochronic parabiosis,GSE224442,parabiosis;recovery,age (years): 0.5,years,GSM7022432,liver,liver,DNA from liver from YoungIso1
+26.071,mouse strain: C57BL/6 WT | tissue: liver | age (years): 0.5 | mouseid: YoungIso2 | condition: Young isochronic parabiosis,GSE224442,parabiosis;recovery,age (years): 0.5,years,GSM7022433,liver,liver,DNA from liver from YoungIso2
+26.071,mouse strain: C57BL/6 WT | tissue: liver | age (years): 0.5 | mouseid: YoungIso3 | condition: Young isochronic parabiosis,GSE224442,parabiosis;recovery,age (years): 0.5,years,GSM7022434,liver,liver,DNA from liver from YoungIso3
+26.071,mouse strain: C57BL/6 WT | tissue: liver | age (years): 0.5 | mouseid: YoungIso4 | condition: Young isochronic parabiosis,GSE224442,parabiosis;recovery,age (years): 0.5,years,GSM7022435,liver,liver,DNA from liver from YoungIso4
+26.071,mouse strain: C57BL/6 WT | tissue: liver | age (years): 0.5 | mouseid: YoungIso5 | condition: Young isochronic parabiosis,GSE224442,parabiosis;recovery,age (years): 0.5,years,GSM7022436,liver,liver,DNA from liver from YoungIso5
+34.762,mouse strain: C57BL/6 WT | tissue: liver | age (years): 0.666666667 | mouseid: YoungIsoRec1 | condition: Young isochronic recovery,GSE224442,parabiosis;recovery,age (years): 0.666666667,years,GSM7022437,liver,liver,DNA from liver from YoungIsoRec1
+34.762,mouse strain: C57BL/6 WT | tissue: liver | age (years): 0.666666667 | mouseid: YoungIsoRec2 | condition: Young isochronic recovery,GSE224442,parabiosis;recovery,age (years): 0.666666667,years,GSM7022438,liver,liver,DNA from liver from YoungIsoRec2
+34.762,mouse strain: C57BL/6 WT | tissue: liver | age (years): 0.666666667 | mouseid: YoungIsoRec3 | condition: Young isochronic recovery,GSE224442,parabiosis;recovery,age (years): 0.666666667,years,GSM7022439,liver,liver,DNA from liver from YoungIsoRec3
+34.762,mouse strain: C57BL/6 WT | tissue: liver | age (years): 0.666666667 | mouseid: YoungIsoRec4 | condition: Young isochronic recovery,GSE224442,parabiosis;recovery,age (years): 0.666666667,years,GSM7022440,liver,liver,DNA from liver from YoungIsoRec4
+34.762,mouse strain: C57BL/6 WT | tissue: liver | age (years): 0.666666667 | mouseid: YoungIsoRec5 | condition: Young isochronic recovery,GSE224442,parabiosis;recovery,age (years): 0.666666667,years,GSM7022441,liver,liver,DNA from liver from YoungIsoRec5
+34.762,mouse strain: C57BL/6 WT | tissue: liver | age (years): 0.666666667 | mouseid: YoungIsoRec6 | condition: Young isochronic recovery,GSE224442,parabiosis;recovery,age (years): 0.666666667,years,GSM7022442,liver,liver,DNA from liver from YoungIsoRec6
+26.071,mouse strain: C57BL/6 WT | tissue: liver | age (years): 0.5 | mouseid: YoungHet1 | condition: Young heterochronic parabiosis,GSE224442,parabiosis;recovery,age (years): 0.5,years,GSM7022443,liver,liver,DNA from liver from YoungHet1
+26.071,mouse strain: C57BL/6 WT | tissue: liver | age (years): 0.5 | mouseid: YoungHet2 | condition: Young heterochronic parabiosis,GSE224442,parabiosis;recovery,age (years): 0.5,years,GSM7022444,liver,liver,DNA from liver from YoungHet2
+26.071,mouse strain: C57BL/6 WT | tissue: liver | age (years): 0.5 | mouseid: YoungHet3 | condition: Young heterochronic parabiosis,GSE224442,parabiosis;recovery,age (years): 0.5,years,GSM7022445,liver,liver,DNA from liver from YoungHet3
+26.071,mouse strain: C57BL/6 WT | tissue: liver | age (years): 0.5 | mouseid: YoungHet4 | condition: Young heterochronic parabiosis,GSE224442,parabiosis;recovery,age (years): 0.5,years,GSM7022446,liver,liver,DNA from liver from YoungHet4
+26.071,mouse strain: C57BL/6 WT | tissue: liver | age (years): 0.5 | mouseid: YoungHet5 | condition: Young heterochronic parabiosis,GSE224442,parabiosis;recovery,age (years): 0.5,years,GSM7022447,liver,liver,DNA from liver from YoungHet5
+34.762,mouse strain: C57BL/6 WT | tissue: liver | age (years): 0.666666667 | mouseid: YoungHetRec1 | condition: Young heterochronic recovery,GSE224442,parabiosis;recovery,age (years): 0.666666667,years,GSM7022448,liver,liver,DNA from liver from YoungHetRec1
+34.762,mouse strain: C57BL/6 WT | tissue: liver | age (years): 0.666666667 | mouseid: YoungHetRec2 | condition: Young heterochronic recovery,GSE224442,parabiosis;recovery,age (years): 0.666666667,years,GSM7022449,liver,liver,DNA from liver from YoungHetRec2
+34.762,mouse strain: C57BL/6 WT | tissue: liver | age (years): 0.666666667 | mouseid: YoungHetRec3 | condition: Young heterochronic recovery,GSE224442,parabiosis;recovery,age (years): 0.666666667,years,GSM7022450,liver,liver,DNA from liver from YoungHetRec3
+34.762,mouse strain: C57BL/6 WT | tissue: liver | age (years): 0.666666667 | mouseid: YoungHetRec4 | condition: Young heterochronic recovery,GSE224442,parabiosis;recovery,age (years): 0.666666667,years,GSM7022451,liver,liver,DNA from liver from YoungHetRec4
+34.762,mouse strain: C57BL/6 WT | tissue: liver | age (years): 0.666666667 | mouseid: YoungHetRec5 | condition: Young heterochronic recovery,GSE224442,parabiosis;recovery,age (years): 0.666666667,years,GSM7022452,liver,liver,DNA from liver from YoungHetRec5
+104.286,mouse strain: C57BL/6 WT | tissue: liver | age (years): 2 | mouseid: OldIso1,GSE224442,parabiosis;recovery,age (years): 2,years,GSM7501770,Old isochronic parabiosis,liver,DNA from liver from OldIso1
+104.286,mouse strain: C57BL/6 WT | tissue: liver | age (years): 2 | mouseid: OldIso2,GSE224442,parabiosis;recovery,age (years): 2,years,GSM7501771,Old isochronic parabiosis,liver,DNA from liver from OldIso2
+104.286,mouse strain: C57BL/6 WT | tissue: liver | age (years): 2 | mouseid: OldIso3,GSE224442,parabiosis;recovery,age (years): 2,years,GSM7501772,Old isochronic parabiosis,liver,DNA from liver from OldIso3
+104.286,mouse strain: C57BL/6 WT | tissue: liver | age (years): 2 | mouseid: OldIso4,GSE224442,parabiosis;recovery,age (years): 2,years,GSM7501773,Old isochronic parabiosis,liver,DNA from liver from OldIso4
+104.286,mouse strain: C57BL/6 WT | tissue: liver | age (years): 2 | mouseid: OldIso5,GSE224442,parabiosis;recovery,age (years): 2,years,GSM7501774,Old isochronic parabiosis,liver,DNA from liver from OldIso5
+104.286,mouse strain: C57BL/6 WT | tissue: liver | age (years): 2 | mouseid: OldIso6,GSE224442,parabiosis;recovery,age (years): 2,years,GSM7501775,Old isochronic parabiosis,liver,DNA from liver from OldIso6
+112.976,mouse strain: C57BL/6 WT | tissue: liver | age (years): 2.166666667 | mouseid: OldIsoRec1,GSE224442,parabiosis;recovery,age (years): 2.166666667,years,GSM7501776,Old isochronic recovery,liver,DNA from liver from OldIsoRec1
+112.976,mouse strain: C57BL/6 WT | tissue: liver | age (years): 2.166666667 | mouseid: OldIsoRec2,GSE224442,parabiosis;recovery,age (years): 2.166666667,years,GSM7501777,Old isochronic recovery,liver,DNA from liver from OldIsoRec2
+112.976,mouse strain: C57BL/6 WT | tissue: liver | age (years): 2.166666667 | mouseid: OldIsoRec3,GSE224442,parabiosis;recovery,age (years): 2.166666667,years,GSM7501778,Old isochronic recovery,liver,DNA from liver from OldIsoRec3
+112.976,mouse strain: C57BL/6 WT | tissue: liver | age (years): 2.166666667 | mouseid: OldIsoRec4,GSE224442,parabiosis;recovery,age (years): 2.166666667,years,GSM7501779,Old isochronic recovery,liver,DNA from liver from OldIsoRec4
+112.976,mouse strain: C57BL/6 WT | tissue: liver | age (years): 2.166666667 | mouseid: OldIsoRec5,GSE224442,parabiosis;recovery,age (years): 2.166666667,years,GSM7501780,Old isochronic recovery,liver,DNA from liver from OldIsoRec5
+112.976,mouse strain: C57BL/6 WT | tissue: liver | age (years): 2.166666667 | mouseid: OldIsoRec6,GSE224442,parabiosis;recovery,age (years): 2.166666667,years,GSM7501781,Old isochronic recovery,liver,DNA from liver from OldIsoRec6
+112.976,mouse strain: C57BL/6 WT | tissue: liver | age (years): 2.166666667 | mouseid: OldIsoRec7,GSE224442,parabiosis;recovery,age (years): 2.166666667,years,GSM7501782,Old isochronic recovery,liver,DNA from liver from OldIsoRec7
+104.286,mouse strain: C57BL/6 WT | tissue: liver | age (years): 2 | mouseid: OldHet1,GSE224442,parabiosis;recovery,age (years): 2,years,GSM7501783,Old heterochronic parabiosis,liver,DNA from liver from OldHet1
+104.286,mouse strain: C57BL/6 WT | tissue: liver | age (years): 2 | mouseid: OldHet2,GSE224442,parabiosis;recovery,age (years): 2,years,GSM7501784,Old heterochronic parabiosis,liver,DNA from liver from OldHet2
+104.286,mouse strain: C57BL/6 WT | tissue: liver | age (years): 2 | mouseid: OldHet3,GSE224442,parabiosis;recovery,age (years): 2,years,GSM7501785,Old heterochronic parabiosis,liver,DNA from liver from OldHet3
+104.286,mouse strain: C57BL/6 WT | tissue: liver | age (years): 2 | mouseid: OldHet4,GSE224442,parabiosis;recovery,age (years): 2,years,GSM7501786,Old heterochronic parabiosis,liver,DNA from liver from OldHet4
+104.286,mouse strain: C57BL/6 WT | tissue: liver | age (years): 2 | mouseid: OldHet5,GSE224442,parabiosis;recovery,age (years): 2,years,GSM7501787,Old heterochronic parabiosis,liver,DNA from liver from OldHet5
+112.976,mouse strain: C57BL/6 WT | tissue: liver | age (years): 2.166666667 | mouseid: OldHetRec1,GSE224442,parabiosis;recovery,age (years): 2.166666667,years,GSM7501788,Old heterochronic recovery,liver,DNA from liver from OldHetRec1
+112.976,mouse strain: C57BL/6 WT | tissue: liver | age (years): 2.166666667 | mouseid: OldHetRec2,GSE224442,parabiosis;recovery,age (years): 2.166666667,years,GSM7501789,Old heterochronic recovery,liver,DNA from liver from OldHetRec2
+112.976,mouse strain: C57BL/6 WT | tissue: liver | age (years): 2.166666667 | mouseid: OldHetRec3,GSE224442,parabiosis;recovery,age (years): 2.166666667,years,GSM7501790,Old heterochronic recovery,liver,DNA from liver from OldHetRec3
+112.976,mouse strain: C57BL/6 WT | tissue: liver | age (years): 2.166666667 | mouseid: OldHetRec4,GSE224442,parabiosis;recovery,age (years): 2.166666667,years,GSM7501791,Old heterochronic recovery,liver,DNA from liver from OldHetRec4
+112.976,mouse strain: C57BL/6 WT | tissue: liver | age (years): 2.166666667 | mouseid: OldHetRec5,GSE224442,parabiosis;recovery,age (years): 2.166666667,years,GSM7501792,Old heterochronic recovery,liver,DNA from liver from OldHetRec5
+112.976,mouse strain: C57BL/6 WT | tissue: liver | age (years): 2.166666667 | mouseid: OldHetRec6,GSE224442,parabiosis;recovery,age (years): 2.166666667,years,GSM7501793,Old heterochronic recovery,liver,DNA from liver from OldHetRec6
+26.071,mouse strain: C57BL/6 WT | tissue: blood | age (years): 0.5 | mouseid: YoungIso6,GSE224442,parabiosis;recovery,age (years): 0.5,years,GSM7501794,Young isochronic parabiosis,blood,DNA from blood from YoungIso6
+26.071,mouse strain: C57BL/6 WT | tissue: blood | age (years): 0.5 | mouseid: YoungIso7,GSE224442,parabiosis;recovery,age (years): 0.5,years,GSM7501795,Young isochronic parabiosis,blood,DNA from blood from YoungIso7
+26.071,mouse strain: C57BL/6 WT | tissue: blood | age (years): 0.5 | mouseid: YoungIso8,GSE224442,parabiosis;recovery,age (years): 0.5,years,GSM7501796,Young isochronic parabiosis,blood,DNA from blood from YoungIso8
+26.071,mouse strain: C57BL/6 WT | tissue: blood | age (years): 0.5 | mouseid: YoungIso9,GSE224442,parabiosis;recovery,age (years): 0.5,years,GSM7501797,Young isochronic parabiosis,blood,DNA from blood from YoungIso9
+26.071,mouse strain: C57BL/6 WT | tissue: blood | age (years): 0.5 | mouseid: YoungIso10,GSE224442,parabiosis;recovery,age (years): 0.5,years,GSM7501798,Young isochronic parabiosis,blood,DNA from blood from YoungIso10
+26.071,mouse strain: C57BL/6 WT | tissue: blood | age (years): 0.5 | mouseid: YoungIso11,GSE224442,parabiosis;recovery,age (years): 0.5,years,GSM7501799,Young isochronic parabiosis,blood,DNA from blood from YoungIso11
+34.762,mouse strain: C57BL/6 WT | tissue: blood | age (years): 0.666666667 | mouseid: YoungIsoRec3,GSE224442,parabiosis;recovery,age (years): 0.666666667,years,GSM7501800,Young isochronic recovery,blood,DNA from blood from YoungIsoRec3
+34.762,mouse strain: C57BL/6 WT | tissue: blood | age (years): 0.666666667 | mouseid: YoungIsoRec4,GSE224442,parabiosis;recovery,age (years): 0.666666667,years,GSM7501801,Young isochronic recovery,blood,DNA from blood from YoungIsoRec4
+34.762,mouse strain: C57BL/6 WT | tissue: blood | age (years): 0.666666667 | mouseid: YoungIsoRec7,GSE224442,parabiosis;recovery,age (years): 0.666666667,years,GSM7501802,Young isochronic recovery,blood,DNA from blood from YoungIsoRec7
+34.762,mouse strain: C57BL/6 WT | tissue: blood | age (years): 0.666666667 | mouseid: YoungIsoRec8,GSE224442,parabiosis;recovery,age (years): 0.666666667,years,GSM7501803,Young isochronic recovery,blood,DNA from blood from YoungIsoRec8
+34.762,mouse strain: C57BL/6 WT | tissue: blood | age (years): 0.666666667 | mouseid: YoungIsoRec9,GSE224442,parabiosis;recovery,age (years): 0.666666667,years,GSM7501804,Young isochronic recovery,blood,DNA from blood from YoungIsoRec9
+34.762,mouse strain: C57BL/6 WT | tissue: blood | age (years): 0.666666667 | mouseid: YoungIsoRec10,GSE224442,parabiosis;recovery,age (years): 0.666666667,years,GSM7501805,Young isochronic recovery,blood,DNA from blood from YoungIsoRec10
+104.286,mouse strain: C57BL/6 WT | tissue: blood | age (years): 2 | mouseid: OldIso7,GSE224442,parabiosis;recovery,age (years): 2,years,GSM7501806,Old isochronic parabiosis,blood,DNA from blood from OldIso7
+104.286,mouse strain: C57BL/6 WT | tissue: blood | age (years): 2 | mouseid: OldIso8,GSE224442,parabiosis;recovery,age (years): 2,years,GSM7501807,Old isochronic parabiosis,blood,DNA from blood from OldIso8
+104.286,mouse strain: C57BL/6 WT | tissue: blood | age (years): 2 | mouseid: OldIso9,GSE224442,parabiosis;recovery,age (years): 2,years,GSM7501808,Old isochronic parabiosis,blood,DNA from blood from OldIso9
+104.286,mouse strain: C57BL/6 WT | tissue: blood | age (years): 2 | mouseid: OldIso10,GSE224442,parabiosis;recovery,age (years): 2,years,GSM7501809,Old isochronic parabiosis,blood,DNA from blood from OldIso10
+104.286,mouse strain: C57BL/6 WT | tissue: blood | age (years): 2 | mouseid: OldIso11,GSE224442,parabiosis;recovery,age (years): 2,years,GSM7501810,Old isochronic parabiosis,blood,DNA from blood from OldIso11
+112.976,mouse strain: C57BL/6 WT | tissue: blood | age (years): 2.166666667 | mouseid: OldIsoRec8,GSE224442,parabiosis;recovery,age (years): 2.166666667,years,GSM7501811,Old isochronic recovery,blood,DNA from blood from OldIsoRec8
+112.976,mouse strain: C57BL/6 WT | tissue: blood | age (years): 2.166666667 | mouseid: OldIsoRec1,GSE224442,parabiosis;recovery,age (years): 2.166666667,years,GSM7501812,Old isochronic recovery,blood,DNA from blood from OldIsoRec1
+112.976,mouse strain: C57BL/6 WT | tissue: blood | age (years): 2.166666667 | mouseid: OldIsoRec3,GSE224442,parabiosis;recovery,age (years): 2.166666667,years,GSM7501813,Old isochronic recovery,blood,DNA from blood from OldIsoRec3
+112.976,mouse strain: C57BL/6 WT | tissue: blood | age (years): 2.166666667 | mouseid: OldIsoRec4,GSE224442,parabiosis;recovery,age (years): 2.166666667,years,GSM7501814,Old isochronic recovery,blood,DNA from blood from OldIsoRec4
+112.976,mouse strain: C57BL/6 WT | tissue: blood | age (years): 2.166666667 | mouseid: OldIsoRec9,GSE224442,parabiosis;recovery,age (years): 2.166666667,years,GSM7501815,Old isochronic recovery,blood,DNA from blood from OldIsoRec9
+104.286,mouse strain: C57BL/6 WT | tissue: blood | age (years): 2 | mouseid: OldHet6,GSE224442,parabiosis;recovery,age (years): 2,years,GSM7501816,Old heterochronic parabiosis,blood,DNA from blood from OldHet6
+104.286,mouse strain: C57BL/6 WT | tissue: blood | age (years): 2 | mouseid: OldHet1,GSE224442,parabiosis;recovery,age (years): 2,years,GSM7501817,Old heterochronic parabiosis,blood,DNA from blood from OldHet1
+104.286,mouse strain: C57BL/6 WT | tissue: blood | age (years): 2 | mouseid: OldHet2,GSE224442,parabiosis;recovery,age (years): 2,years,GSM7501818,Old heterochronic parabiosis,blood,DNA from blood from OldHet2
+104.286,mouse strain: C57BL/6 WT | tissue: blood | age (years): 2 | mouseid: OldHet3,GSE224442,parabiosis;recovery,age (years): 2,years,GSM7501819,Old heterochronic parabiosis,blood,DNA from blood from OldHet3
+104.286,mouse strain: C57BL/6 WT | tissue: blood | age (years): 2 | mouseid: OldHet4,GSE224442,parabiosis;recovery,age (years): 2,years,GSM7501820,Old heterochronic parabiosis,blood,DNA from blood from OldHet4
+112.976,mouse strain: C57BL/6 WT | tissue: blood | age (years): 2.166666667 | mouseid: OldHetRec1,GSE224442,parabiosis;recovery,age (years): 2.166666667,years,GSM7501821,Old heterochronic recovery,blood,DNA from blood from OldHetRec1
+112.976,mouse strain: C57BL/6 WT | tissue: blood | age (years): 2.166666667 | mouseid: OldHetRec2,GSE224442,parabiosis;recovery,age (years): 2.166666667,years,GSM7501822,Old heterochronic recovery,blood,DNA from blood from OldHetRec2
+112.976,mouse strain: C57BL/6 WT | tissue: blood | age (years): 2.166666667 | mouseid: OldHetRec4,GSE224442,parabiosis;recovery,age (years): 2.166666667,years,GSM7501823,Old heterochronic recovery,blood,DNA from blood from OldHetRec4
+112.976,mouse strain: C57BL/6 WT | tissue: blood | age (years): 2.166666667 | mouseid: OldHetRec5,GSE224442,parabiosis;recovery,age (years): 2.166666667,years,GSM7501824,Old heterochronic recovery,blood,DNA from blood from OldHetRec5
+112.976,mouse strain: C57BL/6 WT | tissue: blood | age (years): 2.166666667 | mouseid: OldHetRec6,GSE224442,parabiosis;recovery,age (years): 2.166666667,years,GSM7501825,Old heterochronic recovery,blood,DNA from blood from OldHetRec6
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7438410,Hematopoietic stem cells,hsc_bone_marrow,Young_fresh_HSC_RNA_rep1
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7438411,Hematopoietic stem cells,hsc_bone_marrow,Young_fresh_HSC_RNA_rep2
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7438412,Hematopoietic stem cells,hsc_bone_marrow,Young_fresh_HSC_RNA_rep3
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7438413,Hematopoietic stem cells,hsc_bone_marrow,Old_fresh_HSC_RNA_rep1
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7438414,Hematopoietic stem cells,hsc_bone_marrow,Old_fresh_HSC_RNA_rep2
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7438415,Hematopoietic stem cells,hsc_bone_marrow,Old_fresh_HSC_RNA_rep3
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7438416,Hematopoietic stem cells,hsc_bone_marrow,Old_HSC_CD150_G1_RNA_mouse1
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7438417,Hematopoietic stem cells,hsc_bone_marrow,Old_HSC_CD150_G1_RNA_mouse2
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7438418,Hematopoietic stem cells,hsc_bone_marrow,Old_HSC_CD150_G1_RNA_mouse3
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7438419,Hematopoietic stem cells,hsc_bone_marrow,Old_HSC_CD150_G2_RNA_mouse1
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7438420,Hematopoietic stem cells,hsc_bone_marrow,Old_HSC_CD150_G2_RNA_mouse2
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7438421,Hematopoietic stem cells,hsc_bone_marrow,Old_HSC_CD150_G2_RNA_mouse3
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7438422,Hematopoietic stem cells,hsc_bone_marrow,Old_HSC_CD150_G3_RNA_mouse1
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7438423,Hematopoietic stem cells,hsc_bone_marrow,Old_HSC_CD150_G3_RNA_mouse2
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7438424,Hematopoietic stem cells,hsc_bone_marrow,Old_HSC_CD150_G3_RNA_mouse3
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7438425,Hematopoietic stem cells,hsc_bone_marrow,Old_HSC_CD150_G4_RNA_mouse1
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7438426,Hematopoietic stem cells,hsc_bone_marrow,Old_HSC_CD150_G4_RNA_mouse2
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7438427,Hematopoietic stem cells,hsc_bone_marrow,Old_HSC_CD150_G4_RNA_mouse3
+0.571,tissue: Hematopoietic stem cells,GSE233879,,4D,d,GSM7438428,Hematopoietic stem cells,hsc_bone_marrow,Old_HSC_CD150H_4D_TX_RNA_rep1
+0.571,tissue: Hematopoietic stem cells,GSE233879,,4D,d,GSM7438429,Hematopoietic stem cells,hsc_bone_marrow,Old_HSC_CD150H_4D_TX_RNA_rep2
+0.571,tissue: Hematopoietic stem cells,GSE233879,,4D,d,GSM7438430,Hematopoietic stem cells,hsc_bone_marrow,Old_HSC_CD150H_4D_TX_RNA_rep3
+0.571,tissue: Hematopoietic stem cells,GSE233879,,4D,d,GSM7438431,Hematopoietic stem cells,hsc_bone_marrow,Old_HSC_CD150L_4D_TX_RNA_rep1
+0.571,tissue: Hematopoietic stem cells,GSE233879,,4D,d,GSM7438432,Hematopoietic stem cells,hsc_bone_marrow,Old_HSC_CD150L_4D_TX_RNA_rep2
+0.571,tissue: Hematopoietic stem cells,GSE233879,,4D,d,GSM7438433,Hematopoietic stem cells,hsc_bone_marrow,Old_HSC_CD150L_4D_TX_RNA_rep3
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7438434,Hematopoietic stem cells,hsc_bone_marrow,Young_fresh_HSC_scRNA
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7438435,Hematopoietic stem cells,hsc_bone_marrow,Old_fresh_HSC_scRNA
+2.0,tissue: Hematopoietic stem cells,GSE233879,,14D,d,GSM7438436,Hematopoietic stem cells,hsc_bone_marrow,Old_HSC_CD150L_14D_TX_scRNA
+2.0,tissue: Hematopoietic stem cells,GSE233879,,14D,d,GSM7438437,Hematopoietic stem cells,hsc_bone_marrow,Old_HSC_CD150H_14D_TX_scRNA
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7438438,Hematopoietic stem cells,hsc_bone_marrow,Old_HSC_CD150L_RRBS_rep1
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7438439,Hematopoietic stem cells,hsc_bone_marrow,Old_HSC_CD150L_RRBS_rep2
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7438440,Hematopoietic stem cells,hsc_bone_marrow,Old_HSC_CD150H_RRBS_rep1
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7438441,Hematopoietic stem cells,hsc_bone_marrow,Old_HSC_CD150H_RRBS_rep2
+26.074,tissue: Whole blood cells,GSE233879,,6M,m,GSM7438442,Whole blood cells,blood;hsc_bone_marrow,Blood_CD150H_6M_TX_RRBS_rep1
+26.074,tissue: Whole blood cells,GSE233879,,6M,m,GSM7438443,Whole blood cells,blood;hsc_bone_marrow,Blood_CD150H_6M_TX_RRBS_rep2
+26.074,tissue: Whole blood cells,GSE233879,,6M,m,GSM7438444,Whole blood cells,blood;hsc_bone_marrow,Blood_CD150H_6M_TX_RRBS_rep3
+26.074,tissue: Whole blood cells,GSE233879,,6M,m,GSM7438445,Whole blood cells,blood;hsc_bone_marrow,Blood_CD150H_6M_TX_RRBS_rep4
+26.074,tissue: Whole blood cells,GSE233879,,6M,m,GSM7438446,Whole blood cells,blood;hsc_bone_marrow,Blood_CD150L_6M_TX_RRBS_rep1
+26.074,tissue: Whole blood cells,GSE233879,,6M,m,GSM7438447,Whole blood cells,blood;hsc_bone_marrow,Blood_CD150L_6M_TX_RRBS_rep2
+26.074,tissue: Whole blood cells,GSE233879,,6M,m,GSM7438448,Whole blood cells,blood;hsc_bone_marrow,Blood_CD150L_6M_TX_RRBS_rep3
+26.074,tissue: Whole blood cells,GSE233879,,6M,m,GSM7438449,Whole blood cells,blood;hsc_bone_marrow,Blood_CD150L_6M_TX_RRBS_rep4
+26.074,tissue: Whole blood cells,GSE233879,,6M,m,GSM7438450,Whole blood cells,blood,Blood_Unsorted_6M_TX_RRBS_rep1
+26.074,tissue: Whole blood cells,GSE233879,,6M,m,GSM7438451,Whole blood cells,blood,Blood_Unsorted_6M_TX_RRBS_rep2
+26.074,tissue: Whole blood cells,GSE233879,,6M,m,GSM7438452,Whole blood cells,blood,Blood_Unsorted_6M_TX_RRBS_rep3
+26.074,tissue: Whole blood cells,GSE233879,,6M,m,GSM7438453,Whole blood cells,blood,Blood_Unsorted_6M_TX_RRBS_rep4
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7664990,Hematopoietic stem cells,hsc_bone_marrow,HSC_young_ATAC_rep1
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7664991,Hematopoietic stem cells,hsc_bone_marrow,HSC_young_ATAC_rep2
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7664992,Hematopoietic stem cells,hsc_bone_marrow,HSC_young_ATAC_rep3
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7664993,Hematopoietic stem cells,hsc_bone_marrow,HSC_old_ATAC_rep1
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7664994,Hematopoietic stem cells,hsc_bone_marrow,HSC_old_ATAC_rep2
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7664995,Hematopoietic stem cells,hsc_bone_marrow,HSC_old_ATAC_rep3
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7664996,Hematopoietic stem cells,hsc_bone_marrow,HSC_old_CD150_low_ATAC_rep1
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7664997,Hematopoietic stem cells,hsc_bone_marrow,HSC_old_CD150_low_ATAC_rep2
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7664998,Hematopoietic stem cells,hsc_bone_marrow,HSC_old_CD150_low_ATAC_rep3
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7664999,Hematopoietic stem cells,hsc_bone_marrow,HSC_old_CD150_high_ATAC_rep1
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7665000,Hematopoietic stem cells,hsc_bone_marrow,HSC_old_CD150_high_ATAC_rep2
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7665001,Hematopoietic stem cells,hsc_bone_marrow,HSC_old_CD150_high_ATAC_rep3
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7665002,Hematopoietic stem cells,hsc_bone_marrow,HSC_old_CD150_low_H3K4me3_rep1
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7665003,Hematopoietic stem cells,hsc_bone_marrow,HSC_old_CD150_low_H3K4me3_rep2
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7665004,Hematopoietic stem cells,hsc_bone_marrow,HSC_old_CD150_low_H3K4me3_rep3
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7665005,Hematopoietic stem cells,hsc_bone_marrow,HSC_old_CD150_high_H3K4me3_rep1
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7665006,Hematopoietic stem cells,hsc_bone_marrow,HSC_old_CD150_high_H3K4me3_rep2
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7665007,Hematopoietic stem cells,hsc_bone_marrow,HSC_old_CD150_high_H3K4me3_rep3
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7665008,Hematopoietic stem cells,hsc_bone_marrow,HSC_old_CD150_low_H3K27ac_rep1
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7665009,Hematopoietic stem cells,hsc_bone_marrow,HSC_old_CD150_low_H3K27ac_rep2
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7665010,Hematopoietic stem cells,hsc_bone_marrow,HSC_old_CD150_low_H3K27ac_rep3
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7665011,Hematopoietic stem cells,hsc_bone_marrow,HSC_old_CD150_high_H3K27ac_rep1
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7665012,Hematopoietic stem cells,hsc_bone_marrow,HSC_old_CD150_high_H3K27ac_rep2
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM7665013,Hematopoietic stem cells,hsc_bone_marrow,HSC_old_CD150_high_H3K27ac_rep3
+43.457,tissue: whole blood,GSE233879,recovery,10M,m,GSM8316447,whole blood,blood;hsc_bone_marrow,Blood_Recipient_old_HSCs_10M_TX_RRBS_rep1
+43.457,tissue: whole blood,GSE233879,recovery,10M,m,GSM8316448,whole blood,blood;hsc_bone_marrow,Blood_Recipient_old_HSCs_10M_TX_RRBS_rep2
+43.457,tissue: whole blood,GSE233879,recovery,10M,m,GSM8316449,whole blood,blood;hsc_bone_marrow,Blood_Recipient_old_HSCs_10M_TX_RRBS_rep3
+43.457,tissue: whole blood,GSE233879,recovery,10M,m,GSM8316450,whole blood,blood;hsc_bone_marrow,Blood_Recipient_old_HSCs_10M_TX_RRBS_rep4
+43.457,tissue: whole blood,GSE233879,recovery,10M,m,GSM8316451,whole blood,blood;hsc_bone_marrow,Blood_Recipient_young_HSCs_10M_TX_RRBS_rep1
+43.457,tissue: whole blood,GSE233879,recovery,10M,m,GSM8316452,whole blood,blood;hsc_bone_marrow,Blood_Recipient_young_HSCs_10M_TX_RRBS_rep2
+43.457,tissue: whole blood,GSE233879,recovery,10M,m,GSM8316453,whole blood,blood;hsc_bone_marrow,Blood_Recipient_young_HSCs_10M_TX_RRBS_rep3
+43.457,tissue: whole blood,GSE233879,recovery,10M,m,GSM8316454,whole blood,blood;hsc_bone_marrow,Blood_Recipient_young_HSCs_10M_TX_RRBS_rep4
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM8316455,Hematopoietic stem cells,hsc_bone_marrow,Old_HSC_CD150L_RRBS_rep3
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM8316456,Hematopoietic stem cells,hsc_bone_marrow,Old_HSC_CD150L_RRBS_rep4
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM8316457,Hematopoietic stem cells,hsc_bone_marrow,Old_HSC_CD150H_RRBS_rep3
+,tissue: Hematopoietic stem cells,GSE233879,,,,GSM8316458,Hematopoietic stem cells,hsc_bone_marrow,Old_HSC_CD150H_RRBS_rep4
+,cell type: Hematopoetic stem cells | cell line: Hematopoetic stem cells | Sex: F | genotype: Gadd45KO | treatment: young | replicate: 1,GSE276335,genetic,,,GSM8496685,Hematopoetic stem cells,hsc_bone_marrow,45b_Young_HSC_1
+,cell type: Hematopoetic stem cells | cell line: Hematopoetic stem cells | Sex: F | genotype: Gadd45KO | treatment: young | replicate: 2,GSE276335,genetic,,,GSM8496686,Hematopoetic stem cells,hsc_bone_marrow,45b_Young_HSC_2
+,cell type: Hematopoetic stem cells | cell line: Hematopoetic stem cells | Sex: F | genotype: Gadd45KO | treatment: young | replicate: 3,GSE276335,genetic,,,GSM8496687,Hematopoetic stem cells,hsc_bone_marrow,45b_Young_HSC_3
+,cell type: Hematopoetic stem cells | cell line: Hematopoetic stem cells | Sex: F | genotype: Gadd45KO | treatment: old | replicate: 1,GSE276335,genetic,,,GSM8496688,Hematopoetic stem cells,hsc_bone_marrow,45b_Old_HSC_1
+,cell type: Hematopoetic stem cells | cell line: Hematopoetic stem cells | Sex: F | genotype: Gadd45KO | treatment: old | replicate: 2,GSE276335,genetic,,,GSM8496689,Hematopoetic stem cells,hsc_bone_marrow,45b_Old_HSC_2
+,cell type: Hematopoetic stem cells | cell line: Hematopoetic stem cells | Sex: F | genotype: Gadd45KO | treatment: old | replicate: 3,GSE276335,genetic,,,GSM8496690,Hematopoetic stem cells,hsc_bone_marrow,45b_Old_HSC_3
+,cell type: Hematopoetic stem cells | cell line: Hematopoetic stem cells | Sex: F | genotype: WT | treatment: young | replicate: 1,GSE276335,,,,GSM8496691,Hematopoetic stem cells,hsc_bone_marrow,Y2_F_HSC
+,cell type: Hematopoetic stem cells | cell line: Hematopoetic stem cells | Sex: F | genotype: WT | treatment: young | replicate: 2,GSE276335,,,,GSM8496692,Hematopoetic stem cells,hsc_bone_marrow,Y3_F_HSC
+,cell type: Hematopoetic stem cells | cell line: Hematopoetic stem cells | Sex: F | genotype: WT | treatment: old | replicate: 1,GSE276335,,,,GSM8496693,Hematopoetic stem cells,hsc_bone_marrow,O1_F_HSC
+,cell type: Hematopoetic stem cells | cell line: Hematopoetic stem cells | Sex: F | genotype: WT | treatment: old | replicate: 2,GSE276335,,,,GSM8496694,Hematopoetic stem cells,hsc_bone_marrow,O4_F_HSC
+,cell type: Hematopoetic stem cells | cell line: Hematopoetic stem cells | Sex: F | genotype: Gadd45KO | treatment: old | replicate: 1,GSE276335,genetic,,,GSM8496695,Hematopoetic stem cells,,KO_O1_S1
+,cell type: Hematopoetic stem cells | cell line: Hematopoetic stem cells | Sex: F | genotype: Gadd45KO | treatment: old | replicate: 2,GSE276335,genetic,,,GSM8496696,Hematopoetic stem cells,,KO_O2_S2
+,cell type: Hematopoetic stem cells | cell line: Hematopoetic stem cells | Sex: F | genotype: Gadd45KO | treatment: old | replicate: 3,GSE276335,genetic,,,GSM8496697,Hematopoetic stem cells,,KO_O3_S3
+,cell type: Hematopoetic stem cells | cell line: Hematopoetic stem cells | Sex: F | genotype: Gadd45KO | treatment: young | replicate: 1,GSE276335,genetic,,,GSM8496698,Hematopoetic stem cells,,KO_Y1_S4
+,cell type: Hematopoetic stem cells | cell line: Hematopoetic stem cells | Sex: F | genotype: Gadd45KO | treatment: young | replicate: 2,GSE276335,genetic,,,GSM8496699,Hematopoetic stem cells,,KO_Y2_S5
+,cell type: Hematopoetic stem cells | cell line: Hematopoetic stem cells | Sex: F | genotype: Gadd45KO | treatment: young | replicate: 3,GSE276335,genetic,,,GSM8496700,Hematopoetic stem cells,,KO_Y3_S6
+,cell type: Hematopoetic stem cells | cell line: Hematopoetic stem cells | Sex: F | genotype: Gadd45KO | treatment: young | replicate: 4,GSE276335,genetic,,,GSM8496701,Hematopoetic stem cells,,KO_Y4_S7
+,cell type: Hematopoetic stem cells | cell line: Hematopoetic stem cells | Sex: F | genotype: WT | treatment: young | replicate: 1,GSE276335,,,,GSM8496702,Hematopoetic stem cells,,WT_Y1_S8
+,cell type: Hematopoetic stem cells | cell line: Hematopoetic stem cells | Sex: F | genotype: WT | treatment: young | replicate: 2,GSE276335,,,,GSM8496703,Hematopoetic stem cells,,WT_Y2_S9
+,cell type: Hematopoetic stem cells | cell line: Hematopoetic stem cells | Sex: F | genotype: WT | treatment: young | replicate: 3,GSE276335,,,,GSM8496704,Hematopoetic stem cells,,WT_Y3_S10
+,cell type: Hematopoetic stem cells | cell line: Hematopoetic stem cells | Sex: F | genotype: WT | treatment: young | replicate: 4,GSE276335,,,,GSM8496705,Hematopoetic stem cells,,WT_Y4_S11
+,cell type: Hematopoetic stem cells | cell line: Hematopoetic stem cells | Sex: F | genotype: Gadd45KO | treatment: old | replicate: 4,GSE276335,genetic,,,GSM8496706,Hematopoetic stem cells,,IB15_1_KO_O4
+,cell type: Hematopoetic stem cells | cell line: Hematopoetic stem cells | Sex: F | genotype: Gadd45KO | treatment: old | replicate: 5,GSE276335,genetic,,,GSM8496707,Hematopoetic stem cells,,IB15_2_KO_O5
+,cell type: Hematopoetic stem cells | cell line: Hematopoetic stem cells | Sex: F | genotype: WT | treatment: old | replicate: 1,GSE276335,,,,GSM8496708,Hematopoetic stem cells,,IB15_3_WT_O1
+,cell type: Hematopoetic stem cells | cell line: Hematopoetic stem cells | Sex: F | genotype: WT | treatment: old | replicate: 2,GSE276335,,,,GSM8496709,Hematopoetic stem cells,,IB15_4_WT_O2
+,cell type: Hematopoetic stem cells | cell line: Hematopoetic stem cells | Sex: F | genotype: WT | treatment: old | replicate: 3,GSE276335,,,,GSM8496710,Hematopoetic stem cells,,IB15_5_WT_O3
+,cell type: Hematopoetic stem cells | cell line: Hematopoetic stem cells | Sex: F | genotype: WT | treatment: old | replicate: 4,GSE276335,,,,GSM8496711,Hematopoetic stem cells,,IB15_6_WT_O4
+,cell type: Hematopoetic stem cells | cell line: Hematopoetic stem cells | Sex: F | genotype: Gadd45KO | treatment: old | replicate: 6,GSE276335,genetic,,,GSM8496712,Hematopoetic stem cells,,IB15_7_KO_O6
+,cell type: Hematopoetic stem cells | cell line: Hematopoetic stem cells | Sex: F | genotype: Gadd45KO | treatment: old | replicate: 7,GSE276335,genetic,,,GSM8496713,Hematopoetic stem cells,,IB15_8_KO_O7
+,"tissue: liver | treatment: liver, young, rep1",GSE286302,circadian;recovery,,,GSM8723111,liver,liver,"liver, young, rep1"
+,"tissue: liver | treatment: liver, young, rep2",GSE286302,circadian;recovery,,,GSM8723112,liver,liver,"liver, young, rep2"
+,"tissue: liver | treatment: liver, young, rep3",GSE286302,circadian;recovery,,,GSM8723113,liver,liver,"liver, young, rep3"
+,"tissue: liver | treatment: liver, young, rep4",GSE286302,circadian;recovery,,,GSM8723114,liver,liver,"liver, young, rep4"
+,"tissue: liver | treatment: liver, aged, vehicle, rep1",GSE286302,circadian;recovery,,,GSM8723115,liver,liver,"liver, aged, vehicle, rep1"
+,"tissue: liver | treatment: liver, aged, vehicle, rep2",GSE286302,circadian;recovery,,,GSM8723116,liver,liver,"liver, aged, vehicle, rep2"
+,"tissue: liver | treatment: liver, aged, vehicle, rep3",GSE286302,circadian;recovery,,,GSM8723117,liver,liver,"liver, aged, vehicle, rep3"
+,"tissue: liver | treatment: liver, aged, vehicle, rep4",GSE286302,circadian;recovery,,,GSM8723118,liver,liver,"liver, aged, vehicle, rep4"
+,"tissue: liver | treatment: liver, aged, 3dA, rep1",GSE286302,circadian;recovery,,,GSM8723119,liver,liver,"liver, aged, 3dA, rep1"
+,"tissue: liver | treatment: liver, aged, 3dA, rep2",GSE286302,circadian;recovery,,,GSM8723120,liver,liver,"liver, aged, 3dA, rep2"
+,"tissue: liver | treatment: liver, aged, 3dA, rep3",GSE286302,circadian;recovery,,,GSM8723121,liver,liver,"liver, aged, 3dA, rep3"
+,"tissue: liver | treatment: liver, aged, 3dA, rep4",GSE286302,circadian;recovery,,,GSM8723122,liver,liver,"liver, aged, 3dA, rep4"
+,"tissue: liver | treatment: liver, aged, saline, rep1",GSE286302,circadian;recovery,,,GSM8723123,liver,liver,"liver, aged, saline, rep1"
+,"tissue: liver | treatment: liver, aged, saline, rep2",GSE286302,circadian;recovery,,,GSM8723124,liver,liver,"liver, aged, saline, rep2"
+,"tissue: liver | treatment: liver, aged, saline, rep3",GSE286302,circadian;recovery,,,GSM8723125,liver,liver,"liver, aged, saline, rep3"
+,"tissue: liver | treatment: liver, aged, CNO, rep1",GSE286302,circadian;recovery,,,GSM8723126,liver,liver,"liver, aged, CNO, rep1"
+,"tissue: liver | treatment: liver, aged, CNO, rep2",GSE286302,circadian;recovery,,,GSM8723127,liver,liver,"liver, aged, CNO, rep2"
+,"tissue: liver | treatment: liver, aged, CNO, rep3",GSE286302,circadian;recovery,,,GSM8723128,liver,liver,"liver, aged, CNO, rep3"
+,"tissue: liver | treatment: liver, aged, CNO, rep4",GSE286302,circadian;recovery,,,GSM8723129,liver,liver,"liver, aged, CNO, rep4"
+,"tissue: muscle | treatment: muscle, young, rep1",GSE286302,circadian;recovery,,,GSM8723130,muscle,skeletal_muscle,"muscle, young, rep1"
+,"tissue: muscle | treatment: muscle, young, rep2",GSE286302,circadian;recovery,,,GSM8723131,muscle,skeletal_muscle,"muscle, young, rep2"
+,"tissue: muscle | treatment: muscle, young, rep3",GSE286302,circadian;recovery,,,GSM8723132,muscle,skeletal_muscle,"muscle, young, rep3"
+,"tissue: muscle | treatment: muscle, young, rep4",GSE286302,circadian;recovery,,,GSM8723133,muscle,skeletal_muscle,"muscle, young, rep4"
+,"tissue: muscle | treatment: muscle, aged, vehicle, rep1",GSE286302,circadian;recovery,,,GSM8723134,muscle,skeletal_muscle,"muscle, aged, vehicle, rep1"
+,"tissue: muscle | treatment: muscle, aged, vehicle, rep2",GSE286302,circadian;recovery,,,GSM8723135,muscle,skeletal_muscle,"muscle, aged, vehicle, rep2"
+,"tissue: muscle | treatment: muscle, aged, vehicle, rep3",GSE286302,circadian;recovery,,,GSM8723136,muscle,skeletal_muscle,"muscle, aged, vehicle, rep3"
+,"tissue: muscle | treatment: muscle, aged, 3dA, rep1",GSE286302,circadian;recovery,,,GSM8723137,muscle,skeletal_muscle,"muscle, aged, 3dA, rep1"
+,"tissue: muscle | treatment: muscle, aged, 3dA, rep2",GSE286302,circadian;recovery,,,GSM8723138,muscle,skeletal_muscle,"muscle, aged, 3dA, rep2"
+,"tissue: muscle | treatment: muscle, aged, 3dA, rep3",GSE286302,circadian;recovery,,,GSM8723139,muscle,skeletal_muscle,"muscle, aged, 3dA, rep3"
+,"tissue: muscle | treatment: muscle, aged, 3dA, rep4",GSE286302,circadian;recovery,,,GSM8723140,muscle,skeletal_muscle,"muscle, aged, 3dA, rep4"
+,"tissue: muscle | treatment: muscle, aged, saline, rep1",GSE286302,circadian;recovery,,,GSM8723141,muscle,skeletal_muscle,"muscle, aged, saline, rep1"
+,"tissue: muscle | treatment: muscle, aged, saline, rep2",GSE286302,circadian;recovery,,,GSM8723142,muscle,skeletal_muscle,"muscle, aged, saline, rep2"
+,"tissue: muscle | treatment: muscle, aged, saline, rep3",GSE286302,circadian;recovery,,,GSM8723143,muscle,skeletal_muscle,"muscle, aged, saline, rep3"
+,"tissue: muscle | treatment: muscle, aged, saline, rep4",GSE286302,circadian;recovery,,,GSM8723144,muscle,skeletal_muscle,"muscle, aged, saline, rep4"
+,"tissue: muscle | treatment: muscle, aged, CNO, rep1",GSE286302,circadian;recovery,,,GSM8723145,muscle,skeletal_muscle,"muscle, aged, CNO, rep1"
+,"tissue: muscle | treatment: muscle, aged, CNO, rep2",GSE286302,circadian;recovery,,,GSM8723146,muscle,skeletal_muscle,"muscle, aged, CNO, rep2"
+,"tissue: muscle | treatment: muscle, aged, CNO, rep3",GSE286302,circadian;recovery,,,GSM8723147,muscle,skeletal_muscle,"muscle, aged, CNO, rep3"
+,"tissue: lung | treatment: lung, young, rep1",GSE286302,circadian;recovery,,,GSM8723148,lung,lung,"lung, young, rep1"
+,"tissue: lung | treatment: lung, young, rep2",GSE286302,circadian;recovery,,,GSM8723149,lung,lung,"lung, young, rep2"
+,"tissue: lung | treatment: lung, young, rep3",GSE286302,circadian;recovery,,,GSM8723150,lung,lung,"lung, young, rep3"
+,"tissue: lung | treatment: lung, young, rep4",GSE286302,circadian;recovery,,,GSM8723151,lung,lung,"lung, young, rep4"
+,"tissue: lung | treatment: lung, aged, vehicle, rep1",GSE286302,circadian;recovery,,,GSM8723152,lung,lung,"lung, aged, vehicle, rep1"
+,"tissue: lung | treatment: lung, aged, vehicle, rep2",GSE286302,circadian;recovery,,,GSM8723153,lung,lung,"lung, aged, vehicle, rep2"
+,"tissue: lung | treatment: lung, aged, vehicle, rep3",GSE286302,circadian;recovery,,,GSM8723154,lung,lung,"lung, aged, vehicle, rep3"
+,"tissue: lung | treatment: lung, aged, vehicle, rep4",GSE286302,circadian;recovery,,,GSM8723155,lung,lung,"lung, aged, vehicle, rep4"
+,"tissue: lung | treatment: lung, aged, 3dA, rep1",GSE286302,circadian;recovery,,,GSM8723156,lung,lung,"lung, aged, 3dA, rep1"
+,"tissue: lung | treatment: lung, aged, 3dA, rep2",GSE286302,circadian;recovery,,,GSM8723157,lung,lung,"lung, aged, 3dA, rep2"
+,"tissue: lung | treatment: lung, aged, 3dA, rep3",GSE286302,circadian;recovery,,,GSM8723158,lung,lung,"lung, aged, 3dA, rep3"
+,"tissue: lung | treatment: lung, aged, 3dA, rep4",GSE286302,circadian;recovery,,,GSM8723159,lung,lung,"lung, aged, 3dA, rep4"
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P2 | genotype: Lgr5-EGFP-IRES-creERT2 | treatment: Decitabine (50ng/ml),GSE295059,drug,24mo,mo,GSM8941285,Upper small Intestine  epithelium,intestine,D1_283
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P2 | genotype: Lgr5-EGFP-IRES-creERT3 | treatment: Decitabine (50ng/ml),GSE295059,drug,24mo,mo,GSM8941286,Upper small Intestine  epithelium,intestine,D1_285
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P3 | genotype: Lgr5-EGFP-IRES-creERT4 | treatment: None,GSE295059,drug,24mo,mo,GSM8941287,Upper small Intestine  epithelium,intestine,D1P1_283
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P3 | genotype: Lgr5-EGFP-IRES-creERT5 | treatment: None,GSE295059,drug,24mo,mo,GSM8941288,Upper small Intestine  epithelium,intestine,D1P1_285
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P4 | genotype: Lgr5-EGFP-IRES-creERT6 | treatment: None,GSE295059,drug,24mo,mo,GSM8941289,Upper small Intestine  epithelium,intestine,D1P2_283
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P4 | genotype: Lgr5-EGFP-IRES-creERT7 | treatment: None,GSE295059,drug,24mo,mo,GSM8941290,Upper small Intestine  epithelium,intestine,D1P2_285
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P10 | genotype: Lgr5-EGFP-IRES-creERT8 | treatment: None,GSE295059,drug,24mo,mo,GSM8941291,Upper small Intestine  epithelium,intestine,D3P2M283
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P10 | genotype: Lgr5-EGFP-IRES-creERT9 | treatment: None,GSE295059,drug,24mo,mo,GSM8941292,Upper small Intestine  epithelium,intestine,D3P2M285
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P11 | genotype: Lgr5-EGFP-IRES-creERT10 | treatment: Decitabine (50ng/ml),GSE295059,drug,24mo,mo,GSM8941293,Upper small Intestine  epithelium,intestine,D4_283
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P11 | genotype: Lgr5-EGFP-IRES-creERT11 | treatment: Decitabine (50ng/ml),GSE295059,drug,24mo,mo,GSM8941294,Upper small Intestine  epithelium,intestine,D4_285
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P12 | genotype: Lgr5-EGFP-IRES-creERT12 | treatment: None,GSE295059,drug,24mo,mo,GSM8941295,Upper small Intestine  epithelium,intestine,D4P1_283
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P12 | genotype: Lgr5-EGFP-IRES-creERT13 | treatment: None,GSE295059,drug,24mo,mo,GSM8941296,Upper small Intestine  epithelium,intestine,D4P1_285
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P13 | genotype: Lgr5-EGFP-IRES-creERT14 | treatment: None,GSE295059,drug,24mo,mo,GSM8941297,Upper small Intestine  epithelium,intestine,D4P2_283
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P13 | genotype: Lgr5-EGFP-IRES-creERT15 | treatment: None,GSE295059,drug,24mo,mo,GSM8941298,Upper small Intestine  epithelium,intestine,D4P2_285
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P0 | genotype: Lgr5-EGFP-IRES-creERT16 | treatment: None,GSE295059,drug,24mo,mo,GSM8941299,Upper small Intestine  epithelium,intestine,Org_USI_P0_283
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P0 | genotype: Lgr5-EGFP-IRES-creERT17 | treatment: None,GSE295059,drug,24mo,mo,GSM8941300,Upper small Intestine  epithelium,intestine,Org_USI_P0_283_1
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P24 | genotype: Lgr5-EGFP-IRES-creERT18 | treatment: None,GSE295059,drug,24mo,mo,GSM8941301,Upper small Intestine  epithelium,intestine,Org_USI_P25_283_1
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P24 | genotype: Lgr5-EGFP-IRES-creERT19 | treatment: None,GSE295059,drug,24mo,mo,GSM8941302,Upper small Intestine  epithelium,intestine,Org_USI_P25_283
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P0 | genotype: Lgr5-EGFP-IRES-creERT20 | treatment: None,GSE295059,drug,24mo,mo,GSM8941303,Upper small Intestine  epithelium,intestine,Org_USI_P0_285_1
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P0 | genotype: Lgr5-EGFP-IRES-creERT21 | treatment: None,GSE295059,drug,24mo,mo,GSM8941304,Upper small Intestine  epithelium,intestine,Org_USI_P0_285
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P24 | genotype: Lgr5-EGFP-IRES-creERT22 | treatment: None,GSE295059,drug,24mo,mo,GSM8941305,Upper small Intestine  epithelium,intestine,Org_USI_P25_285_1
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P24 | genotype: Lgr5-EGFP-IRES-creERT23 | treatment: None,GSE295059,drug,24mo,mo,GSM8941306,Upper small Intestine  epithelium,intestine,Org_USI_P25_285
+104.297,tissue: Colon  epithelium | cell line: Organoid | cell type: P13 | genotype: Lgr5-EGFP-IRES-creERT24 | treatment: None,GSE295059,drug,24mo,mo,GSM8941307,Colon  epithelium,intestine,Org_COL_24mo_14p
+104.297,tissue: Colon  epithelium | cell line: Organoid | cell type: P2 | genotype: Lgr5-EGFP-IRES-creERT25 | treatment: None,GSE295059,drug,24mo,mo,GSM8941308,Colon  epithelium,intestine,Org_COL_24mo_3p
+104.297,tissue: Lower small Intestine  epithelium | cell line: Organoid | cell type: P13 | genotype: Lgr5-EGFP-IRES-creERT26 | treatment: None,GSE295059,drug,24mo,mo,GSM8941309,Lower small Intestine  epithelium,intestine,Org_LSI_24mo_14p
+104.297,tissue: Lower small Intestine  epithelium | cell line: Organoid | cell type: P2 | genotype: Lgr5-EGFP-IRES-creERT27 | treatment: None,GSE295059,drug,24mo,mo,GSM8941310,Lower small Intestine  epithelium,intestine,Org_LSI_24mo_3p
+,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P2 | genotype: Lgr5-EGFP-IRES-creERT28 | treatment: None,GSE295059,drug,,,GSM8941311,Upper small Intestine  epithelium,intestine,OCorg3P_concat
+17.383,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P2 | genotype: Lgr5-EGFP-IRES-creERT29 | treatment: None,GSE295059,drug,4mo,mo,GSM8941312,Upper small Intestine  epithelium,intestine,YCorg3p_concat
+,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P2 | genotype: Lgr5-EGFP-IRES-creERT30 | treatment: None,GSE295059,drug,,,GSM8941313,Upper small Intestine  epithelium,intestine,OLorg3p_concat
+17.383,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P2 | genotype: Lgr5-EGFP-IRES-creERT31 | treatment: None,GSE295059,drug,4mo,mo,GSM8941314,Upper small Intestine  epithelium,intestine,YLorg3p_concat
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P2 | genotype: Lgr5-EGFP-IRES-creERT32 | treatment: None,GSE295059,drug,24mo,mo,GSM8941315,Upper small Intestine  epithelium,intestine,OUorg3p_conca
+17.383,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P2 | genotype: Lgr5-EGFP-IRES-creERT33 | treatment: None,GSE295059,drug,4mo,mo,GSM8941316,Upper small Intestine  epithelium,intestine,YUorg3p_concat
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P13 | genotype: Lgr5-EGFP-IRES-creERT34 | treatment: None,GSE295059,drug,24mo,mo,GSM8941317,Upper small Intestine  epithelium,intestine,Org_USI_24mo_14p
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P2 | genotype: Lgr5-EGFP-IRES-creERT35 | treatment: None,GSE295059,drug,24mo,mo,GSM8941318,Upper small Intestine  epithelium,intestine,Org_USI_24mo_3p
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P0 | genotype: Lgr5-EGFP-IRES-creERT36 | treatment: None,GSE295059,drug,24mo,mo,GSM8941319,Upper small Intestine  epithelium,intestine,Org_USI_P0_24mo_1
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P0 | genotype: Lgr5-EGFP-IRES-creERT37 | treatment: None,GSE295059,drug,24mo,mo,GSM8941320,Upper small Intestine  epithelium,intestine,Org_USI_P0_24mo
+17.383,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P0 | genotype: Lgr5-EGFP-IRES-creERT38 | treatment: None,GSE295059,drug,4mo,mo,GSM8941321,Upper small Intestine  epithelium,intestine,Org_USI_P0_4mo_1
+17.383,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P0 | genotype: Lgr5-EGFP-IRES-creERT39 | treatment: None,GSE295059,drug,4mo,mo,GSM8941322,Upper small Intestine  epithelium,intestine,Org_USI_P0_4mo
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P10 | genotype: Lgr5-EGFP-IRES-creERT40 | treatment: None,GSE295059,drug,24mo,mo,GSM8941323,Upper small Intestine  epithelium,intestine,P11CT283
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P10 | genotype: Lgr5-EGFP-IRES-creERT41 | treatment: None,GSE295059,drug,24mo,mo,GSM8941324,Upper small Intestine  epithelium,intestine,P11CT285
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P11 | genotype: Lgr5-EGFP-IRES-creERT42 | treatment: None,GSE295059,drug,24mo,mo,GSM8941325,Upper small Intestine  epithelium,intestine,P12_283_ctrl
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P11 | genotype: Lgr5-EGFP-IRES-creERT43 | treatment: None,GSE295059,drug,24mo,mo,GSM8941326,Upper small Intestine  epithelium,intestine,P12_285_ctrl
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P12 | genotype: Lgr5-EGFP-IRES-creERT44 | treatment: None,GSE295059,drug,24mo,mo,GSM8941327,Upper small Intestine  epithelium,intestine,P13_283_ctrl
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P12 | genotype: Lgr5-EGFP-IRES-creERT45 | treatment: None,GSE295059,drug,24mo,mo,GSM8941328,Upper small Intestine  epithelium,intestine,P13_285_ctrl
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P13 | genotype: Lgr5-EGFP-IRES-creERT46 | treatment: None,GSE295059,drug,24mo,mo,GSM8941329,Upper small Intestine  epithelium,intestine,P14_24mo
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P13 | genotype: Lgr5-EGFP-IRES-creERT47 | treatment: None,GSE295059,drug,24mo,mo,GSM8941330,Upper small Intestine  epithelium,intestine,P14_283_ctrl
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P13 | genotype: Lgr5-EGFP-IRES-creERT48 | treatment: None,GSE295059,drug,24mo,mo,GSM8941331,Upper small Intestine  epithelium,intestine,P14_285_ctrl
+17.383,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P13 | genotype: Lgr5-EGFP-IRES-creERT49 | treatment: None,GSE295059,drug,4mo,mo,GSM8941332,Upper small Intestine  epithelium,intestine,P14_4mo
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P24 | genotype: Lgr5-EGFP-IRES-creERT50 | treatment: None,GSE295059,drug,24mo,mo,GSM8941333,Upper small Intestine  epithelium,intestine,P25_24mo
+17.383,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P24 | genotype: Lgr5-EGFP-IRES-creERT51 | treatment: None,GSE295059,drug,4mo,mo,GSM8941334,Upper small Intestine  epithelium,intestine,P25_4mo
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P27 | genotype: Lgr5-EGFP-IRES-creERT52 | treatment: None,GSE295059,drug,24mo,mo,GSM8941335,Upper small Intestine  epithelium,intestine,Org_USI_P28_24mo_1
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P27 | genotype: Lgr5-EGFP-IRES-creERT53 | treatment: None,GSE295059,drug,24mo,mo,GSM8941336,Upper small Intestine  epithelium,intestine,Org_USI_P28_24mo
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P27 | genotype: Lgr5-EGFP-IRES-creERT54 | treatment: None,GSE295059,drug,24mo,mo,GSM8941337,Upper small Intestine  epithelium,intestine,P28_283_24mo
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P27 | genotype: Lgr5-EGFP-IRES-creERT55 | treatment: None,GSE295059,drug,24mo,mo,GSM8941338,Upper small Intestine  epithelium,intestine,P28_285_24mo
+17.383,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P27 | genotype: Lgr5-EGFP-IRES-creERT56 | treatment: None,GSE295059,drug,4mo,mo,GSM8941339,Upper small Intestine  epithelium,intestine,Org_USI_P28_4mo_1
+17.383,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P27 | genotype: Lgr5-EGFP-IRES-creERT57 | treatment: None,GSE295059,drug,4mo,mo,GSM8941340,Upper small Intestine  epithelium,intestine,Org_USI_P28_4mo
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P2 | genotype: Lgr5-EGFP-IRES-creERT58 | treatment: None,GSE295059,drug,24mo,mo,GSM8941341,Upper small Intestine  epithelium,intestine,P3_24mo
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P2 | genotype: Lgr5-EGFP-IRES-creERT59 | treatment: None,GSE295059,drug,24mo,mo,GSM8941342,Upper small Intestine  epithelium,intestine,P3_283_ctrl
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P2 | genotype: Lgr5-EGFP-IRES-creERT60 | treatment: None,GSE295059,drug,24mo,mo,GSM8941343,Upper small Intestine  epithelium,intestine,P3_285_ctrl
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P2 | genotype: Lgr5-EGFP-IRES-creERT61 | treatment: None,GSE295059,drug,24mo,mo,GSM8941344,Upper small Intestine  epithelium,intestine,P3_4mo
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P3 | genotype: Lgr5-EGFP-IRES-creERT62 | treatment: None,GSE295059,drug,24mo,mo,GSM8941345,Upper small Intestine  epithelium,intestine,P4_283_ctrl
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P3 | genotype: Lgr5-EGFP-IRES-creERT63 | treatment: None,GSE295059,drug,24mo,mo,GSM8941346,Upper small Intestine  epithelium,intestine,P4_285_ctrl
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P5 | genotype: Lgr5-EGFP-IRES-creERT64 | treatment: None,GSE295059,drug,24mo,mo,GSM8941347,Upper small Intestine  epithelium,intestine,P5_283_ctrl
+104.297,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P5 | genotype: Lgr5-EGFP-IRES-creERT65 | treatment: None,GSE295059,drug,24mo,mo,GSM8941348,Upper small Intestine  epithelium,intestine,P5_285_ctrl
+17.383,tissue: Colon  epithelium | cell line: Organoid | cell type: P13 | genotype: Lgr5-EGFP-IRES-creERT66 | treatment: None,GSE295059,drug,4mo,mo,GSM8941349,Colon  epithelium,intestine,Org_COL_4mo_14p
+17.383,tissue: Colon  epithelium | cell line: Organoid | cell type: P2 | genotype: Lgr5-EGFP-IRES-creERT67 | treatment: None,GSE295059,drug,4mo,mo,GSM8941350,Colon  epithelium,intestine,Org_COL_4mo_3p
+17.383,tissue: Lower small Intestine  epithelium | cell line: Organoid | cell type: P13 | genotype: Lgr5-EGFP-IRES-creERT68 | treatment: None,GSE295059,drug,4mo,mo,GSM8941351,Lower small Intestine  epithelium,intestine,Org_LSI_4mo_14p
+17.383,tissue: Lower small Intestine  epithelium | cell line: Organoid | cell type: P2 | genotype: Lgr5-EGFP-IRES-creERT69 | treatment: None,GSE295059,drug,4mo,mo,GSM8941352,Lower small Intestine  epithelium,intestine,Org_LSI_4mo_3p
+17.383,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P13 | genotype: Lgr5-EGFP-IRES-creERT70 | treatment: None,GSE295059,drug,4mo,mo,GSM8941353,Upper small Intestine  epithelium,intestine,Org_USI_4mo_14p
+17.383,tissue: Upper small Intestine  epithelium | cell line: Organoid | cell type: P2 | genotype: Lgr5-EGFP-IRES-creERT71 | treatment: None,GSE295059,drug,4mo,mo,GSM8941354,Upper small Intestine  epithelium,intestine,Org_USI_4mo_3p
+,tissue: Heart | cell type: Cardiomyocytes | genotype: Wildtype,GSE281602,,,,GSM8624622,Heart,heart,"4-mo, female, replicate1"
+,tissue: Heart | cell type: Cardiomyocytes | genotype: Wildtype,GSE281602,,,,GSM8624623,Heart,heart,"4-mo, female, replicate2"
+,tissue: Heart | cell type: Cardiomyocytes | genotype: Wildtype,GSE281602,,,,GSM8624624,Heart,heart,"4-mo, male, replicate1"
+,tissue: Heart | cell type: Cardiomyocytes | genotype: Wildtype,GSE281602,,,,GSM8624625,Heart,heart,"4-mo, male, replicate2"
+,tissue: Heart | cell type: Cardiomyocytes | genotype: Wildtype,GSE281602,,,,GSM8624626,Heart,heart,"28-mo, female, replicate1"
+,tissue: Heart | cell type: Cardiomyocytes | genotype: Wildtype,GSE281602,,,,GSM8624627,Heart,heart,"28-mo, female, replicate2"
+,tissue: Heart | cell type: Cardiomyocytes | genotype: Wildtype,GSE281602,,,,GSM8624628,Heart,heart,"28-mo, male, replicate1"
+,tissue: Heart | cell type: Cardiomyocytes | genotype: Wildtype,GSE281602,,,,GSM8624629,Heart,heart,"28-mo, male, replicate2"
+17.383,cell type: Murine bone marrow derived primary HSCs | cell surface marker: SP-KSL-CD150+ | strain: C57BL/6,GSE47815,,4 month,month,GSM1160012,4 month Hematopoietic Stem Cells,hsc_bone_marrow,m04_b3
+17.383,cell type: Murine bone marrow derived primary HSCs | cell surface marker: SP-KSL-CD150+ | strain: C57BL/6,GSE47815,,4 month,month,GSM1160013,4 month Hematopoietic Stem Cells,hsc_bone_marrow,m04_b4l1
+17.383,cell type: Murine bone marrow derived primary HSCs | cell surface marker: SP-KSL-CD150+ | strain: C57BL/6,GSE47815,,4 month,month,GSM1160014,4 month Hematopoietic Stem Cells,hsc_bone_marrow,m04_b4l2
+17.383,cell type: Murine bone marrow derived primary HSCs | cell surface marker: SP-KSL-CD150+ | strain: C57BL/6,GSE47815,,4 month,month,GSM1160015,4 month Hematopoietic Stem Cells,hsc_bone_marrow,m04_b5
+17.383,cell type: Murine bone marrow derived primary HSCs | cell surface marker: SP-KSL-CD150+ | strain: C57BL/6,GSE47815,,4 month,month,GSM1160016,4 month Hematopoietic Stem Cells,hsc_bone_marrow,m04_b6l1
+17.383,cell type: Murine bone marrow derived primary HSCs | cell surface marker: SP-KSL-CD150+ | strain: C57BL/6,GSE47815,,4 month,month,GSM1160017,4 month Hematopoietic Stem Cells,hsc_bone_marrow,m04_b6l2
+17.383,cell type: Murine bone marrow derived primary HSCs | cell surface marker: SP-KSL-CD150+ | strain: C57BL/6,GSE47815,,4 month,month,GSM1160018,4 month Hematopoietic Stem Cells,hsc_bone_marrow,m04_b6l3
+104.297,cell type: Murine bone marrow derived primary HSCs | cell surface marker: SP-KSL-CD150+ | strain: C57BL/6,GSE47815,,24 month,month,GSM1160019,24 month Hematopoietic Stem Cells,hsc_bone_marrow,m24_b3
+104.297,cell type: Murine bone marrow derived primary HSCs | cell surface marker: SP-KSL-CD150+ | strain: C57BL/6,GSE47815,,24 month,month,GSM1160020,24 month Hematopoietic Stem Cells,hsc_bone_marrow,m24_b4l1
+104.297,cell type: Murine bone marrow derived primary HSCs | cell surface marker: SP-KSL-CD150+ | strain: C57BL/6,GSE47815,,24 month,month,GSM1160021,24 month Hematopoietic Stem Cells,hsc_bone_marrow,m24_b4l2
+104.297,cell type: Murine bone marrow derived primary HSCs | cell surface marker: SP-KSL-CD150+ | strain: C57BL/6,GSE47815,,24 month,month,GSM1160022,24 month Hematopoietic Stem Cells,hsc_bone_marrow,m24_b5
+104.297,cell type: Murine bone marrow derived primary HSCs | cell surface marker: SP-KSL-CD150+ | strain: C57BL/6,GSE47815,,24 month,month,GSM1160023,24 month Hematopoietic Stem Cells,hsc_bone_marrow,m24_b6l1
+104.297,cell type: Murine bone marrow derived primary HSCs | cell surface marker: SP-KSL-CD150+ | strain: C57BL/6,GSE47815,,24 month,month,GSM1160024,24 month Hematopoietic Stem Cells,hsc_bone_marrow,m24_b6l2
+13.037,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 3 Months,GSE304754,,age: 3 Mo,mo,GSM9156334,Hippocampus,brain,"Hippocampus, 3 Months, Rep4"
+13.037,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 3 Months,GSE304754,,age: 3 Mo,mo,GSM9156335,Hippocampus,brain,"Hippocampus, 3 Months, Rep8"
+13.037,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 3 Months,GSE304754,,age: 3 Mo,mo,GSM9156336,Hippocampus,brain,"Hippocampus, 3 Months, Rep9"
+13.037,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 3 Months,GSE304754,,age: 3 Mo,mo,GSM9156337,Hippocampus,brain,"Hippocampus, 3 Months, Rep1"
+13.037,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 3 Months,GSE304754,,age: 3 Mo,mo,GSM9156338,Hippocampus,brain,"Hippocampus, 3 Months, Rep2"
+13.037,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 3 Months,GSE304754,,age: 3 Mo,mo,GSM9156339,Hippocampus,brain,"Hippocampus, 3 Months, Rep7"
+13.037,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 3 Months,GSE304754,,age: 3 Mo,mo,GSM9156340,Hippocampus,brain,"Hippocampus, 3 Months, Rep3"
+13.037,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 3 Months,GSE304754,,age: 3 Mo,mo,GSM9156341,Hippocampus,brain,"Hippocampus, 3 Months, Rep5"
+13.037,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 3 Months,GSE304754,,age: 3 Mo,mo,GSM9156342,Hippocampus,brain,"Hippocampus, 3 Months, Rep6"
+13.037,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 3 Months,GSE304754,,age: 3 Mo,mo,GSM9156343,Hippocampus,brain,"Hippocampus, 3 Months, Rep14"
+13.037,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 3 Months,GSE304754,,age: 3 Mo,mo,GSM9156344,Hippocampus,brain,"Hippocampus, 3 Months, Rep15"
+13.037,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 3 Months,GSE304754,,age: 3 Mo,mo,GSM9156345,Hippocampus,brain,"Hippocampus, 3 Months, Rep13"
+13.037,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 3 Months,GSE304754,,age: 3 Mo,mo,GSM9156346,Hippocampus,brain,"Hippocampus, 3 Months, Rep16"
+13.037,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 3 Months,GSE304754,,age: 3 Mo,mo,GSM9156347,Hippocampus,brain,"Hippocampus, 3 Months, Rep10"
+13.037,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 3 Months,GSE304754,,age: 3 Mo,mo,GSM9156348,Hippocampus,brain,"Hippocampus, 3 Months, Rep11"
+13.037,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 3 Months,GSE304754,,age: 3 Mo,mo,GSM9156349,Hippocampus,brain,"Hippocampus, 3 Months, Rep12"
+39.111,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 9 Months,GSE304754,,age: 9 Mo,mo,GSM9156350,Hippocampus,brain,"Hippocampus, 9 Months, Rep3"
+39.111,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 9 Months,GSE304754,,age: 9 Mo,mo,GSM9156351,Hippocampus,brain,"Hippocampus, 9 Months, Rep6"
+39.111,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 9 Months,GSE304754,,age: 9 Mo,mo,GSM9156352,Hippocampus,brain,"Hippocampus, 9 Months, Rep9"
+39.111,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 9 Months,GSE304754,,age: 9 Mo,mo,GSM9156353,Hippocampus,brain,"Hippocampus, 9 Months, Rep1"
+39.111,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 9 Months,GSE304754,,age: 9 Mo,mo,GSM9156354,Hippocampus,brain,"Hippocampus, 9 Months, Rep2"
+39.111,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 9 Months,GSE304754,,age: 9 Mo,mo,GSM9156355,Hippocampus,brain,"Hippocampus, 9 Months, Rep7"
+39.111,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 9 Months,GSE304754,,age: 9 Mo,mo,GSM9156356,Hippocampus,brain,"Hippocampus, 9 Months, Rep8"
+39.111,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 9 Months,GSE304754,,age: 9 Mo,mo,GSM9156357,Hippocampus,brain,"Hippocampus, 9 Months, Rep5"
+39.111,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 9 Months,GSE304754,,age: 9 Mo,mo,GSM9156358,Hippocampus,brain,"Hippocampus, 9 Months, Rep4"
+39.111,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 9 Months,GSE304754,,age: 9 Mo,mo,GSM9156359,Hippocampus,brain,"Hippocampus, 9 Months, Rep11"
+39.111,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 9 Months,GSE304754,,age: 9 Mo,mo,GSM9156360,Hippocampus,brain,"Hippocampus, 9 Months, Rep15"
+39.111,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 9 Months,GSE304754,,age: 9 Mo,mo,GSM9156361,Hippocampus,brain,"Hippocampus, 9 Months, Rep10"
+39.111,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 9 Months,GSE304754,,age: 9 Mo,mo,GSM9156362,Hippocampus,brain,"Hippocampus, 9 Months, Rep16"
+39.111,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 9 Months,GSE304754,,age: 9 Mo,mo,GSM9156363,Hippocampus,brain,"Hippocampus, 9 Months, Rep14"
+39.111,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 9 Months,GSE304754,,age: 9 Mo,mo,GSM9156364,Hippocampus,brain,"Hippocampus, 9 Months, Rep13"
+39.111,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 9 Months,GSE304754,,age: 9 Mo,mo,GSM9156365,Hippocampus,brain,"Hippocampus, 9 Months, Rep12"
+65.186,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 15 Months,GSE304754,,age: 15 Mo,mo,GSM9156366,Hippocampus,brain,"Hippocampus, 15 Months, Rep5"
+65.186,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 15 Months,GSE304754,,age: 15 Mo,mo,GSM9156367,Hippocampus,brain,"Hippocampus, 15 Months, Rep2"
+65.186,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 15 Months,GSE304754,,age: 15 Mo,mo,GSM9156368,Hippocampus,brain,"Hippocampus, 15 Months, Rep6"
+65.186,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 15 Months,GSE304754,,age: 15 Mo,mo,GSM9156369,Hippocampus,brain,"Hippocampus, 15 Months, Rep7"
+65.186,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 15 Months,GSE304754,,age: 15 Mo,mo,GSM9156370,Hippocampus,brain,"Hippocampus, 15 Months, Rep9"
+65.186,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 15 Months,GSE304754,,age: 15 Mo,mo,GSM9156371,Hippocampus,brain,"Hippocampus, 15 Months, Rep4"
+65.186,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 15 Months,GSE304754,,age: 15 Mo,mo,GSM9156372,Hippocampus,brain,"Hippocampus, 15 Months, Rep8"
+65.186,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 15 Months,GSE304754,,age: 15 Mo,mo,GSM9156373,Hippocampus,brain,"Hippocampus, 15 Months, Rep3"
+65.186,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 15 Months,GSE304754,,age: 15 Mo,mo,GSM9156374,Hippocampus,brain,"Hippocampus, 15 Months, Rep1"
+65.186,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 15 Months,GSE304754,,age: 15 Mo,mo,GSM9156375,Hippocampus,brain,"Hippocampus, 15 Months, Rep10"
+65.186,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 15 Months,GSE304754,,age: 15 Mo,mo,GSM9156376,Hippocampus,brain,"Hippocampus, 15 Months, Rep12"
+65.186,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 15 Months,GSE304754,,age: 15 Mo,mo,GSM9156377,Hippocampus,brain,"Hippocampus, 15 Months, Rep11"
+65.186,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 15 Months,GSE304754,,age: 15 Mo,mo,GSM9156378,Hippocampus,brain,"Hippocampus, 15 Months, Rep13"
+65.186,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 15 Months,GSE304754,,age: 15 Mo,mo,GSM9156379,Hippocampus,brain,"Hippocampus, 15 Months, Rep14"
+65.186,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 15 Months,GSE304754,,age: 15 Mo,mo,GSM9156380,Hippocampus,brain,"Hippocampus, 15 Months, Rep15"
+65.186,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 15 Months,GSE304754,,age: 15 Mo,mo,GSM9156381,Hippocampus,brain,"Hippocampus, 15 Months, Rep16"
+104.297,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 24 Months,GSE304754,,age: 24 Mo,mo,GSM9156382,Hippocampus,brain,"Hippocampus, 24 Months, Rep3"
+104.297,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 24 Months,GSE304754,,age: 24 Mo,mo,GSM9156383,Hippocampus,brain,"Hippocampus, 24 Months, Rep1"
+104.297,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 24 Months,GSE304754,,age: 24 Mo,mo,GSM9156384,Hippocampus,brain,"Hippocampus, 24 Months, Rep7"
+104.297,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 24 Months,GSE304754,,age: 24 Mo,mo,GSM9156385,Hippocampus,brain,"Hippocampus, 24 Months, Rep9"
+104.297,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 24 Months,GSE304754,,age: 24 Mo,mo,GSM9156386,Hippocampus,brain,"Hippocampus, 24 Months, Rep8"
+104.297,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 24 Months,GSE304754,,age: 24 Mo,mo,GSM9156387,Hippocampus,brain,"Hippocampus, 24 Months, Rep5"
+104.297,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 24 Months,GSE304754,,age: 24 Mo,mo,GSM9156388,Hippocampus,brain,"Hippocampus, 24 Months, Rep6"
+104.297,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 24 Months,GSE304754,,age: 24 Mo,mo,GSM9156389,Hippocampus,brain,"Hippocampus, 24 Months, Rep2"
+104.297,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 24 Months,GSE304754,,age: 24 Mo,mo,GSM9156390,Hippocampus,brain,"Hippocampus, 24 Months, Rep10"
+104.297,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 24 Months,GSE304754,,age: 24 Mo,mo,GSM9156391,Hippocampus,brain,"Hippocampus, 24 Months, Rep4"
+104.297,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 24 Months,GSE304754,,age: 24 Mo,mo,GSM9156392,Hippocampus,brain,"Hippocampus, 24 Months, Rep14"
+104.297,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 24 Months,GSE304754,,age: 24 Mo,mo,GSM9156393,Hippocampus,brain,"Hippocampus, 24 Months, Rep15"
+104.297,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 24 Months,GSE304754,,age: 24 Mo,mo,GSM9156394,Hippocampus,brain,"Hippocampus, 24 Months, Rep17"
+104.297,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 24 Months,GSE304754,,age: 24 Mo,mo,GSM9156395,Hippocampus,brain,"Hippocampus, 24 Months, Rep16"
+104.297,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 24 Months,GSE304754,,age: 24 Mo,mo,GSM9156396,Hippocampus,brain,"Hippocampus, 24 Months, Rep12"
+104.297,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 24 Months,GSE304754,,age: 24 Mo,mo,GSM9156397,Hippocampus,brain,"Hippocampus, 24 Months, Rep13"
+104.297,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 24 Months,GSE304754,,age: 24 Mo,mo,GSM9156398,Hippocampus,brain,"Hippocampus, 24 Months, Rep11"
+121.68,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 28 Months,GSE304754,,age: 28 Mo,mo,GSM9156399,Hippocampus,brain,"Hippocampus, 28 Months, Rep9"
+121.68,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 28 Months,GSE304754,,age: 28 Mo,mo,GSM9156400,Hippocampus,brain,"Hippocampus, 28 Months, Rep11"
+121.68,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 28 Months,GSE304754,,age: 28 Mo,mo,GSM9156401,Hippocampus,brain,"Hippocampus, 28 Months, Rep10"
+121.68,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 28 Months,GSE304754,,age: 28 Mo,mo,GSM9156402,Hippocampus,brain,"Hippocampus, 28 Months, Rep3"
+121.68,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 28 Months,GSE304754,,age: 28 Mo,mo,GSM9156403,Hippocampus,brain,"Hippocampus, 28 Months, Rep4"
+121.68,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 28 Months,GSE304754,,age: 28 Mo,mo,GSM9156404,Hippocampus,brain,"Hippocampus, 28 Months, Rep5"
+121.68,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 28 Months,GSE304754,,age: 28 Mo,mo,GSM9156405,Hippocampus,brain,"Hippocampus, 28 Months, Rep8"
+121.68,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 28 Months,GSE304754,,age: 28 Mo,mo,GSM9156406,Hippocampus,brain,"Hippocampus, 28 Months, Rep7"
+121.68,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 28 Months,GSE304754,,age: 28 Mo,mo,GSM9156407,Hippocampus,brain,"Hippocampus, 28 Months, Rep6"
+121.68,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 28 Months,GSE304754,,age: 28 Mo,mo,GSM9156408,Hippocampus,brain,"Hippocampus, 28 Months, Rep2"
+121.68,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 28 Months,GSE304754,,age: 28 Mo,mo,GSM9156409,Hippocampus,brain,"Hippocampus, 28 Months, Rep1"
+121.68,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 28 Months,GSE304754,,age: 28 Mo,mo,GSM9156410,Hippocampus,brain,"Hippocampus, 28 Months, Rep17"
+121.68,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 28 Months,GSE304754,,age: 28 Mo,mo,GSM9156411,Hippocampus,brain,"Hippocampus, 28 Months, Rep15"
+121.68,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 28 Months,GSE304754,,age: 28 Mo,mo,GSM9156412,Hippocampus,brain,"Hippocampus, 28 Months, Rep13"
+121.68,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 28 Months,GSE304754,,age: 28 Mo,mo,GSM9156413,Hippocampus,brain,"Hippocampus, 28 Months, Rep14"
+121.68,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 28 Months,GSE304754,,age: 28 Mo,mo,GSM9156414,Hippocampus,brain,"Hippocampus, 28 Months, Rep18"
+121.68,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 28 Months,GSE304754,,age: 28 Mo,mo,GSM9156415,Hippocampus,brain,"Hippocampus, 28 Months, Rep16"
+121.68,tissue: Hippocampus | genotype: C57BL/6J/Ukj | Sex: Male | age: 28 Months,GSE304754,,age: 28 Mo,mo,GSM9156416,Hippocampus,brain,"Hippocampus, 28 Months, Rep12"
+1.857,"tissue: Skeletal Muscle, Plantaris | genotype: HSA-GFP | treatment: 72 hours MOV | batch: 1",GSE319289,,13 day,day,GSM9514892,"Skeletal Muscle, Plantaris",skeletal_muscle,Old MOV1
+1.857,"tissue: Skeletal Muscle, Plantaris | genotype: HSA-GFP | treatment: 72 hours MOV | batch: 1",GSE319289,,13 day,day,GSM9514893,"Skeletal Muscle, Plantaris",skeletal_muscle,Old MOV2
+1.857,"tissue: Skeletal Muscle, Plantaris | genotype: HSA-GFP | treatment: 72 hours MOV | batch: 1",GSE319289,,13 day,day,GSM9514894,"Skeletal Muscle, Plantaris",skeletal_muscle,Old MOV3
+1.857,"tissue: Skeletal Muscle, Plantaris | genotype: HSA-GFP | treatment: 72 hours MOV | batch: 1",GSE319289,,13 day,day,GSM9514895,"Skeletal Muscle, Plantaris",skeletal_muscle,Old MOV4
+1.857,"tissue: Skeletal Muscle, Plantaris | genotype: HSA-GFP | treatment: 72 hours MOV | batch: 1",GSE319289,,13 day,day,GSM9514896,"Skeletal Muscle, Plantaris",skeletal_muscle,Old MOV5
+1.857,"tissue: Skeletal Muscle, Plantaris | genotype: HSA-GFP | treatment: 72 hours MOV | batch: 1",GSE319289,,13 day,day,GSM9514897,"Skeletal Muscle, Plantaris",skeletal_muscle,Old MOV6
+1.857,"tissue: Skeletal Muscle, Plantaris | genotype: HSA-GFP | treatment: 72 hours MOV | batch: 1",GSE319289,,13 day,day,GSM9514898,"Skeletal Muscle, Plantaris",skeletal_muscle,Old MOV7
+1.857,"tissue: Skeletal Muscle, Plantaris | genotype: HSA-GFP | treatment: 72 hours Sham | batch: 1",GSE319289,,13 day,day,GSM9514899,"Skeletal Muscle, Plantaris",skeletal_muscle,Old Sham1
+1.857,"tissue: Skeletal Muscle, Plantaris | genotype: HSA-GFP | treatment: 72 hours Sham | batch: 1",GSE319289,,13 day,day,GSM9514900,"Skeletal Muscle, Plantaris",skeletal_muscle,Old Sham2
+1.857,"tissue: Skeletal Muscle, Plantaris | genotype: HSA-GFP | treatment: 72 hours Sham | batch: 1",GSE319289,,13 day,day,GSM9514901,"Skeletal Muscle, Plantaris",skeletal_muscle,Old Sham3
+1.857,"tissue: Skeletal Muscle, Plantaris | genotype: HSA-GFP | treatment: 72 hours Sham | batch: 1",GSE319289,,13 day,day,GSM9514902,"Skeletal Muscle, Plantaris",skeletal_muscle,Old Sham4
+1.857,"tissue: Skeletal Muscle, Plantaris | genotype: HSA-GFP | treatment: 72 hours Sham | batch: 1",GSE319289,,13 day,day,GSM9514903,"Skeletal Muscle, Plantaris",skeletal_muscle,Old Sham5
+1.857,"tissue: Skeletal Muscle, Plantaris | genotype: HSA-GFP | treatment: 72 hours Sham | batch: 1",GSE319289,,13 day,day,GSM9514904,"Skeletal Muscle, Plantaris",skeletal_muscle,Old Sham6
+1.857,"tissue: Skeletal Muscle, Plantaris | genotype: HSA-GFP | treatment: 72 hours Sham | batch: 1",GSE319289,,13 day,day,GSM9514905,"Skeletal Muscle, Plantaris",skeletal_muscle,Old Sham7
+1.857,"tissue: Skeletal Muscle, Plantaris | genotype: HSA-GFP | treatment: 72 hours MOV | batch: 1",GSE319289,,13 day,day,GSM9514906,"Skeletal Muscle, Plantaris",skeletal_muscle,Young MOV1
+1.857,"tissue: Skeletal Muscle, Plantaris | genotype: HSA-GFP | treatment: 72 hours MOV | batch: 1",GSE319289,,13 day,day,GSM9514907,"Skeletal Muscle, Plantaris",skeletal_muscle,Young MOV2
+1.857,"tissue: Skeletal Muscle, Plantaris | genotype: HSA-GFP | treatment: 72 hours MOV | batch: 1",GSE319289,,13 day,day,GSM9514908,"Skeletal Muscle, Plantaris",skeletal_muscle,Young MOV3
+1.857,"tissue: Skeletal Muscle, Plantaris | genotype: HSA-GFP | treatment: 72 hours MOV | batch: 1",GSE319289,,13 day,day,GSM9514909,"Skeletal Muscle, Plantaris",skeletal_muscle,Young MOV4
+1.857,"tissue: Skeletal Muscle, Plantaris | genotype: HSA-GFP | treatment: 72 hours MOV | batch: 1",GSE319289,,13 day,day,GSM9514910,"Skeletal Muscle, Plantaris",skeletal_muscle,Young MOV5
+1.857,"tissue: Skeletal Muscle, Plantaris | genotype: HSA-GFP | treatment: 72 hours MOV | batch: 1",GSE319289,,13 day,day,GSM9514911,"Skeletal Muscle, Plantaris",skeletal_muscle,Young MOV6
+1.857,"tissue: Skeletal Muscle, Plantaris | genotype: HSA-GFP | treatment: 72 hours Sham | batch: 1",GSE319289,,13 day,day,GSM9514912,"Skeletal Muscle, Plantaris",skeletal_muscle,Young Sham1
+1.857,"tissue: Skeletal Muscle, Plantaris | genotype: HSA-GFP | treatment: 72 hours Sham | batch: 1",GSE319289,,13 day,day,GSM9514913,"Skeletal Muscle, Plantaris",skeletal_muscle,Young Sham2
+1.857,"tissue: Skeletal Muscle, Plantaris | genotype: HSA-GFP | treatment: 72 hours Sham | batch: 1",GSE319289,,13 day,day,GSM9514914,"Skeletal Muscle, Plantaris",skeletal_muscle,Young Sham3
+1.857,"tissue: Skeletal Muscle, Plantaris | genotype: HSA-GFP | treatment: 72 hours Sham | batch: 1",GSE319289,,13 day,day,GSM9514915,"Skeletal Muscle, Plantaris",skeletal_muscle,Young Sham4
+1.857,"tissue: Skeletal Muscle, Plantaris | genotype: HSA-GFP | treatment: 72 hours Sham | batch: 1",GSE319289,,13 day,day,GSM9514916,"Skeletal Muscle, Plantaris",skeletal_muscle,Young Sham5
+1.857,"tissue: Skeletal Muscle, Plantaris | genotype: HSA-GFP | treatment: 72 hours Sham | batch: 1",GSE319289,,13 day,day,GSM9514917,"Skeletal Muscle, Plantaris",skeletal_muscle,Young Sham6
+8.0,"tissue: Skeletal Muscle, Plantaris | genotype: miR-1 fl/fl | treatment: 5 days tamoxifen IP, 8 weeks washout | batch: 2",GSE319289,,8 weeks,weeks,GSM9514918,"Skeletal Muscle, Plantaris",skeletal_muscle,miR-1 CON 1
+8.0,"tissue: Skeletal Muscle, Plantaris | genotype: HSA-MCM-miR-1fl/fl | treatment: 5 days tamoxifen IP, 8 weeks washout | batch: 2",GSE319289,genetic,8 weeks,weeks,GSM9514919,"Skeletal Muscle, Plantaris",skeletal_muscle,miR-1 KO 1
+8.0,"tissue: Skeletal Muscle, Plantaris | genotype: miR-1 fl/fl | treatment: 5 days tamoxifen IP, 8 weeks washout | batch: 2",GSE319289,,8 weeks,weeks,GSM9514920,"Skeletal Muscle, Plantaris",skeletal_muscle,miR-1 CON 2
+8.0,"tissue: Skeletal Muscle, Plantaris | genotype: HSA-MCM-miR-1fl/fl | treatment: 5 days tamoxifen IP, 8 weeks washout | batch: 2",GSE319289,genetic,8 weeks,weeks,GSM9514921,"Skeletal Muscle, Plantaris",skeletal_muscle,miR-1 KO 2
+8.0,"tissue: Skeletal Muscle, Plantaris | genotype: miR-1 fl/fl | treatment: 5 days tamoxifen IP, 8 weeks washout | batch: 2",GSE319289,,8 weeks,weeks,GSM9514922,"Skeletal Muscle, Plantaris",skeletal_muscle,miR-1 CON 3
+8.0,"tissue: Skeletal Muscle, Plantaris | genotype: HSA-MCM-miR-1fl/fl | treatment: 5 days tamoxifen IP, 8 weeks washout | batch: 2",GSE319289,genetic,8 weeks,weeks,GSM9514923,"Skeletal Muscle, Plantaris",skeletal_muscle,miR-1 KO 3
+1.857,"tissue: Plantaris, myonuclei | genotype: HSA-GFP | treatment: 72 hour Sham | batch: 1",GSE319289,,13 day,day,GSM9514924,"Plantaris, myonuclei",skeletal_muscle,YSH1_GFP
+1.857,"tissue: Plantaris, myonuclei | genotype: HSA-GFP | treatment: 72 hour Sham | batch: 1",GSE319289,,13 day,day,GSM9514925,"Plantaris, myonuclei",skeletal_muscle,YSH2_GFP
+1.857,"tissue: Plantaris, myonuclei | genotype: HSA-GFP | treatment: 72 hour Sham | batch: 1",GSE319289,,13 day,day,GSM9514926,"Plantaris, myonuclei",skeletal_muscle,YSH3_GFP
+1.857,"tissue: Plantaris, myonuclei | genotype: HSA-GFP | treatment: 72 Hour MOV | batch: 1",GSE319289,,13 day,day,GSM9514927,"Plantaris, myonuclei",skeletal_muscle,YOV4_GFP
+1.857,"tissue: Plantaris, myonuclei | genotype: HSA-GFP | treatment: 72 Hour MOV | batch: 1",GSE319289,,13 day,day,GSM9514928,"Plantaris, myonuclei",skeletal_muscle,YOV5_GFP
+1.857,"tissue: Plantaris, myonuclei | genotype: HSA-GFP | treatment: 72 Hour MOV | batch: 1",GSE319289,,13 day,day,GSM9514929,"Plantaris, myonuclei",skeletal_muscle,YOV6_GFP
+1.857,"tissue: Plantaris, myonuclei | genotype: HSA-GFP | treatment: 72 Hour MOV | batch: 1",GSE319289,,13 day,day,GSM9514930,"Plantaris, myonuclei",skeletal_muscle,YOV7_GFP
+1.857,"tissue: Plantaris, myonuclei | genotype: HSA-GFP | treatment: 72 hour Sham | batch: 1",GSE319289,,13 day,day,GSM9514931,"Plantaris, myonuclei",skeletal_muscle,OSH4_GFP
+1.857,"tissue: Plantaris, myonuclei | genotype: HSA-GFP | treatment: 72 hour Sham | batch: 1",GSE319289,,13 day,day,GSM9514932,"Plantaris, myonuclei",skeletal_muscle,OSH5_GFP
+1.857,"tissue: Plantaris, myonuclei | genotype: HSA-GFP | treatment: 72 hour Sham | batch: 1",GSE319289,,13 day,day,GSM9514933,"Plantaris, myonuclei",skeletal_muscle,OSH7_GFP
+1.857,"tissue: Plantaris, myonuclei | genotype: HSA-GFP | treatment: 72 Hour MOV | batch: 1",GSE319289,,13 day,day,GSM9514934,"Plantaris, myonuclei",skeletal_muscle,OOV4_GFP
+1.857,"tissue: Plantaris, myonuclei | genotype: HSA-GFP | treatment: 72 Hour MOV | batch: 1",GSE319289,,13 day,day,GSM9514935,"Plantaris, myonuclei",skeletal_muscle,OOV6_GFP
+1.857,"tissue: Plantaris, myonuclei | genotype: HSA-GFP | treatment: 72 Hour MOV | batch: 2",GSE319289,,13 day,day,GSM9514936,"Plantaris, myonuclei",skeletal_muscle,OOV5_GFP_2
+1.857,"tissue: Plantaris, myonuclei | genotype: HSA-GFP | treatment: 72 hour Sham | batch: 1",GSE319289,,13 day,day,GSM9514937,"Plantaris, myonuclei",skeletal_muscle,Young Sham 1
+1.857,"tissue: Plantaris, myonuclei | genotype: HSA-GFP | treatment: 72 Hour MOV | batch: 1",GSE319289,,13 day,day,GSM9514938,"Plantaris, myonuclei",skeletal_muscle,Young MOV 1
+1.857,"tissue: Plantaris, myonuclei | genotype: HSA-GFP | treatment: 72 hour Sham | batch: 1",GSE319289,,13 day,day,GSM9514939,"Plantaris, myonuclei",skeletal_muscle,Old Sham 1
+1.857,"tissue: Plantaris, myonuclei | genotype: HSA-GFP | treatment: 72 Hour MOV | batch: 1",GSE319289,,13 day,day,GSM9514940,"Plantaris, myonuclei",skeletal_muscle,Old MOV 1
+78.223,strain: C57BL6/J | tissue: Small intestinal crypts | gender: f | age: 18m,GSE129712,,age: 18m,m,GSM3720735,crypt_f_18m,intestine,crypt_f_18m_rep1 (RRBS)
+78.223,strain: C57BL6/J | tissue: Small intestinal crypts | gender: f | age: 18m,GSE129712,,age: 18m,m,GSM3720736,crypt_f_18m,intestine,crypt_f_18m_rep2 (RRBS)
+78.223,strain: C57BL6/J | tissue: Small intestinal crypts | gender: f | age: 18m,GSE129712,,age: 18m,m,GSM3720737,crypt_f_18m,intestine,crypt_f_18m_rep3 (RRBS)
+78.223,strain: C57BL6/J | tissue: Small intestinal crypts | gender: f | age: 18m,GSE129712,,age: 18m,m,GSM3720738,crypt_f_18m,intestine,crypt_f_18m_rep4 (RRBS)
+112.989,strain: C57BL6/J | tissue: Small intestinal crypts | gender: f | age: 26m,GSE129712,,age: 26m,m,GSM3720739,crypt_f_26m,intestine,crypt_f_26m_rep1 (RRBS)
+112.989,strain: C57BL6/J | tissue: Small intestinal crypts | gender: f | age: 26m,GSE129712,,age: 26m,m,GSM3720740,crypt_f_26m,intestine,crypt_f_26m_rep2 (RRBS)
+112.989,strain: C57BL6/J | tissue: Small intestinal crypts | gender: f | age: 26m,GSE129712,,age: 26m,m,GSM3720741,crypt_f_26m,intestine,crypt_f_26m_rep3 (RRBS)
+112.989,strain: C57BL6/J | tissue: Small intestinal crypts | gender: f | age: 26m,GSE129712,,age: 26m,m,GSM3720742,crypt_f_26m,intestine,crypt_f_26m_rep4 (RRBS)
+8.691,strain: C57BL6/J | tissue: Small intestinal crypts | gender: f | age: 2m,GSE129712,,age: 2m,m,GSM3720743,crypt_f_2m,intestine,crypt_f_2m_rep1 (RRBS)
+8.691,strain: C57BL6/J | tissue: Small intestinal crypts | gender: f | age: 2m,GSE129712,,age: 2m,m,GSM3720744,crypt_f_2m,intestine,crypt_f_2m_rep2 (RRBS)
+8.691,strain: C57BL6/J | tissue: Small intestinal crypts | gender: f | age: 2m,GSE129712,,age: 2m,m,GSM3720745,crypt_f_2m,intestine,crypt_f_2m_rep3 (RRBS)
+8.691,strain: C57BL6/J | tissue: Small intestinal crypts | gender: f | age: 2m,GSE129712,,age: 2m,m,GSM3720746,crypt_f_2m,intestine,crypt_f_2m_rep4 (RRBS)
+78.223,strain: C57BL6/J | tissue: Small intestinal crypts | gender: m | age: 18m,GSE129712,,age: 18m,m,GSM3720747,crypt_m_18m,intestine,crypt_m_18m_rep1 (RRBS)
+78.223,strain: C57BL6/J | tissue: Small intestinal crypts | gender: m | age: 18m,GSE129712,,age: 18m,m,GSM3720748,crypt_m_18m,intestine,crypt_m_18m_rep2 (RRBS)
+78.223,strain: C57BL6/J | tissue: Small intestinal crypts | gender: m | age: 18m,GSE129712,,age: 18m,m,GSM3720749,crypt_m_18m,intestine,crypt_m_18m_rep3 (RRBS)
+78.223,strain: C57BL6/J | tissue: Small intestinal crypts | gender: m | age: 18m,GSE129712,,age: 18m,m,GSM3720750,crypt_m_18m,intestine,crypt_m_18m_rep4 (RRBS)
+112.989,strain: C57BL6/J | tissue: Small intestinal crypts | gender: m | age: 26m,GSE129712,,age: 26m,m,GSM3720751,crypt_m_26m,intestine,crypt_m_26m_rep1 (RRBS)
+112.989,strain: C57BL6/J | tissue: Small intestinal crypts | gender: m | age: 26m,GSE129712,,age: 26m,m,GSM3720752,crypt_m_26m,intestine,crypt_m_26m_rep2 (RRBS)
+112.989,strain: C57BL6/J | tissue: Small intestinal crypts | gender: m | age: 26m,GSE129712,,age: 26m,m,GSM3720753,crypt_m_26m,intestine,crypt_m_26m_rep3 (RRBS)
+112.989,strain: C57BL6/J | tissue: Small intestinal crypts | gender: m | age: 26m,GSE129712,,age: 26m,m,GSM3720754,crypt_m_26m,intestine,crypt_m_26m_rep4 (RRBS)
+8.691,strain: C57BL6/J | tissue: Small intestinal crypts | gender: m | age: 2m,GSE129712,,age: 2m,m,GSM3720755,crypt_m_2m,intestine,crypt_m_2m_rep1 (RRBS)
+8.691,strain: C57BL6/J | tissue: Small intestinal crypts | gender: m | age: 2m,GSE129712,,age: 2m,m,GSM3720756,crypt_m_2m,intestine,crypt_m_2m_rep2 (RRBS)
+8.691,strain: C57BL6/J | tissue: Small intestinal crypts | gender: m | age: 2m,GSE129712,,age: 2m,m,GSM3720757,crypt_m_2m,intestine,crypt_m_2m_rep3 (RRBS)
+8.691,strain: C57BL6/J | tissue: Small intestinal crypts | gender: m | age: 2m,GSE129712,,age: 2m,m,GSM3720758,crypt_m_2m,intestine,crypt_m_2m_rep4 (RRBS)
+13.037,tissue: skin | strain: C57BL/6J | genotype: 4F | treatment: untreated | age at_time_of_sample_collection: 3 months,GSE231658,reprogramming,3 months,months,GSM7295273,skin,,Young_Skin_Control_1
+13.037,tissue: skin | strain: C57BL/6J | genotype: 4F | treatment: untreated | age at_time_of_sample_collection: 3 months,GSE231658,reprogramming,3 months,months,GSM7295274,skin,,Young_Skin_Control_3
+13.037,tissue: skin | strain: C57BL/6J | genotype: 4F | treatment: untreated | age at_time_of_sample_collection: 3 months,GSE231658,reprogramming,3 months,months,GSM7295275,skin,,Young_Skin_Control_4
+95.606,tissue: skin | strain: C57BL/6J | genotype: 4F | treatment: untreated | age at_time_of_sample_collection: 22 months,GSE231658,reprogramming,22 months,months,GSM7295276,skin,,Old_Skin_Control_5760
+95.606,tissue: skin | strain: C57BL/6J | genotype: 4F | treatment: untreated | age at_time_of_sample_collection: 22 months,GSE231658,reprogramming,22 months,months,GSM7295277,skin,,Old_Skin_Control_5761
+95.606,tissue: skin | strain: C57BL/6J | genotype: 4F | treatment: untreated | age at_time_of_sample_collection: 22 months,GSE231658,reprogramming,22 months,months,GSM7295278,skin,,Old_Skin_Control_5762
+95.606,tissue: skin | strain: C57BL/6J | genotype: 4F | treatment: untreated | age at_time_of_sample_collection: 22 months,GSE231658,reprogramming,22 months,months,GSM7295279,skin,,Old_Skin_Control_5764
+95.606,tissue: skin | strain: C57BL/6J | genotype: 4F | treatment: 7 months of cyclic partial reprogramming via doxycicline treatment starting at 15 months until 22 months of age | age at_time_of_sample_collection: 22 months,GSE231658,reprogramming,22 months,months,GSM7295280,skin,,Old_Skin_Dox_253
+95.606,tissue: skin | strain: C57BL/6J | genotype: 4F | treatment: 7 months of cyclic partial reprogramming via doxycicline treatment starting at 15 months until 22 months of age | age at_time_of_sample_collection: 22 months,GSE231658,reprogramming,22 months,months,GSM7295281,skin,,Old_Skin_Dox_284
+95.606,tissue: skin | strain: C57BL/6J | genotype: 4F | treatment: 7 months of cyclic partial reprogramming via doxycicline treatment starting at 15 months until 22 months of age | age at_time_of_sample_collection: 22 months,GSE231658,reprogramming,22 months,months,GSM7295282,skin,,Old_Skin_Dox_285
+95.606,tissue: skin | strain: C57BL/6J | genotype: 4F | treatment: 7 months of cyclic partial reprogramming via doxycicline treatment starting at 15 months until 22 months of age | age at_time_of_sample_collection: 22 months,GSE231658,reprogramming,22 months,months,GSM7295283,skin,,Old_Skin_Dox_288
+95.606,tissue: skin | strain: C57BL/6J | genotype: 4F | treatment: 7 months of cyclic partial reprogramming via doxycicline treatment starting at 15 months until 22 months of age | age at_time_of_sample_collection: 22 months,GSE231658,reprogramming,22 months,months,GSM7295284,skin,,Old_Skin_Dox_904
+13.037,tissue: Tail epidermis | strain: C57BL/6 | age at_time_of_collection: 3 months | batch: 11/11/2024,GSE231658,,3 months,months,GSM8800284,Tail epidermis,,"Young tail epidermis, biol rep 1"
+13.037,tissue: Tail epidermis | strain: C57BL/6 | age at_time_of_collection: 3 months | batch: 11/11/2024,GSE231658,,3 months,months,GSM8800285,Tail epidermis,,"Young tail epidermis, biol rep 2"
+13.037,tissue: Tail epidermis | strain: C57BL/6 | age at_time_of_collection: 3 months | batch: 11/11/2024,GSE231658,,3 months,months,GSM8800286,Tail epidermis,,"Young tail epidermis, biol rep 3"
+13.037,tissue: Tail epidermis | strain: C57BL/6 | age at_time_of_collection: 3 months | batch: 11/11/2024,GSE231658,,3 months,months,GSM8800287,Tail epidermis,,"Young tail epidermis, biol rep 4"
+13.037,tissue: Tail epidermis | strain: C57BL/6 | age at_time_of_collection: 3 months | batch: 11/11/2024,GSE231658,,3 months,months,GSM8800288,Tail epidermis,,"Young tail epidermis, biol rep 5"
+95.606,tissue: Tail epidermis | strain: C57BL/6 | age at_time_of_collection: 22 months | batch: 11/11/2024,GSE231658,,22 months,months,GSM8800289,Tail epidermis,,"Old tail epidermis, biol rep 1"
+95.606,tissue: Tail epidermis | strain: C57BL/6 | age at_time_of_collection: 22 months | batch: 11/11/2024,GSE231658,,22 months,months,GSM8800290,Tail epidermis,,"Old tail epidermis, biol rep 2"
+95.606,tissue: Tail epidermis | strain: C57BL/6 | age at_time_of_collection: 22 months | batch: 11/11/2024,GSE231658,,22 months,months,GSM8800291,Tail epidermis,,"Old tail epidermis, biol rep 3"
+95.606,tissue: Tail epidermis | strain: C57BL/6 | age at_time_of_collection: 22 months | batch: 11/11/2024,GSE231658,,22 months,months,GSM8800292,Tail epidermis,,"Old tail epidermis, biol rep 4"
+95.606,tissue: Tail epidermis | strain: C57BL/6 | age at_time_of_collection: 22 months | batch: 11/11/2024,GSE231658,,22 months,months,GSM8800293,Tail epidermis,,"Old tail epidermis, biol rep 5"
+20.0,cell type: Tregcells(CD4+CD25+Foxp3-YFP+) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8257423,Tregcells(CD4+CD25+Foxp3-YFP+),,SplenocyteTreg_WGEM-seq_25ng_01
+20.0,cell type: Tregcells(CD4+CD25+Foxp3-YFP+) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8257424,Tregcells(CD4+CD25+Foxp3-YFP+),,SplenocyteTreg_WGEM-seq_25ng_02
+20.0,cell type: Tregcells(CD4+CD25+Foxp3-YFP+) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8257425,Tregcells(CD4+CD25+Foxp3-YFP+),,SplenocyteTreg_RRBS_25ng_01
+20.0,cell type: Tregcells(CD4+CD25+Foxp3-YFP+) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8257426,Tregcells(CD4+CD25+Foxp3-YFP+),,SplenocyteTreg_RRBS_25ng_02
+20.0,cell type: Tregcells(CD4+CD25+Foxp3-YFP+) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8257427,Tregcells(CD4+CD25+Foxp3-YFP+),,SplenocyteTreg_RREM-seq_25ng_01
+20.0,cell type: Tregcells(CD4+CD25+Foxp3-YFP+) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8257428,Tregcells(CD4+CD25+Foxp3-YFP+),,SplenocyteTreg_RREM-seq_25ng_02
+20.0,cell type: Tregcells(CD4+CD25+Foxp3-YFP+) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8257429,Tregcells(CD4+CD25+Foxp3-YFP+),,SplenocyteTreg_RREM-seq_2ng_01
+20.0,cell type: Tregcells(CD4+CD25+Foxp3-YFP+) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8257430,Tregcells(CD4+CD25+Foxp3-YFP+),,SplenocyteTreg_RREM-seq_2ng_02
+20.0,cell type: Tconvcells(CD4+Foxp3YFP-) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8257433,Tconvcells(CD4+Foxp3YFP-),,SplenocyteTconv_WGEM-seq_25ng_01
+20.0,cell type: Tconvcells(CD4+Foxp3YFP-) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8257434,Tconvcells(CD4+Foxp3YFP-),,SplenocyteTconv_WGEM-seq_25ng_02
+20.0,cell type: Tconvcells(CD4+Foxp3YFP-) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8257435,Tconvcells(CD4+Foxp3YFP-),,SplenocyteTconv_RRBS_25ng_01
+20.0,cell type: Tconvcells(CD4+Foxp3YFP-) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8257436,Tconvcells(CD4+Foxp3YFP-),,SplenocyteTconv_RRBS_25ng_02
+20.0,cell type: Tconvcells(CD4+Foxp3YFP-) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8257437,Tconvcells(CD4+Foxp3YFP-),,SplenocyteTconv_RREM-seq_25ng_01
+20.0,cell type: Tconvcells(CD4+Foxp3YFP-) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8257438,Tconvcells(CD4+Foxp3YFP-),,SplenocyteTconv_RREM-seq_25ng_02
+20.0,cell type: Tconvcells(CD4+Foxp3YFP-) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8257439,Tconvcells(CD4+Foxp3YFP-),,SplenocyteTconv_RREM-seq_2ng_01
+20.0,cell type: Tconvcells(CD4+Foxp3YFP-) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8257440,Tconvcells(CD4+Foxp3YFP-),,SplenocyteTconv_RREM-seq_2ng_02
+,cell type: Tconv cells(CD4+) | disease state: severe SARS-CoV-2 pneumonia,GSE266961,,,,GSM8257441,Tconv cells(CD4+),,Patient1_Alveolar_Tconv
+,cell type: Treg cells (CD4+CD127lowCD25+) | disease state: severe SARS-CoV-2 pneumonia,GSE266961,,,,GSM8257442,Treg cells (CD4+CD127lowCD25+),,Patient1_Alveolar_Treg
+,cell type: Tconv cells(CD4+) | disease state: severe SARS-CoV-2 pneumonia,GSE266961,,,,GSM8257443,Tconv cells(CD4+),,Patient2_Alveolar_Tconv
+,cell type: Treg cells (CD4+CD127lowCD25+) | disease state: severe SARS-CoV-2 pneumonia,GSE266961,,,,GSM8257444,Treg cells (CD4+CD127lowCD25+),,Patient2_Alveolar_Treg
+,cell type: Tconv cells(CD4+) | disease state: severe SARS-CoV-2 pneumonia,GSE266961,,,,GSM8257445,Tconv cells(CD4+),,Patient3_Alveolar_Tconv
+,cell type: Treg cells (CD4+CD127lowCD25+) | disease state: severe SARS-CoV-2 pneumonia,GSE266961,,,,GSM8257446,Treg cells (CD4+CD127lowCD25+),,Patient3_Alveolar_Treg
+,cell type: Tconv cells(CD4+) | disease state: severe SARS-CoV-2 pneumonia,GSE266961,,,,GSM8257447,Tconv cells(CD4+),,Patient4_Alveolar_Tconv
+,cell type: Treg cells (CD4+CD127lowCD25+) | disease state: severe SARS-CoV-2 pneumonia,GSE266961,,,,GSM8257448,Treg cells (CD4+CD127lowCD25+),,Patient4_Alveolar_Treg
+,cell type: Tconv cells(CD4+) | disease state: severe SARS-CoV-2 pneumonia,GSE266961,,,,GSM8257449,Tconv cells(CD4+),,Patient5_Alveolar_Tconv
+,cell type: Treg cells (CD4+CD127lowCD25+) | disease state: severe SARS-CoV-2 pneumonia,GSE266961,,,,GSM8257450,Treg cells (CD4+CD127lowCD25+),,Patient5_Alveolar_Treg
+,cell type: Tconv cells(CD4+) | disease state: severe SARS-CoV-2 pneumonia,GSE266961,,,,GSM8257451,Tconv cells(CD4+),,Patient6_Alveolar_Tconv
+,cell type: Treg cells (CD4+CD127lowCD25+) | disease state: severe SARS-CoV-2 pneumonia,GSE266961,,,,GSM8257452,Treg cells (CD4+CD127lowCD25+),,Patient6_Alveolar_Treg
+,cell type: Tconv cells(CD4+) | disease state: severe SARS-CoV-2 pneumonia,GSE266961,,,,GSM8257453,Tconv cells(CD4+),,Patient7_Alveolar_Tconv
+,cell type: Treg cells (CD4+CD127lowCD25+) | disease state: severe SARS-CoV-2 pneumonia,GSE266961,,,,GSM8257454,Treg cells (CD4+CD127lowCD25+),,Patient7_Alveolar_Treg
+20.0,cell type: Tconv cells (CD4+Foxp3YFP-) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8767989,Splenic Treg cells from 18-20 week-old healthy mice,,SplenocyteTconv_WGBS_25ng_01
+20.0,cell type: Tconv cells (CD4+Foxp3YFP-) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8767990,Splenic Treg cells from 18-20 week-old healthy mice,,SplenocyteTconv_WGBS_25ng_02
+20.0,cell type: Tconv cells (CD4+Foxp3YFP-) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8767991,Splenic Treg cells from 18-20 week-old healthy mice,,SplenocyteTconv_WGBS_25ng_03
+20.0,cell type: Tconv cells (CD4+Foxp3YFP-) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8767992,Splenic Treg cells from 18-20 week-old healthy mice,,SplenocyteTconv_WGBS_25ng_04
+20.0,cell type: Tconv cells (CD4+Foxp3YFP-) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8767993,Splenic Treg cells from 18-20 week-old healthy mice,,SplenocyteTconv_WGBS_25ng_05
+20.0,cell type: Tconv cells (CD4+Foxp3YFP-) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8767994,Splenic Treg cells from 18-20 week-old healthy mice,,SplenocyteTconv_WGEM-seq_25ng_03
+20.0,cell type: Tconv cells (CD4+Foxp3YFP-) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8767995,Splenic Treg cells from 18-20 week-old healthy mice,,SplenocyteTconv_WGEM-seq_25ng_04
+20.0,cell type: Tconv cells (CD4+Foxp3YFP-) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8767996,Splenic Treg cells from 18-20 week-old healthy mice,,SplenocyteTconv_WGEM-seq_25ng_05
+20.0,cell type: Tconv cells (CD4+Foxp3YFP-) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8767997,Splenic Treg cells from 18-20 week-old healthy mice,,SplenocyteTconv_WGEM-seq_2ng_01
+20.0,cell type: Tconv cells (CD4+Foxp3YFP-) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8767998,Splenic Treg cells from 18-20 week-old healthy mice,,SplenocyteTconv_WGEM-seq_2ng_02
+20.0,cell type: Tconv cells (CD4+Foxp3YFP-) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8767999,Splenic Treg cells from 18-20 week-old healthy mice,,SplenocyteTconv_WGEM-seq_2ng_03
+20.0,cell type: Tconv cells (CD4+Foxp3YFP-) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8768000,Splenic Treg cells from 18-20 week-old healthy mice,,SplenocyteTconv_WGEM-seq_2ng_04
+20.0,cell type: Tconv cells (CD4+Foxp3YFP-) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8768001,Splenic Treg cells from 18-20 week-old healthy mice,,SplenocyteTconv_WGEM-seq_2ng_05
+20.0,cell type: Tconv cells (CD4+Foxp3YFP-) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8768002,Splenic Treg cells from 18-20 week-old healthy mice,,SplenocyteTconv_RRBS_25ng_03
+20.0,cell type: Tconv cells (CD4+Foxp3YFP-) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8768003,Splenic Treg cells from 18-20 week-old healthy mice,,SplenocyteTconv_RRBS_25ng_04
+20.0,cell type: Tconv cells (CD4+Foxp3YFP-) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8768004,Splenic Treg cells from 18-20 week-old healthy mice,,SplenocyteTconv_RRBS_25ng_05
+20.0,cell type: Tconv cells (CD4+Foxp3YFP-) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8768005,Splenic Treg cells from 18-20 week-old healthy mice,,SplenocyteTconv_RREM-seq_25ng_03
+20.0,cell type: Tconv cells (CD4+Foxp3YFP-) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8768006,Splenic Treg cells from 18-20 week-old healthy mice,,SplenocyteTconv_RREM-seq_25ng_04
+20.0,cell type: Tconv cells (CD4+Foxp3YFP-) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8768007,Splenic Treg cells from 18-20 week-old healthy mice,,SplenocyteTconv_RREM-seq_25ng_05
+20.0,cell type: Tconv cells (CD4+Foxp3YFP-) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8768008,Splenic Treg cells from 18-20 week-old healthy mice,,SplenocyteTconv_RREM-seq_2ng_03
+20.0,cell type: Tconv cells (CD4+Foxp3YFP-) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8768009,Splenic Treg cells from 18-20 week-old healthy mice,,SplenocyteTconv_RREM-seq_2ng_04
+20.0,cell type: Tconv cells (CD4+Foxp3YFP-) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8768010,Splenic Treg cells from 18-20 week-old healthy mice,,SplenocyteTconv_RREM-seq_2ng_05
+20.0,cell type: Treg cells (CD4+CD25+Foxp3-YFP+) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8768011,Splenic Tconv cells from 18-20 week-old healthy mice,,SplenocyteTreg_WGBS_25ng_01
+20.0,cell type: Treg cells (CD4+CD25+Foxp3-YFP+) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8768012,Splenic Tconv cells from 18-20 week-old healthy mice,,SplenocyteTreg_WGBS_25ng_02
+20.0,cell type: Treg cells (CD4+CD25+Foxp3-YFP+) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8768013,Splenic Tconv cells from 18-20 week-old healthy mice,,SplenocyteTreg_WGBS_25ng_03
+20.0,cell type: Treg cells (CD4+CD25+Foxp3-YFP+) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8768014,Splenic Tconv cells from 18-20 week-old healthy mice,,SplenocyteTreg_WGBS_25ng_04
+20.0,cell type: Treg cells (CD4+CD25+Foxp3-YFP+) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8768015,Splenic Tconv cells from 18-20 week-old healthy mice,,SplenocyteTreg_WGBS_25ng_05
+20.0,cell type: Treg cells (CD4+CD25+Foxp3-YFP+) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8768016,Splenic Tconv cells from 18-20 week-old healthy mice,,SplenocyteTreg_WGEM-seq_25ng_03
+20.0,cell type: Treg cells (CD4+CD25+Foxp3-YFP+) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8768017,Splenic Tconv cells from 18-20 week-old healthy mice,,SplenocyteTreg_WGEM-seq_25ng_04
+20.0,cell type: Treg cells (CD4+CD25+Foxp3-YFP+) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8768018,Splenic Tconv cells from 18-20 week-old healthy mice,,SplenocyteTreg_WGEM-seq_25ng_05
+20.0,cell type: Treg cells (CD4+CD25+Foxp3-YFP+) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8768019,Splenic Tconv cells from 18-20 week-old healthy mice,,SplenocyteTreg_WGEM-seq_2ng_01
+20.0,cell type: Treg cells (CD4+CD25+Foxp3-YFP+) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8768020,Splenic Tconv cells from 18-20 week-old healthy mice,,SplenocyteTreg_WGEM-seq_2ng_02
+20.0,cell type: Treg cells (CD4+CD25+Foxp3-YFP+) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8768021,Splenic Tconv cells from 18-20 week-old healthy mice,,SplenocyteTreg_WGEM-seq_2ng_03
+20.0,cell type: Treg cells (CD4+CD25+Foxp3-YFP+) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8768022,Splenic Tconv cells from 18-20 week-old healthy mice,,SplenocyteTreg_WGEM-seq_2ng_04
+20.0,cell type: Treg cells (CD4+CD25+Foxp3-YFP+) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8768023,Splenic Tconv cells from 18-20 week-old healthy mice,,SplenocyteTreg_WGEM-seq_2ng_05
+20.0,cell type: Treg cells (CD4+CD25+Foxp3-YFP+) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8768024,Splenic Tconv cells from 18-20 week-old healthy mice,,SplenocyteTreg_RRBS_25ng_03
+20.0,cell type: Treg cells (CD4+CD25+Foxp3-YFP+) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8768025,Splenic Tconv cells from 18-20 week-old healthy mice,,SplenocyteTreg_RRBS_25ng_04
+20.0,cell type: Treg cells (CD4+CD25+Foxp3-YFP+) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8768026,Splenic Tconv cells from 18-20 week-old healthy mice,,SplenocyteTreg_RRBS_25ng_05
+20.0,cell type: Treg cells (CD4+CD25+Foxp3-YFP+) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8768027,Splenic Tconv cells from 18-20 week-old healthy mice,,SplenocyteTreg_RREM-seq_25ng_03
+20.0,cell type: Treg cells (CD4+CD25+Foxp3-YFP+) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8768028,Splenic Tconv cells from 18-20 week-old healthy mice,,SplenocyteTreg_RREM-seq_25ng_04
+20.0,cell type: Treg cells (CD4+CD25+Foxp3-YFP+) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8768029,Splenic Tconv cells from 18-20 week-old healthy mice,,SplenocyteTreg_RREM-seq_25ng_05
+20.0,cell type: Treg cells (CD4+CD25+Foxp3-YFP+) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8768030,Splenic Tconv cells from 18-20 week-old healthy mice,,SplenocyteTreg_RREM-seq_2ng_03
+20.0,cell type: Treg cells (CD4+CD25+Foxp3-YFP+) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8768031,Splenic Tconv cells from 18-20 week-old healthy mice,,SplenocyteTreg_RREM-seq_2ng_04
+20.0,cell type: Treg cells (CD4+CD25+Foxp3-YFP+) | genotype: Foxp3YFP-Cre,GSE266961,,20 week,week,GSM8768032,Splenic Tconv cells from 18-20 week-old healthy mice,,SplenocyteTreg_RREM-seq_2ng_05
+,cell type: Hepatocytes | genotype: WT | age: Young | strain: C57BL/6J | dob: 10/5/2020 | cull date: 3/16/2021 | Sex: Male,GSE313655,,,,GSM9371862,Hepatocytes,,Young Sample 1
+,cell type: Hepatocytes | genotype: WT | age: Old | strain: C57BL/6J | dob: 2/1/2019 | cull date: 3/16/2021 | Sex: Male,GSE313655,,,,GSM9371863,Hepatocytes,,Old Sample 1
+,cell type: Hepatocytes | genotype: WT | age: Old | strain: C57BL/6J | dob: 2/1/2019 | cull date: 3/16/2021 | Sex: Male,GSE313655,,,,GSM9371864,Hepatocytes,,Old Sample 2
+,cell type: Hepatocytes | genotype: WT | age: Young | strain: C57BL/6J | dob: 10/5/2020 | cull date: 3/16/2021 | Sex: Male,GSE313655,,,,GSM9371865,Hepatocytes,,Young Sample 2
+,cell type: Hepatocytes | genotype: WT | age: Young | strain: C57BL/6J | dob: 10/5/2020 | cull date: 3/16/2021 | Sex: Male,GSE313655,,,,GSM9371866,Hepatocytes,,Young Sample 3
+,cell type: Hepatocytes | genotype: WT | age: Old | strain: C57BL/6J | dob: 2/1/2019 | cull date: 3/16/2021 | Sex: Male,GSE313655,,,,GSM9371867,Hepatocytes,,Old Sample 3
+,cell type: Hepatocytes | genotype: WT | age: Young | strain: C57BL/6J | dob: 10/5/2020 | cull date: 3/16/2021 | Sex: Male,GSE313655,,,,GSM9371868,Hepatocytes,,Young Sample 4
+,cell type: Hepatocytes | genotype: WT | age: Old | strain: C57BL/6J | dob: 2/1/2019 | cull date: 3/16/2021 | Sex: Male,GSE313655,,,,GSM9371869,Hepatocytes,,Old Sample 4
+,cell type: Hepatocytes | genotype: WT | age: Young | strain: C57BL/6J | dob: 5/6/2020 | cull date: 10/14/2020 | Sex: Male,GSE313655,,,,GSM9371870,Hepatocytes,,Young Sample 5
+,cell type: Hepatocytes | genotype: WT | age: Old | strain: C57BL/6J | dob: 9/18/2018 | cull date: 10/14/2020 | Sex: Male,GSE313655,,,,GSM9371871,Hepatocytes,,Old Sample 5
+17.383,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,4 month,month,GSM6590383,Lower Small Intestine Epithelium,intestine,4 month LSI_GFP-_A
+17.383,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,4 month,month,GSM6590384,Lower Small Intestine Epithelium,intestine,4 month LSI_GFP-_B
+17.383,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,4 month,month,GSM6590385,Lower Small Intestine Epithelium,intestine,4 month LSI_GFP+_A
+17.383,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,4 month,month,GSM6590386,Lower Small Intestine Epithelium,intestine,4 month LSI_GFP+_B
+17.383,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,4 month,month,GSM6590387,Upper Small Intestine Epithelium,intestine,4 month USI_GFP-_A
+17.383,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,4 month,month,GSM6590388,Upper Small Intestine Epithelium,intestine,4 month USI_GFP-_B
+,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,,,GSM6590389,Upper Small Intestine Epithelium,intestine,4 monthUSI_GFP+_A
+17.383,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,4 month,month,GSM6590390,Upper Small Intestine Epithelium,intestine,4 month USI_GFP+_B
+17.383,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,4 month,month,GSM6590391,Colon Epithelium,intestine,4 month COL_GFP-_A
+17.383,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,4 month,month,GSM6590392,Colon Epithelium,intestine,4 month COL_GFP-_B
+17.383,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,4 month,month,GSM6590393,Colon Epithelium,intestine,4 month COL_GFP+_A
+17.383,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,4 month,month,GSM6590394,Colon Epithelium,intestine,4 month COL_GFP+_B
+52.149,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,12 month,month,GSM6590395,Lower Small Intestine Epithelium,intestine,12 month LSI_GFP-_A
+52.149,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,12 month,month,GSM6590396,Lower Small Intestine Epithelium,intestine,12 month LSI_GFP-_B
+52.149,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,12 month,month,GSM6590397,Upper Small Intestine Epithelium,intestine,12 month USI_GFP-_A
+52.149,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,12 month,month,GSM6590398,Upper Small Intestine Epithelium,intestine,12 month USI_GFP-_B
+52.149,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,12 month,month,GSM6590399,Colon Epithelium,intestine,12 month COL_GFP-_A
+52.149,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,12 month,month,GSM6590400,Colon Epithelium,intestine,12 month COL_GFP-_B
+52.149,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,12 month,month,GSM6590401,Colon Epithelium,intestine,12 month COL_GFP+_A
+52.149,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,12 month,month,GSM6590402,Colon Epithelium,intestine,12 month COL_GFP+_B
+78.223,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,18 month,month,GSM6590403,Lower Small Intestine Epithelium,intestine,18 month LSI_GFP-_A
+78.223,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,18 month,month,GSM6590404,Lower Small Intestine Epithelium,intestine,18 month LSI_GFP-_B
+78.223,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,18 month,month,GSM6590405,Lower Small Intestine Epithelium,intestine,18 month LSI_GFP+_A
+78.223,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,18 month,month,GSM6590406,Lower Small Intestine Epithelium,intestine,18 month LSI_GFP+_B
+78.223,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,18 month,month,GSM6590407,Upper Small Intestine Epithelium,intestine,18 month USI_GFP-_A
+78.223,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,18 month,month,GSM6590408,Upper Small Intestine Epithelium,intestine,18 month USI_GFP-_B
+,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,,,GSM6590409,Upper Small Intestine Epithelium,intestine,18 monthUSI_GFP+_A
+78.223,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,18 month,month,GSM6590410,Upper Small Intestine Epithelium,intestine,18 month USI_GFP+_B
+78.223,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,18 month,month,GSM6590411,Colon Epithelium,intestine,18 month COL_GFP-_A
+78.223,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,18 month,month,GSM6590412,Colon Epithelium,intestine,18 month COL_GFP-_B
+78.223,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,18 month,month,GSM6590413,Colon Epithelium,intestine,18 month COL_GFP+_A
+78.223,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,18 month,month,GSM6590414,Colon Epithelium,intestine,18 month COL_GFP+_B
+104.297,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590415,Lower Small Intestine Epithelium,intestine,24 month LSI_GFP-_A
+104.297,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590416,Lower Small Intestine Epithelium,intestine,24 month LSI_GFP-_B
+104.297,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590417,Lower Small Intestine Epithelium,intestine,24 month LSI_GFP+_A
+104.297,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590418,Lower Small Intestine Epithelium,intestine,24 month LSI_GFP+_B
+104.297,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590419,Upper Small Intestine Epithelium,intestine,24 month USI_GFP-_A
+104.297,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590420,Upper Small Intestine Epithelium,intestine,24 month USI_GFP-_B
+,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,,,GSM6590421,Upper Small Intestine Epithelium,intestine,24 monthUSI_GFP+_A
+104.297,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590422,Upper Small Intestine Epithelium,intestine,24 month USI_GFP+_B
+104.297,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590423,Colon Epithelium,intestine,24 month COL_GFP-_A
+104.297,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590424,Colon Epithelium,intestine,24 month COL_GFP-_B
+104.297,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590425,Colon Epithelium,intestine,24 month COL_GFP+_A
+104.297,cell type: Intestine epithelial cells | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590426,Colon Epithelium,intestine,24 month COL_GFP+_B
+17.383,cell type: Whole Blood | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,4 month,month,GSM6590427,Whole Blood,blood,4 month whole blood_A
+17.383,cell type: Whole Blood | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,4 month,month,GSM6590428,Whole Blood,blood,4 month whole blood_B
+17.383,cell type: Whole Blood | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,4 month,month,GSM6590429,Whole Blood,blood,4 month whole blood_C
+52.149,cell type: Whole Blood | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,12 month,month,GSM6590430,Whole Blood,blood,12 month whole blood_A
+52.149,cell type: Whole Blood | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,12 month,month,GSM6590431,Whole Blood,blood,12 month whole blood_B
+52.149,cell type: Whole Blood | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,12 month,month,GSM6590432,Whole Blood,blood,12 month whole blood_C
+104.297,cell type: Whole Blood | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590433,Whole Blood,blood,24 month whole blood_A
+104.297,cell type: Whole Blood | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590434,Whole Blood,blood,24 month whole blood_B
+104.297,cell type: Whole Blood | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590435,Whole Blood,blood,24 month whole blood_C
+104.297,cell type: Whole Blood | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590436,Whole Blood,blood,24 month whole blood_D
+17.383,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,4 month,month,GSM6590437,Heart,heart,4 month Heart_A
+17.383,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,4 month,month,GSM6590438,Heart,heart,4 month Heart_B
+17.383,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,4 month,month,GSM6590439,Heart,heart,4 month Heart_C
+17.383,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,4 month,month,GSM6590440,Heart,heart,4 month Heart_D
+17.383,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,4 month,month,GSM6590441,Heart,heart,4 month Heart_E
+17.383,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,4 month,month,GSM6590442,Heart,heart,4 month Heart_F
+52.149,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,12 month,month,GSM6590443,Heart,heart,12 month Heart_A
+52.149,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,12 month,month,GSM6590444,Heart,heart,12 month Heart_B
+52.149,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,12 month,month,GSM6590445,Heart,heart,12 month Heart_C
+52.149,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,12 month,month,GSM6590446,Heart,heart,12 month Heart_D
+52.149,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,12 month,month,GSM6590447,Heart,heart,12 month Heart_E
+52.149,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,12 month,month,GSM6590448,Heart,heart,12 month Heart_F
+104.297,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590449,Heart,heart,24 month Heart_A
+104.297,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590450,Heart,heart,24 month Heart_B
+104.297,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590451,Heart,heart,24 month Heart_C
+104.297,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590452,Heart,heart,24 month Heart_D
+104.297,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590453,Heart,heart,24 month Heart_E
+104.297,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590454,Heart,heart,24 month Heart_F
+108.643,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,25 month,month,GSM6590455,Heart,heart,25 month Heart_G
+112.989,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,26 month,month,GSM6590456,Heart,heart,26 month Heart_H
+117.334,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,27 month,month,GSM6590457,Heart,heart,27 month Heart_I
+121.68,cell type: Heart | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,28 month,month,GSM6590458,Heart,heart,28 month Heart_J
+17.383,cell type: Kidney | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,4 month,month,GSM6590459,Kidney,kidney,4 month Kidney_A
+17.383,cell type: Kidney | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,4 month,month,GSM6590460,Kidney,kidney,4 month Kidney_B
+17.383,cell type: Kidney | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,4 month,month,GSM6590461,Kidney,kidney,4 month Kidney_C
+52.149,cell type: Kidney | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,12 month,month,GSM6590462,Kidney,kidney,12 month Kidney_A
+52.149,cell type: Kidney | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,12 month,month,GSM6590463,Kidney,kidney,12 month Kidney_B
+52.149,cell type: Kidney | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,12 month,month,GSM6590464,Kidney,kidney,12 month Kidney_C
+104.297,cell type: Kidney | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590465,Kidney,kidney,24 month Kidney_A
+104.297,cell type: Kidney | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590466,Kidney,kidney,24 month Kidney_B
+104.297,cell type: Kidney | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590467,Kidney,kidney,24 month Kidney_C
+104.297,cell type: Kidney | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590468,Kidney,kidney,24 month Kidney_D
+17.383,cell type: Liver | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,4 month,month,GSM6590469,Liver,liver,4 month Liver_A
+17.383,cell type: Liver | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,4 month,month,GSM6590470,Liver,liver,4 month Liver_B
+52.149,cell type: Liver | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,12 month,month,GSM6590471,Liver,liver,12 month Liver_A
+52.149,cell type: Liver | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,12 month,month,GSM6590472,Liver,liver,12 month Liver_B
+104.297,cell type: Liver | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590473,Liver,liver,24 month Liver_A
+104.297,cell type: Liver | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590474,Liver,liver,24 month Liver_B
+17.383,cell type: Lung | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,4 month,month,GSM6590475,Lung,lung,4 month Lung_A
+17.383,cell type: Lung | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,4 month,month,GSM6590476,Lung,lung,4 month Lung_B
+52.149,cell type: Lung | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,12 month,month,GSM6590477,Lung,lung,12 month Lung_A
+52.149,cell type: Lung | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,12 month,month,GSM6590478,Lung,lung,12 month Lung_B
+104.297,cell type: Lung | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590479,Lung,lung,24 month Lung_A
+104.297,cell type: Lung | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590480,Lung,lung,24 month Lung_B
+17.383,cell type: Skeletal muscle | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,4 month,month,GSM6590481,Skeletal muscle,skeletal_muscle,4 month Skeletal muscle_A
+17.383,cell type: Skeletal muscle | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,4 month,month,GSM6590482,Skeletal muscle,skeletal_muscle,4 month Skeletal muscle_B
+52.149,cell type: Skeletal muscle | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,12 month,month,GSM6590483,Skeletal muscle,skeletal_muscle,12 month Skeletal muscle_A
+52.149,cell type: Skeletal muscle | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,12 month,month,GSM6590484,Skeletal muscle,skeletal_muscle,12 month Skeletal muscle_B
+104.297,cell type: Skeletal muscle | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590485,Skeletal muscle,skeletal_muscle,24 month Skeletal muscle_A
+104.297,cell type: Skeletal muscle | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590486,Skeletal muscle,skeletal_muscle,24 month Skeletal muscle_B
+17.383,cell type: Spleen | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,4 month,month,GSM6590487,Spleen,spleen,4 month Spleen_A
+17.383,cell type: Spleen | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,4 month,month,GSM6590488,Spleen,spleen,4 month Spleen_B
+17.383,cell type: Spleen | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,4 month,month,GSM6590489,Spleen,spleen,4 month Spleen_C
+17.383,cell type: Spleen | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,4 month,month,GSM6590490,Spleen,spleen,4 month Spleen_D
+17.383,cell type: Spleen | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,4 month,month,GSM6590491,Spleen,spleen,4 month Spleen_E
+52.149,cell type: Spleen | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,12 month,month,GSM6590492,Spleen,spleen,12 month Spleen_A
+52.149,cell type: Spleen | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,12 month,month,GSM6590493,Spleen,spleen,12 month Spleen_B
+52.149,cell type: Spleen | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,12 month,month,GSM6590494,Spleen,spleen,12 month Spleen_C
+52.149,cell type: Spleen | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,12 month,month,GSM6590495,Spleen,spleen,12 month Spleen_D
+52.149,cell type: Spleen | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,12 month,month,GSM6590496,Spleen,spleen,12 month Spleent_E
+104.297,cell type: Spleen | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590497,Spleen,spleen,24 month Spleen_A
+104.297,cell type: Spleen | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590498,Spleen,spleen,24 month Spleen_B
+104.297,cell type: Spleen | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590499,Spleen,spleen,24 month Spleen_C
+104.297,cell type: Spleen | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590500,Spleen,spleen,24 month Spleen_D
+104.297,cell type: Spleen | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590501,Spleen,spleen,24 month Spleen_E
+104.297,cell type: Spleen | strain: Lgr5-FP-IRES-CreERT2,GSE213723,,24 month,month,GSM6590502,Spleen,spleen,24 month Spleen_F
+52.149,cell type: Intestine epithelial cells | strain: Lgr5-EGFP-IRES-CreERT2,GSE213723,,12mo,mo,GSM6592552,Colon Epithelium,intestine,COL_12mo_A
+52.149,cell type: Intestine epithelial cells | strain: Lgr5-EGFP-IRES-CreERT2,GSE213723,,12mo,mo,GSM6592553,Colon Epithelium,intestine,COL_12mo_B
+52.149,cell type: Intestine epithelial cells | strain: Lgr5-EGFP-IRES-CreERT2,GSE213723,,12mo,mo,GSM6592554,Colon Epithelium,intestine,COL_12mo_C
+104.297,cell type: Intestine epithelial cells | strain: Lgr5-EGFP-IRES-CreERT2,GSE213723,,24mo,mo,GSM6592555,Colon Epithelium,intestine,COL_24mo_A
+104.297,cell type: Intestine epithelial cells | strain: Lgr5-EGFP-IRES-CreERT2,GSE213723,,24mo,mo,GSM6592556,Colon Epithelium,intestine,COL_24mo_B
+17.383,cell type: Intestine epithelial cells | strain: Lgr5-EGFP-IRES-CreERT2,GSE213723,,4mo,mo,GSM6592557,Colon Epithelium,intestine,COL_4mo_A
+17.383,cell type: Intestine epithelial cells | strain: Lgr5-EGFP-IRES-CreERT2,GSE213723,,4mo,mo,GSM6592558,Colon Epithelium,intestine,COL_4mo_B
+17.383,cell type: Intestine epithelial cells | strain: Lgr5-EGFP-IRES-CreERT2,GSE213723,,4mo,mo,GSM6592559,Colon Epithelium,intestine,COL_4mo_C
+52.149,cell type: Intestine epithelial cells | strain: Lgr5-EGFP-IRES-CreERT2,GSE213723,,12mo,mo,GSM6592560,Lower Small Intestine Epithelium,intestine,LSI_12mo_A
+52.149,cell type: Intestine epithelial cells | strain: Lgr5-EGFP-IRES-CreERT2,GSE213723,,12mo,mo,GSM6592561,Lower Small Intestine Epithelium,intestine,LSI_12mo_B
+52.149,cell type: Intestine epithelial cells | strain: Lgr5-EGFP-IRES-CreERT2,GSE213723,,12mo,mo,GSM6592562,Lower Small Intestine Epithelium,intestine,LSI_12mo_C
+104.297,cell type: Intestine epithelial cells | strain: Lgr5-EGFP-IRES-CreERT2,GSE213723,,24mo,mo,GSM6592563,Lower Small Intestine Epithelium,intestine,LSI_24mo_A
+104.297,cell type: Intestine epithelial cells | strain: Lgr5-EGFP-IRES-CreERT2,GSE213723,,24mo,mo,GSM6592564,Lower Small Intestine Epithelium,intestine,LSI_24mo_B
+17.383,cell type: Intestine epithelial cells | strain: Lgr5-EGFP-IRES-CreERT2,GSE213723,,4mo,mo,GSM6592565,Lower Small Intestine Epithelium,intestine,LSI_4mo_A
+17.383,cell type: Intestine epithelial cells | strain: Lgr5-EGFP-IRES-CreERT2,GSE213723,,4mo,mo,GSM6592566,Lower Small Intestine Epithelium,intestine,LSI_4mo_B
+17.383,cell type: Intestine epithelial cells | strain: Lgr5-EGFP-IRES-CreERT2,GSE213723,,4mo,mo,GSM6592567,Lower Small Intestine Epithelium,intestine,LSI_4mo_C
+52.149,cell type: Intestine epithelial cells | strain: Lgr5-EGFP-IRES-CreERT2,GSE213723,,12mo,mo,GSM6592568,Upper Small Intestine Epithelium,intestine,USI_12mo_A
+52.149,cell type: Intestine epithelial cells | strain: Lgr5-EGFP-IRES-CreERT2,GSE213723,,12mo,mo,GSM6592569,Upper Small Intestine Epithelium,intestine,USI_12mo_B
+52.149,cell type: Intestine epithelial cells | strain: Lgr5-EGFP-IRES-CreERT2,GSE213723,,12mo,mo,GSM6592570,Upper Small Intestine Epithelium,intestine,USI_12mo_C
+104.297,cell type: Intestine epithelial cells | strain: Lgr5-EGFP-IRES-CreERT2,GSE213723,,24mo,mo,GSM6592571,Upper Small Intestine Epithelium,intestine,USI_24mo_A
+104.297,cell type: Intestine epithelial cells | strain: Lgr5-EGFP-IRES-CreERT2,GSE213723,,24mo,mo,GSM6592572,Upper Small Intestine Epithelium,intestine,USI_24mo_B
+17.383,cell type: Intestine epithelial cells | strain: Lgr5-EGFP-IRES-CreERT2,GSE213723,,4mo,mo,GSM6592573,Upper Small Intestine Epithelium,intestine,USI_4mo_A
+17.383,cell type: Intestine epithelial cells | strain: Lgr5-EGFP-IRES-CreERT2,GSE213723,,4mo,mo,GSM6592574,Upper Small Intestine Epithelium,intestine,USI_4mo_B
+17.383,cell type: Intestine epithelial cells | strain: Lgr5-EGFP-IRES-CreERT2,GSE213723,,4mo,mo,GSM6592575,Upper Small Intestine Epithelium,intestine,USI_4mo_C
+,tissue: Brain hipocampus | genotype: Mtr KO,GSE312263,genetic,,,GSM9342204,Brain hipocampus,brain,"RRBS hippocampus, Mtr-cKO, biological replicate 1"
+,tissue: Brain hipocampus | genotype: Mtr KO,GSE312263,genetic,,,GSM9342205,Brain hipocampus,brain,"RRBS hippocampus, Mtr-cKO, biological replicate 2"
+,tissue: Brain hipocampus | genotype: wild-type,GSE312263,,,,GSM9342206,Brain hipocampus,brain,"RRBS hippocampus, WT, biological replicate 1"
+,tissue: Brain hipocampus | genotype: Mtr KO,GSE312263,genetic,,,GSM9342207,Brain hipocampus,brain,"RRBS hippocampus, Mtr-cKO, biological replicate 3"
+,tissue: Brain hipocampus | genotype: Mtr KO,GSE312263,genetic,,,GSM9342208,Brain hipocampus,brain,"RRBS hippocampus, Mtr-cKO, biological replicate 4"
+,tissue: Brain hipocampus | genotype: wild-type,GSE312263,,,,GSM9342209,Brain hipocampus,brain,"RRBS hippocampus, WT, biological replicate 2"
+,tissue: Brain hipocampus | genotype: wild-type,GSE312263,,,,GSM9342210,Brain hipocampus,brain,"RRBS hippocampus, WT, biological replicate 3"
+,tissue: Brain hipocampus | genotype: Mtr KO,GSE312263,genetic,,,GSM9342211,Brain hipocampus,brain,"RRBS hippocampus, Mtr-cKO, biological replicate 5"
+,tissue: Brain hipocampus | genotype: wild-type,GSE312263,,,,GSM9342212,Brain hipocampus,brain,"RRBS hippocampus, WT, biological replicate 4"
+,tissue: Brain hipocampus | genotype: wild-type,GSE312263,,,,GSM9342213,Brain hipocampus,brain,"RRBS hippocampus, WT, biological replicate 5"
+,tissue: Brain hipocampus | genotype: Mtr KO,GSE312263,genetic,,,GSM9342214,Brain hipocampus,brain,"RRBS hippocampus, Mtr-cKO, biological replicate 6"
+,tissue: Brain hipocampus | genotype: wild-type,GSE312263,,,,GSM9342215,Brain hipocampus,brain,"RRBS hippocampus, WT, biological replicate 6"

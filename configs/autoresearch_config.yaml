@@ -1,0 +1,12 @@
+# Autoresearch Loop Configuration
+primary_metric: composite_score
+# composite_score = pearson_r * 0.6 + cr_auc * 0.3 + (1 / mae_weeks) * 0.1
+composite_weights:
+  pearson_r: 0.6
+  cr_detection_auc: 0.3
+  mae_weeks_inv: 0.1   # 1 / mae_weeks
+maximize: true
+budget_seconds: 1800   # 30 min per experiment on cloud GPU
+n_iterations: 30
+results_tsv: results/autoresearch_log/results.tsv
+git_dir: /home/zdq-as/mouse_methyl_work

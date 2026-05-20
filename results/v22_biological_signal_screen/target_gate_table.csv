@@ -1,0 +1,8 @@
+target_id,target_kind,status,reason,n_samples,n_classes,classes,n_datasets,n_tissues
+age_weeks,regression,passed,target passed sample and group gates,1219,,,6,13
+sex_binary,binary,passed,target passed sample and class gates,1037,2.0,F;M,4,11
+tissue_multiclass,multiclass,passed,target passed sample and class gates,1193,10.0,adipose;blood;brain_cortex;heart;intestine;kidney;liver;lung;muscle;spleen,6,10
+cr_vs_control,binary,passed,target passed sample and class gates,255,2.0,control;CR,1,2
+gse52266_hfd_vs_control,binary,skipped,n_samples=0 < min_total=30,0,2.0,control;diet_high_fat,0,0
+old_castration_vs_control,binary,passed,target passed sample and class gates,20,2.0,old_castration_control;old_castration,1,1
+condition_family_multiclass,multiclass,passed,target passed sample and class gates,141,7.0,normal;old_castration;old_castration_control;testosterone_+_castration;vehicle_+_castration;young_castrated;young_control_castrated,1,4

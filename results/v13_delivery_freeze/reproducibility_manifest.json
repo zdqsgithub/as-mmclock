@@ -1,0 +1,279 @@
+{
+  "commands": [
+    "uv venv .venv-core",
+    "VIRTUAL_ENV=.venv-core uv pip install -r requirements-core.txt",
+    "VIRTUAL_ENV=.venv-core uv run --active python scripts/validate/run_v12_1_redefined_benchmark.py",
+    "VIRTUAL_ENV=.venv-core uv run --active python scripts/validate/run_v13_strategy_decision.py",
+    "VIRTUAL_ENV=.venv-core uv run --active python scripts/validate/run_v13_delivery_freeze.py",
+    "VIRTUAL_ENV=.venv-core uv run --active python scripts/validate/test_v13_delivery_contracts.py"
+  ],
+  "decision": {
+    "autoresearch_authorized": false,
+    "decision_reason": "support_covered_metrics_outperform_unsupported_stress_metrics",
+    "raw_fastq_download_authorized": false,
+    "selected_route": "route_c_accept_redefined_benchmark",
+    "training_authorized": false
+  },
+  "delivery_tests": {
+    "created_at": "2026-05-19T08:54:22+08:00",
+    "error_details": [],
+    "errors": 0,
+    "failure_details": [],
+    "failures": 0,
+    "status": "passed",
+    "tests_run": 6
+  },
+  "dependency_files": {
+    "compatibility_entrypoint": "requirements.txt",
+    "core_delivery_default": "requirements-core.txt",
+    "full_training_or_historical": "requirements-full.txt",
+    "visualization_optional": "requirements-viz.txt"
+  },
+  "input_artifacts": [
+    {
+      "exists": true,
+      "path": "requirements.txt",
+      "role": "environment_input",
+      "sha256": "6a2285e2dc9e588f5a88fc27d28e8ed06a6ae993cb455423109ee9fe9cb89f9c",
+      "size_bytes": 25
+    },
+    {
+      "exists": true,
+      "path": "requirements-core.txt",
+      "role": "environment_input_core",
+      "sha256": "19b614a078e648837ea8e270f0ac345201b9b3a137b34233c6f3d039633870ae",
+      "size_bytes": 68
+    },
+    {
+      "exists": true,
+      "path": "requirements-viz.txt",
+      "role": "environment_input_viz",
+      "sha256": "435bd71d5896bcb5a3b42a2b1e2996ddc75eaa78b5f35449d5638c68f8971d23",
+      "size_bytes": 42
+    },
+    {
+      "exists": true,
+      "path": "requirements-full.txt",
+      "role": "environment_input_full",
+      "sha256": "9219f0d2a41232bdec3cd750d7bee96440aabccf16b686b55cffb40d7b43488d",
+      "size_bytes": 109
+    },
+    {
+      "exists": true,
+      "path": "scripts/validate/run_v12_1_redefined_benchmark.py",
+      "role": "reproduction_script",
+      "sha256": "e9e59bf4c52d64f02292d9c3e74c260698befac37a6e81047049d69f2378c531",
+      "size_bytes": 26739
+    },
+    {
+      "exists": true,
+      "path": "scripts/validate/run_v13_strategy_decision.py",
+      "role": "reproduction_script",
+      "sha256": "7d09baf52935cbeedf5046877f64c0b6ad976ea117a319a70d85d1eac761234a",
+      "size_bytes": 10855
+    },
+    {
+      "exists": true,
+      "path": "scripts/validate/run_v13_delivery_freeze.py",
+      "role": "delivery_script",
+      "sha256": "1938052083f9869974479cd877c3aa47b4df2dc1ba204389ce182e252566f182",
+      "size_bytes": 13442
+    },
+    {
+      "exists": true,
+      "path": "scripts/validate/test_v13_delivery_contracts.py",
+      "role": "delivery_test",
+      "sha256": "bfc0f785fef5f03b66f976d353293abfa020331a1fdc67318400b5edd0105751",
+      "size_bytes": 5022
+    },
+    {
+      "exists": true,
+      "path": "results/benchmark_v12_1_redefined/v12_1_redefined_benchmark_state.json",
+      "role": "v12_1_state",
+      "sha256": "d7c7bd7dedae6036ed7d1d66ea76830e3e8357de9e16383ebc021af8cf289fc3",
+      "size_bytes": 1251
+    },
+    {
+      "exists": true,
+      "path": "results/benchmark_v12_1_redefined/support_covered_headline_metrics.json",
+      "role": "v12_1_metric",
+      "sha256": "3b1ef25d96156e9544547298d345ca8052184e7df2ea85a501e6104619bc5783",
+      "size_bytes": 200
+    },
+    {
+      "exists": true,
+      "path": "results/benchmark_v12_1_redefined/unsupported_stress_test_metrics.json",
+      "role": "v12_1_metric",
+      "sha256": "10dfc9db2c0912c2500f3e7a50e972017a1bfc00f5058333e65fe608d69f781c",
+      "size_bytes": 201
+    },
+    {
+      "exists": true,
+      "path": "results/benchmark_v12_1_redefined/gse121141_old104_stress_metrics.json",
+      "role": "v12_1_metric",
+      "sha256": "fe80c836d45aa7d772f95834d883933311ce96de5e5cb8654f70dd06ca9e21cc",
+      "size_bytes": 196
+    },
+    {
+      "exists": true,
+      "path": "results/benchmark_v12_1_redefined/gse80672_cr_redefined_metrics.json",
+      "role": "v12_1_metric",
+      "sha256": "d602a87044ae136e2227c520a29395bd8821aecce82826601302a4af536323c7",
+      "size_bytes": 14193
+    },
+    {
+      "exists": true,
+      "path": "results/benchmark_v12_1_redefined/prediction_support_annotations.csv",
+      "role": "v12_1_annotation",
+      "sha256": "e5cad495e9d20bbe9c836866ff8418019c9fa79bbeba09c6cb190a884de116e3",
+      "size_bytes": 9796362
+    },
+    {
+      "exists": true,
+      "path": "results/benchmark_v12_1_redefined/redefined_benchmark_summary.csv",
+      "role": "v12_1_summary",
+      "sha256": "0f3286f77f7f79f86785cfadf10305d1b0a105c5c691b2993acafa961eb371de",
+      "size_bytes": 51379
+    },
+    {
+      "exists": true,
+      "path": "results/ralph_v13_strategy/v13_route_decision_state.json",
+      "role": "v13_decision",
+      "sha256": "21723f96873fd46479744eaf0763e10df18082a746ac02b2c1b1b847031d234c",
+      "size_bytes": 1647
+    },
+    {
+      "exists": true,
+      "path": "results/ralph_v13_strategy/v13_route_table.csv",
+      "role": "v13_decision",
+      "sha256": "ec210eb46b595ebe1be990e59139e94025dfd98d63826b5f73e17ce4c9da1aa9",
+      "size_bytes": 626
+    },
+    {
+      "exists": true,
+      "path": "results/ralph_v13_strategy/model_scope_statement.md",
+      "role": "v13_scope",
+      "sha256": "57df0936d144a4d70ddc25217ef5f6c1b8ec80014d99435ff876c7a82a796b5d",
+      "size_bytes": 1358
+    },
+    {
+      "exists": true,
+      "path": "results/ralph_v13_strategy/v13_data_strategy_decision_report.md",
+      "role": "v13_report",
+      "sha256": "7b1d878620bd3916d1cf9e7da005e2477146e6c51cbadd14d56350e6dd1a3153",
+      "size_bytes": 1787
+    },
+    {
+      "exists": true,
+      "path": "doc/20_analysis/31_20260519_v12_1_redefined_benchmark_report.md",
+      "role": "analysis_doc",
+      "sha256": "e3a1d955f85431ab0de13580d57752906dc06644fc4879452dc5a9fe36f5a107",
+      "size_bytes": 6974
+    },
+    {
+      "exists": true,
+      "path": "doc/20_analysis/32_20260519_v13_data_strategy_rfc.md",
+      "role": "analysis_doc",
+      "sha256": "bcf8b5ac17ee3c921c8761118581c7fd6e87bd8a84801eefff7114bfc14289a3",
+      "size_bytes": 1367
+    },
+    {
+      "exists": true,
+      "path": "doc/20_analysis/33_20260519_v13_delivery_freeze_report.md",
+      "role": "analysis_doc",
+      "sha256": "01a5db8dcf392b2ad37fc95921799b9598f10f929c6d65a223afdce0c45d90f7",
+      "size_bytes": 4630
+    },
+    {
+      "exists": true,
+      "path": "doc/00_meta/01_20260519_v13_model_card.md",
+      "role": "model_card",
+      "sha256": "641ed7441174baa279e9263cb6ce969c61635bc23a0f00f6d7d07d1171c26c36",
+      "size_bytes": 2681
+    },
+    {
+      "exists": true,
+      "path": "doc/00_meta/02_20260519_project_status_index_v13.md",
+      "role": "project_index",
+      "sha256": "906b87864e8f2dd5be1495b5d0dae6da4af21726e9130503937967f86b1e793d",
+      "size_bytes": 3948
+    },
+    {
+      "exists": true,
+      "path": "doc/30_protocols/04_20260519_route_a_old_tissue_data_generation_rfc_template.md",
+      "role": "route_a_template",
+      "sha256": "50109432a5c6e0fdf3368174bbd2dd9f6f4667d385a2d491994fa63341c9e3e9",
+      "size_bytes": 1925
+    },
+    {
+      "exists": true,
+      "path": "doc/30_protocols/05_20260519_route_b_minimal_fastq_bismark_pilot_rfc_template.md",
+      "role": "route_b_template",
+      "sha256": "1265ab2df75ebedf2d18809abe2697bfe15841a4ba3587467f98205411b2f0a5",
+      "size_bytes": 2006
+    },
+    {
+      "exists": true,
+      "path": "results/v13_delivery_freeze/test_report.json",
+      "role": "delivery_test_output",
+      "sha256": "dd6fb0175809332401e6811be3b5b818df973f090398034aa51fffb32b457761",
+      "size_bytes": 167
+    },
+    {
+      "exists": true,
+      "path": "results/v13_delivery_freeze/test_report.txt",
+      "role": "delivery_test_output",
+      "sha256": "92d01ed348f7158e206c624e3c0b71edccd02d7d85286b5527357db75d57eba3",
+      "size_bytes": 824
+    },
+    {
+      "exists": true,
+      "path": "/home/zdq-as/as-ds-ops/program.md",
+      "role": "project_norm",
+      "sha256": "a40c8dd8f706b48ea1717d23237b4f723d0e55af9aec5a4eb5fc21f74569b608",
+      "size_bytes": 6960
+    }
+  ],
+  "metrics": {
+    "cr_metrics_summary": {
+      "best_cr_detection_auc": 0.8744,
+      "best_source": "results/benchmark_v8_3_ablation/core4_plus_gse213628/02_v74_lgbm_robust_p095_top1000_shift015/groupkfold/predictions.csv",
+      "status": "computed"
+    },
+    "gse121141_old104_stress_metrics": {
+      "bias_weeks": 88.565,
+      "mae_weeks": 88.565,
+      "medae_weeks": 94.452,
+      "n_datasets": 1,
+      "n_samples": 420,
+      "pearson_pval": null,
+      "pearson_r": null,
+      "r2": null,
+      "rmse_weeks": 90.776
+    },
+    "support_covered_headline_metrics": {
+      "bias_weeks": 7.287,
+      "mae_weeks": 20.286,
+      "medae_weeks": 15.389,
+      "n_datasets": 6,
+      "n_samples": 15573,
+      "pearson_pval": 0.0,
+      "pearson_r": 0.5441,
+      "r2": 0.2259,
+      "rmse_weeks": 26.356
+    },
+    "unsupported_stress_test_metrics": {
+      "bias_weeks": 28.766,
+      "mae_weeks": 36.659,
+      "medae_weeks": 33.596,
+      "n_datasets": 5,
+      "n_samples": 7620,
+      "pearson_pval": 0.0,
+      "pearson_r": 0.6435,
+      "r2": -0.0084,
+      "rmse_weeks": 44.475
+    }
+  },
+  "missing_artifacts": [],
+  "status": "completed"
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "dataset": "GSE213628",
+    "supplement_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE213nnn/GSE213628/suppl/GSE213628_RAW.tar",
+    "preferred_processed_file": "GSE213628_RAW.tar",
+    "file_type": "GEO_RAW_TAR_OF_COV",
+    "schema_guess": "bismark_cov_per_sample_tar",
+    "download_priority": 1,
+    "include_in_v6_benchmark": false,
+    "inventory_timestamp_utc": "2026-05-18T01:11:42.615746+00:00",
+    "http_status": 200,
+    "remote_size_bytes": 3260723200,
+    "remote_last_modified": "Wed, 14 Feb 2024 00:30:55 GMT",
+    "available": true,
+    "error": "",
+    "local_path": "/home/zdq-as/mouse_methyl_work/raw_downloads/geo_supplements/GSE213628/GSE213628_RAW.tar",
+    "local_size_bytes": 0,
+    "local_status": "missing",
+    "verified": false
+  }
+]

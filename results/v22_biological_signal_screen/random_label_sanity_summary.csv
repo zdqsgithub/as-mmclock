@@ -1,0 +1,7 @@
+pearson_r,pearson_pval,mae_weeks,rmse_weeks,r2,target_id,target_kind,model_name,preprocess,n_feature_prefilter,min_train_feature_presence,randomize_labels,cv_strategy,n_samples,n_classes,classes,accuracy,balanced_accuracy,macro_f1,roc_auc,average_precision,roc_auc_ovr_macro
+0.0359,0.2103312289572686,32.243,38.032,-0.0661,age_weeks,regression,ridge,standard,500,0.8,True,GroupKFold_dataset_batch,1219,,,,,,,,
+,,,,,sex_binary,binary,logistic,standard,500,0.8,True,GroupKFold_dataset_batch_class_covered,1037,2.0,F;M,0.5805,0.5578,0.5519,0.5391,0.6707,
+,,,,,tissue_multiclass,multiclass,logistic,standard,500,0.8,True,GroupKFold_dataset_batch_class_covered,1193,10.0,adipose;blood;brain_cortex;heart;intestine;kidney;liver;lung;muscle;spleen,0.3034,0.2094,0.1821,,,0.576
+,,,,,cr_vs_control,binary,logistic,standard,500,0.8,True,StratifiedKFold_within_scope,255,2.0,control;CR,0.8588,0.5044,0.4882,0.5353,0.1902,
+,,,,,old_castration_vs_control,binary,logistic,standard,500,0.8,True,StratifiedKFold_within_scope,20,2.0,old_castration_control;old_castration,0.55,0.55,0.5489,0.56,0.5379,
+,,,,,condition_family_multiclass,multiclass,logistic,standard,500,0.8,True,StratifiedKFold_within_scope,141,7.0,normal;old_castration;old_castration_control;testosterone_+_castration;vehicle_+_castration;young_castrated;young_control_castrated,0.5674,0.151,0.1456,,,0.5064

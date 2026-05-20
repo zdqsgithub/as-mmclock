@@ -1,0 +1,9 @@
+dataset,n_samples,n_age_known,age_known_pct,n_fastq_on_disk,tissues,intervention
+GSE120137,549,549,100.0,549,"adipose,blood,kidney,liver,lung,muscle",control
+GSE121141,81,81,100.0,81,"brain_cortex,heart,liver,lung",control
+GSE45361,23,0,0.0,23,"adrenal,liver,unknown",control
+GSE52266,40,40,100.0,40,liver,"control,diet_high_fat"
+GSE60012,173,164,94.8,173,"brain_cerebellum,liver,muscle,spleen","castration,control"
+GSE80672,255,255,100.0,255,"blood,fibroblast","CR,control"
+GSE80761,4,4,100.0,4,liver,control
+GSE93957,62,62,100.0,62,"brain_cortex,heart,liver,lung",control

@@ -1,0 +1,11 @@
+datasets:
+  GSE80672:
+    age_unit_override: months
+    age_unit_source: dataset_override_literature_geo
+    age_unit_note: >
+      GEO SOFT labels the numeric field as age (years), but the sample names
+      and Thompson 2018 integrated Petkovich age distribution are month/day
+      scale. Interpret the numeric age values as months for normalized age.
+    evidence:
+      - https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE80672
+      - https://www.aging-us.com/article/101590/text

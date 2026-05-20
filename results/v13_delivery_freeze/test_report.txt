@@ -1,0 +1,11 @@
+test_core_environment_does_not_include_training_stack (__main__.V13DeliveryContracts.test_core_environment_does_not_include_training_stack) ... ok
+test_cr_metrics_are_real_not_dummy (__main__.V13DeliveryContracts.test_cr_metrics_are_real_not_dummy) ... ok
+test_decision_state_guardrails (__main__.V13DeliveryContracts.test_decision_state_guardrails) ... ok
+test_route_table_selects_only_route_c (__main__.V13DeliveryContracts.test_route_table_selects_only_route_c) ... ok
+test_support_covered_rows_obey_definition (__main__.V13DeliveryContracts.test_support_covered_rows_obey_definition) ... ok
+test_v13_strategy_decision_reproduces_with_uv (__main__.V13DeliveryContracts.test_v13_strategy_decision_reproduces_with_uv) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.158s
+
+OK

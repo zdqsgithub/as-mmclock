@@ -1,0 +1,36 @@
+[project]
+name = "mouse-methyl-work"
+version = "0.20.0"
+description = "Mouse methylation clock training and benchmarking workflows"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.26",
+    "scipy>=1.12",
+    "scikit-learn>=1.4",
+    "pyarrow>=14.0",
+    "fastparquet>=2023.0",
+    "lightgbm>=4.0",
+    "joblib>=1.3",
+]
+
+[project.optional-dependencies]
+viz = [
+    "matplotlib>=3.8",
+    "seaborn>=0.13",
+    "pyyaml>=6.0",
+]
+dl = [
+    "torch==2.5.1",
+]
+
+[tool.uv]
+package = false
+
+[[tool.uv.index]]
+name = "pytorch-cu124"
+url = "https://download.pytorch.org/whl/cu124"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu124" }

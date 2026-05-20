@@ -1,0 +1,30 @@
+{
+  "official_docs": [
+    "https://www.ncbi.nlm.nih.gov/geo/info/download.html",
+    "https://www.ncbi.nlm.nih.gov/geo/info/geo_paccess.html",
+    "https://www.ncbi.nlm.nih.gov/geo/info/soft.html"
+  ],
+  "rows": [
+    {
+      "dataset": "GSE213628",
+      "supplement_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE213nnn/GSE213628/suppl/GSE213628_RAW.tar",
+      "supplement_dir_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE213nnn/GSE213628/suppl/",
+      "preferred_processed_file": "GSE213628_RAW.tar",
+      "schema_guess": "bismark_cov_per_sample_tar",
+      "download_priority": 1,
+      "include_in_v6_benchmark": false,
+      "listed_in_ftp": true,
+      "filelist_type": "TAR",
+      "filelist_size": "3260723200",
+      "filelist_time": "02/13/2024 19:30:55",
+      "preflight_blocker": "",
+      "preflight_timestamp_utc": "2026-05-18T01:11:41.017558+00:00",
+      "http_status": 200,
+      "remote_size_bytes": 3260723200,
+      "remote_last_modified": "Wed, 14 Feb 2024 00:30:55 GMT",
+      "content_type": "application/x-tar",
+      "available": true,
+      "head_error": ""
+    }
+  ]
+}

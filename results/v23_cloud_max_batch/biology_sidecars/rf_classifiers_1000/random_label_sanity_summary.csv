@@ -1,0 +1,6 @@
+accuracy,balanced_accuracy,macro_f1,roc_auc,average_precision,target_id,target_kind,model_name,preprocess,n_feature_prefilter,min_train_feature_presence,randomize_labels,cv_strategy,n_samples,n_classes,classes,roc_auc_ovr_macro
+0.6644,0.5,0.3992,0.4511,0.6412,sex_binary,binary,rf,none,1000,0.8,True,GroupKFold_dataset_batch_class_covered,1037,2,F;M,
+0.2221,0.1491,0.1476,,,tissue_multiclass,multiclass,rf,none,1000,0.8,True,GroupKFold_dataset_batch_class_covered,1193,10,adipose;blood;brain_cortex;heart;intestine;kidney;liver;lung;muscle;spleen,0.6624
+0.8745,0.5,0.4665,0.4951,0.1237,cr_vs_control,binary,rf,none,1000,0.8,True,StratifiedKFold_within_scope,255,2,control;CR,
+0.5,0.5,0.5,0.57,0.6737,old_castration_vs_control,binary,rf,none,1000,0.8,True,StratifiedKFold_within_scope,20,2,old_castration_control;old_castration,
+0.6312,0.1397,0.1106,,,condition_family_multiclass,multiclass,rf,none,1000,0.8,True,StratifiedKFold_within_scope,141,7,normal;old_castration;old_castration_control;testosterone_+_castration;vehicle_+_castration;young_castrated;young_control_castrated,0.5407

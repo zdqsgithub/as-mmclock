@@ -1,0 +1,19 @@
+{
+  "autodl_manifest_only": true,
+  "exec_time_sec": 224.8,
+  "interpretation_guardrail": "target-associated methylation signal; mechanism not inferred",
+  "local_dl_started": false,
+  "matrix": "/root/autodl-tmp/mouse_methyl_work/results/multidataset_v8_3_ablation/all6/all_rrbs_region_matrix_5kb.parquet",
+  "metadata": "/root/autodl-tmp/mouse_methyl_work/metadata/model_sample_metadata_v8.csv",
+  "n_aligned_samples": 1219,
+  "n_benchmark_rows": 5,
+  "n_interpreted_feature_rows": 500,
+  "n_random_label_rows": 5,
+  "n_regions": 65870,
+  "n_selected_feature_rows": 94000,
+  "n_targets": 5,
+  "n_targets_passed": 5,
+  "out_dir": "results/v23_cloud_max_batch/biology_sidecars/lgbm_classifiers_2000",
+  "target_registry": "/root/autodl-tmp/mouse_methyl_work/metadata/v22_biological_signal_targets.csv",
+  "timestamp": "2026-05-20T21:39:17.167341+00:00"
+}

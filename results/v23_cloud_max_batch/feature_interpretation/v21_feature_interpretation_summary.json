@@ -1,0 +1,14 @@
+{
+  "labels": {
+    "cross_tissue_stable": 180,
+    "mixed_or_low_support": 68,
+    "tissue_specific": 2
+  },
+  "matrix": "/root/autodl-tmp/mouse_methyl_work/results/multidataset_v8_3_ablation/all6/all_rrbs_region_matrix_5kb.parquet",
+  "metadata": "/root/autodl-tmp/mouse_methyl_work/metadata/model_sample_metadata_v8.csv",
+  "n_clusters": 208,
+  "n_confounding_audit_rows": 2,
+  "n_regions_interpreted": 250,
+  "n_samples": 1219,
+  "timestamp": "2026-05-20T22:27:43.025445+00:00"
+}

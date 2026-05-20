@@ -1,0 +1,6 @@
+target_id,target_kind,label_column,positive_label,negative_label,dataset_scope,include_values,min_total,min_class_count,min_groups,recommended_local_model,primary_metric,priority,biological_question
+sex_binary,binary,sex,M,F,all,M;F,80,20,2,logistic,balanced_accuracy,auxiliary,Sex-associated methylation signal and sample-label quality control
+tissue_multiclass,multiclass,tissue,,,all_non_unknown,,120,20,2,logistic,balanced_accuracy,auxiliary,Tissue identity signal and tissue confounding map for aging models
+cr_vs_control,binary,intervention,CR,control,GSE80672,CR;control,40,10,1,logistic,roc_auc,primary_aux,Calorie restriction signal and biological-age deceleration proxy in mouse blood
+old_castration_vs_control,binary,condition_family,old_castration,old_castration_control,GSE60012,old_castration;old_castration_control,16,5,1,logistic,roc_auc,exploratory,Adult liver castration or sex-hormone methylation signal
+condition_family_multiclass,multiclass,condition_family,,,GSE60012,,40,6,1,logistic,balanced_accuracy,exploratory,GSE60012 condition-family methylation signal beyond chronological age

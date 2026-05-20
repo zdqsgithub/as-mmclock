@@ -1,0 +1,2 @@
+pearson_r,pearson_pval,mae_weeks,rmse_weeks,r2,target_id,target_kind,model_name,preprocess,n_feature_prefilter,min_train_feature_presence,randomize_labels,cv_strategy,n_samples,n_classes,classes
+0.5704,4.0005478671682023e-106,25.115,32.013,0.2446,age_weeks,regression,lgbm,none,2000,0.8,False,GroupKFold_dataset_batch,1219,,

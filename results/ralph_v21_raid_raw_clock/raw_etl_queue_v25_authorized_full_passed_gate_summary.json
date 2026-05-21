@@ -1,0 +1,20 @@
+{
+  "datasets": {
+    "GSE121141": 7,
+    "GSE80672": 187
+  },
+  "fastq_gib": 2008.904,
+  "interventions": {
+    "GSE121141": {
+      "control": 7
+    },
+    "GSE80672": {
+      "CR": 32,
+      "control": 155
+    }
+  },
+  "n_rows": 194,
+  "policy": "full batch only for datasets with passing raw matrix gate; other local raw datasets require pilot/re-evaluation first",
+  "queue": "results/ralph_v21_raid_raw_clock/raw_etl_queue_v25_authorized_full_passed_gate.csv",
+  "timestamp": "2026-05-21T05:04:56.108031+00:00"
+}

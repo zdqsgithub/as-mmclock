@@ -1,0 +1,21 @@
+run_accession,experiment_title,library_strategy,organism_name,exclude_reason
+SRR1534667,GSM1463824: RRBS_1_Human_Liver_F_Adult_NORMAL; Homo sapiens; Bisulfite-Seq,Bisulfite-Seq,Homo sapiens,not_mouse_rrbs_title_schema
+SRR1534668,GSM1463825: RRBS_2_Human_Liver_F_Adult_NORMAL; Homo sapiens; Bisulfite-Seq,Bisulfite-Seq,Homo sapiens,not_mouse_rrbs_title_schema
+SRR1534669,GSM1463826: RRBS_3_Human_Liver_F_Adult_NORMAL; Homo sapiens; Bisulfite-Seq,Bisulfite-Seq,Homo sapiens,not_mouse_rrbs_title_schema
+SRR1534670,GSM1463827: RRBS_5_Human_Liver_F_Adult_NORMAL; Homo sapiens; Bisulfite-Seq,Bisulfite-Seq,Homo sapiens,not_mouse_rrbs_title_schema
+SRR1534671,GSM1463828: RRBS_6_Human_Liver_F_Adult_NORMAL; Homo sapiens; Bisulfite-Seq,Bisulfite-Seq,Homo sapiens,not_mouse_rrbs_title_schema
+SRR1534672,GSM1463829: RRBS_4_Human_Liver_M_Adult_NORMAL; Homo sapiens; Bisulfite-Seq,Bisulfite-Seq,Homo sapiens,not_mouse_rrbs_title_schema
+SRR1534673,GSM1463830: RRBS_7_Human_Liver_M_Adult_NORMAL; Homo sapiens; Bisulfite-Seq,Bisulfite-Seq,Homo sapiens,not_mouse_rrbs_title_schema
+SRR1534674,GSM1463831: RRBS_8_Human_Liver_M_Adult_NORMAL; Homo sapiens; Bisulfite-Seq,Bisulfite-Seq,Homo sapiens,not_mouse_rrbs_title_schema
+SRR1534675,GSM1463832: RRBS_9_Human_Liver_M_Adult_NORMAL; Homo sapiens; Bisulfite-Seq,Bisulfite-Seq,Homo sapiens,not_mouse_rrbs_title_schema
+SRR1534676,GSM1463833: WGBS_20w_female; Mus musculus; Bisulfite-Seq,Bisulfite-Seq,Mus musculus,not_mouse_rrbs_title_schema
+SRR1534677,GSM1463834: WGBS_3w_male; Mus musculus; Bisulfite-Seq,Bisulfite-Seq,Mus musculus,not_mouse_rrbs_title_schema
+SRR1534678,GSM1463835: WGBS_20w_male; Mus musculus; Bisulfite-Seq,Bisulfite-Seq,Mus musculus,not_mouse_rrbs_title_schema
+SRR1534679,GSM1463836: RNA_1_Mouse_Liver_M_20w_NORMAL; Mus musculus; RNA-Seq,RNA-Seq,Mus musculus,not_mouse_rrbs_title_schema
+SRR1534680,GSM1463837: RNA_2_Mouse_Liver_M_20w_NORMAL; Mus musculus; RNA-Seq,RNA-Seq,Mus musculus,not_mouse_rrbs_title_schema
+SRR1534681,GSM1463838: RNA_3_Mouse_Liver_M_20w_NORMAL; Mus musculus; RNA-Seq,RNA-Seq,Mus musculus,not_mouse_rrbs_title_schema
+SRR1534682,GSM1463839: RNA_4_Mouse_Liver_M_20w_NORMAL; Mus musculus; RNA-Seq,RNA-Seq,Mus musculus,not_mouse_rrbs_title_schema
+SRR1534683,GSM1463840: RNA_1_Mouse_Liver_F_20w_NORMAL; Mus musculus; RNA-Seq,RNA-Seq,Mus musculus,not_mouse_rrbs_title_schema
+SRR1534684,GSM1463841: RNA_2_Mouse_Liver_F_20w_NORMAL; Mus musculus; RNA-Seq,RNA-Seq,Mus musculus,not_mouse_rrbs_title_schema
+SRR1534685,GSM1463842: RNA_3_Mouse_Liver_F_20w_NORMAL; Mus musculus; RNA-Seq,RNA-Seq,Mus musculus,not_mouse_rrbs_title_schema
+SRR1534686,GSM1463843: RNA_4_Mouse_Liver_F_20w_NORMAL; Mus musculus; RNA-Seq,RNA-Seq,Mus musculus,not_mouse_rrbs_title_schema

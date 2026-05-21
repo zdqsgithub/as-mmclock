@@ -1,0 +1,148 @@
+{
+  "notes": [
+    "processed pilot first launch exposed GSE225166 series-level 404 and was stopped",
+    "processed pilot v3 uses sample-level GEO URLs and cleaned generated partial chunks before restart",
+    "raw repair uses ENA direct FASTQ URLs with md5/size validation and resume parts"
+  ],
+  "processed_pilot_download": {
+    "alive": true,
+    "out_dir": "results/v27_data_repair_execution/processed_pilot_download_v3",
+    "pid": 3542266,
+    "state": {
+      "active": [
+        {
+          "dataset": "GSE225166",
+          "finished_at": "",
+          "last_error": "",
+          "retry_count": 0,
+          "row_id": 0,
+          "started_at": "2026-05-21T05:57:44.463469+00:00",
+          "status": "downloading",
+          "supplement_name": "GSM7040610_lane6192_CGATGTTT_M04-20526_3_M_Hind_Muscle_plate1_pool1_iTag2_L001_R1.barcode_removed_val_1_GRCm38_bismark_bt2_pe.deduplicated.bismark.cov.gz"
+        },
+        {
+          "dataset": "GSE233734",
+          "finished_at": "",
+          "last_error": "",
+          "retry_count": 0,
+          "row_id": 32,
+          "started_at": "2026-05-21T05:57:44.477502+00:00",
+          "status": "downloading",
+          "supplement_name": "GSE233734_colon_CpG_coverages.bedGraph.gz"
+        },
+        {
+          "dataset": "GSE304754",
+          "finished_at": "",
+          "last_error": "",
+          "retry_count": 0,
+          "row_id": 36,
+          "started_at": "2026-05-21T05:57:44.495605+00:00",
+          "status": "downloading",
+          "supplement_name": "GSE304754_hippocampus_combined.cov.gz"
+        }
+      ],
+      "downloaded_bytes_est": 5879583070,
+      "eta_human": "39m36s",
+      "eta_seconds": 2376.4253407354277,
+      "remaining_bytes_est": 2295031030,
+      "runtime_seconds": 30.0,
+      "speed_bps_window": 965749.2666231885,
+      "speed_mib_s_window": 0.9210102716667066,
+      "started_at_epoch": 1779343064.4614124,
+      "status_counts": {
+        "already_verified_existing_path": 18,
+        "downloading": 3,
+        "planned": 34,
+        "verified": 93
+      },
+      "timestamp": "2026-05-21T05:58:14.499691+00:00",
+      "total_expected_bytes": 8174614100,
+      "verified_bytes": 5850579294
+    }
+  },
+  "raw_repair_download": {
+    "alive": true,
+    "out_dir": "results/v27_data_repair_execution/raw_repair_download",
+    "pid": 3535238,
+    "state": {
+      "active": [
+        {
+          "dataset": "GSE80672",
+          "downloaded_bytes": 0,
+          "finished_at": "",
+          "gsm": "GSM2132795",
+          "last_error": "",
+          "n_files": 2,
+          "run_accession": "SRR3440671",
+          "started_at": "2026-05-21T05:53:16.848380+00:00",
+          "status": "downloading"
+        },
+        {
+          "dataset": "GSE80672",
+          "downloaded_bytes": 0,
+          "finished_at": "",
+          "gsm": "GSM2132796",
+          "last_error": "",
+          "n_files": 2,
+          "run_accession": "SRR3440672",
+          "started_at": "2026-05-21T05:53:16.847274+00:00",
+          "status": "downloading"
+        },
+        {
+          "dataset": "GSE121141",
+          "downloaded_bytes": 0,
+          "finished_at": "",
+          "gsm": "GSM3426756",
+          "last_error": "",
+          "n_files": 2,
+          "run_accession": "SRR8032931",
+          "started_at": "2026-05-21T05:53:16.848865+00:00",
+          "status": "downloading"
+        },
+        {
+          "dataset": "GSE121141",
+          "downloaded_bytes": 0,
+          "finished_at": "",
+          "gsm": "GSM3426761",
+          "last_error": "",
+          "n_files": 2,
+          "run_accession": "SRR8032940",
+          "started_at": "2026-05-21T05:53:16.849199+00:00",
+          "status": "downloading"
+        }
+      ],
+      "downloaded_bytes_observed": 0,
+      "downloaded_gib_observed": 0.0,
+      "runtime_seconds": 300.0,
+      "status_counts": {
+        "downloading": 4,
+        "planned": 214
+      },
+      "timestamp": "2026-05-21T05:58:16.880319+00:00"
+    }
+  },
+  "status": "background_downloads_started",
+  "timestamp": "2026-05-21T05:58:19.319077+00:00",
+  "v25_raw_etl": {
+    "state": {
+      "autoresearch_authorized": false,
+      "current_sample": "GSE80672/GSM2132730",
+      "exit_code": null,
+      "message": "runner_active",
+      "out_root": "/data/mouse_methyl/processed_v21_raw_etl",
+      "pid": 3471846,
+      "queue": "results/ralph_v21_raid_raw_clock/raw_etl_queue_v25_authorized_full_passed_gate.csv",
+      "queue_rows": 194,
+      "recommended_parallel_samples": 2,
+      "requested_parallel_samples": 2,
+      "retry_count": 0,
+      "samples_completed": 6,
+      "samples_failed": 0,
+      "started_at": "2026-05-21T05:08:10.170114+00:00",
+      "status": "running",
+      "status_rows": 6,
+      "timestamp": "2026-05-21T05:58:10.438686+00:00",
+      "training_authorized": false
+    }
+  }
+}

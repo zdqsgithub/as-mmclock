@@ -1,0 +1,17 @@
+{
+  "gse60012_mapping_status": "passed",
+  "gse93957_status": "blocked_alignment_or_pretrim_issue",
+  "policy": "no_new_raw_download_or_bismark_started_by_this_controller",
+  "processed_candidate_manifest_status": "completed",
+  "processed_pilot_manifest_status": "completed",
+  "processed_pilot_planned_download_rows": 37,
+  "raw_missing_repair_download_allowed_runs": 218,
+  "raw_missing_repair_queue_status": "completed",
+  "raw_repair_action": "eligible_to_build_repair_queue",
+  "stability_gate_path": "/home/zdq-as/mouse_methyl_work/results/v27_data_repair_execution/v27_v25_stability_gate.json",
+  "status": "completed",
+  "step_status_path": "/home/zdq-as/mouse_methyl_work/results/v27_data_repair_execution/v27_step_status.csv",
+  "timestamp": "2026-05-21T05:51:54.443124+00:00",
+  "v11_3_schema_smoke_status": "completed",
+  "v25_stable_for_heavy_raw_repair": true
+}

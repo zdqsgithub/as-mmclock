@@ -1,0 +1,37 @@
+{
+  "heartbeat_age_sec": 43.661,
+  "resources": {
+    "data_free_gib": 28492.083,
+    "load1": 30.492,
+    "load15": 29.778,
+    "load5": 31.348,
+    "nproc": 48,
+    "root_free_gib": 4398.839
+  },
+  "runner_alive": true,
+  "sample_status_failed_rows": 0,
+  "sample_status_rows": 6,
+  "stability_policy": "heavy raw repair waits for heartbeat<300s, runner alive, no failed rows, /data>10TiB free, load15<1.2*nproc",
+  "stable_for_heavy_download_or_raw_repair": true,
+  "state": {
+    "autoresearch_authorized": false,
+    "current_sample": "GSE80672/GSM2132730",
+    "exit_code": null,
+    "message": "runner_active",
+    "out_root": "/data/mouse_methyl/processed_v21_raw_etl",
+    "pid": 3471846,
+    "queue": "results/ralph_v21_raid_raw_clock/raw_etl_queue_v25_authorized_full_passed_gate.csv",
+    "queue_rows": 194,
+    "recommended_parallel_samples": 2,
+    "requested_parallel_samples": 2,
+    "retry_count": 0,
+    "samples_completed": 6,
+    "samples_failed": 0,
+    "started_at": "2026-05-21T05:08:10.170114+00:00",
+    "status": "running",
+    "status_rows": 6,
+    "timestamp": "2026-05-21T05:50:10.401143+00:00",
+    "training_authorized": false
+  },
+  "watchdog_state_path": "/data/mouse_methyl/processed_v21_raw_etl/v21_raw_etl_watchdog_state.json"
+}

@@ -1,0 +1,11 @@
+{
+  "audit_path": "/home/zdq-as/mouse_methyl_work/results/v27_data_repair_execution/gse93957_root_cause/gse93957_completed_sample_audit.csv",
+  "median_cov_rows_coverage_ge_5": 0.0,
+  "median_mapping_efficiency_pct": 0.0,
+  "median_parse_regions": 0.0,
+  "n_samples_audited": 4,
+  "policy": "no_more_download_or_etl_until_root_cause_fixed",
+  "recommendation": "Bismark mapping efficiency is near zero, so more download is not the next fix. Recheck trimming/adapters/library settings and assembly before more ETL.",
+  "status": "blocked_alignment_or_pretrim_issue",
+  "timestamp": "2026-05-21T05:50:54.767040+00:00"
+}

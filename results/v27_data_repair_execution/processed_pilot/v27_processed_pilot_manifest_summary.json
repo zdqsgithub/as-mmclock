@@ -1,0 +1,20 @@
+{
+  "already_verified_bytes": 5850579294,
+  "datasets": [
+    "GSE175410",
+    "GSE224442",
+    "GSE225166",
+    "GSE233734",
+    "GSE304754",
+    "GSE92486"
+  ],
+  "download_started": false,
+  "manifest_path": "/home/zdq-as/mouse_methyl_work/results/v27_data_repair_execution/processed_pilot/v27_processed_pilot_download_manifest.csv",
+  "n_already_verified_rows": 111,
+  "n_manifest_rows": 148,
+  "n_planned_download_rows": 37,
+  "planned_download_bytes": 2324034806,
+  "skipped_path": "/home/zdq-as/mouse_methyl_work/results/v27_data_repair_execution/processed_pilot/v27_processed_pilot_skipped.csv",
+  "status": "completed",
+  "timestamp": "2026-05-21T05:54:36.816408+00:00"
+}

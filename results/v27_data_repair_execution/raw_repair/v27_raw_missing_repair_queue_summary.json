@@ -1,0 +1,15 @@
+{
+  "datasets_requested": [
+    "GSE80672",
+    "GSE121141"
+  ],
+  "download_started": false,
+  "n_already_complete": 0,
+  "n_download_allowed": 218,
+  "n_missing_ena": 0,
+  "n_rows": 218,
+  "queue_path": "/home/zdq-as/mouse_methyl_work/results/v27_data_repair_execution/raw_repair/v27_raw_missing_repair_queue.csv",
+  "source_path": "/home/zdq-as/mouse_methyl_work/results/v26_data_repair_research/local_raw_missing_fastq_repair_queue.csv",
+  "status": "completed",
+  "timestamp": "2026-05-21T05:51:49.455965+00:00"
+}

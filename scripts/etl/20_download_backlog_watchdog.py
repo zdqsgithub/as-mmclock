@@ -469,6 +469,53 @@ def main() -> None:
 
     stop_event.set()
     monitor.join(timeout=5)
+    for row in rows:
+        row_id = int(row["row_id"])
+        path = Path(str(row["local_path"]))
+        expected = int(row["expected_size_bytes"])
+        if path.exists() and path.stat().st_size == expected:
+            state.update(row_id, status="verified", finished_at=utc_now(), last_error="")
+    status_rows = []
+    status_by_id = {int(s["row_id"]): s for s in state.snapshot_status()}
+    for row in rows:
+        row_id = int(row["row_id"])
+        merged = dict(row)
+        merged.update(status_by_id.get(row_id, {}))
+        merged["bytes_downloaded_est"] = file_progress(Path(str(row["local_path"])), int(row["expected_size_bytes"]))
+        status_rows.append(merged)
+    pd.DataFrame(status_rows).to_csv(status_csv_path, index=False)
+    total_expected = sum(int(r["expected_size_bytes"]) for r in rows)
+    downloaded = sum(file_progress(Path(str(r["local_path"])), int(r["expected_size_bytes"])) for r in rows)
+    verified = sum(
+        int(r["expected_size_bytes"])
+        for r in rows
+        if Path(str(r["local_path"])).exists()
+        and Path(str(r["local_path"])).stat().st_size == int(r["expected_size_bytes"])
+    )
+    statuses = state.snapshot_status()
+    counts = pd.Series([s.get("status", "unknown") for s in statuses]).value_counts().to_dict() if statuses else {}
+    atomic_write_text(
+        state_path,
+        json.dumps(
+            {
+                "timestamp": utc_now(),
+                "started_at_epoch": started_at,
+                "runtime_seconds": round(time.time() - started_at, 1),
+                "total_expected_bytes": total_expected,
+                "downloaded_bytes_est": downloaded,
+                "verified_bytes": verified,
+                "remaining_bytes_est": max(0, total_expected - downloaded),
+                "speed_bps_window": 0.0,
+                "speed_mib_s_window": 0.0,
+                "eta_seconds": 0.0 if downloaded >= total_expected else None,
+                "eta_human": "0s" if downloaded >= total_expected else "unknown",
+                "status_counts": counts,
+                "active": [],
+            },
+            indent=2,
+            sort_keys=True,
+        ),
+    )
     append_jsonl(log_path, {"timestamp": utc_now(), "status": "watchdog_finished"})
 
 

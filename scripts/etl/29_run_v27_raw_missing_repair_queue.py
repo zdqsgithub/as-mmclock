@@ -232,6 +232,10 @@ class Status:
         with self.lock:
             self.status.setdefault(run, {"run_accession": run}).update(kwargs)
 
+    def row_status(self, run: str) -> str:
+        with self.lock:
+            return str(self.status.get(run, {}).get("status", "planned"))
+
     def snapshot(self) -> list[dict[str, Any]]:
         with self.lock:
             return [dict(v) for _, v in sorted(self.status.items())]
@@ -330,6 +334,8 @@ def main() -> None:
     parser.add_argument("--speed-limit", type=int, default=1024)
     parser.add_argument("--speed-time", type=int, default=300)
     parser.add_argument("--interleave-datasets", action="store_true")
+    parser.add_argument("--queue-passes", type=int, default=1, help="0 means retry unresolved runs until complete")
+    parser.add_argument("--pass-delay", type=int, default=300)
     parser.add_argument("--authorize-download", action="store_true")
     args = parser.parse_args()
 
@@ -359,13 +365,48 @@ def main() -> None:
     monitor = threading.Thread(target=monitor_loop, args=(status, stop, args.out_dir, args.poll_seconds, started), daemon=True)
     monitor.start()
     append_jsonl(log_path, {"timestamp": utc_now(), "status": "watchdog_started", "queue": str(args.queue), "n_rows": len(rows), "max_workers": args.max_workers})
-    with ThreadPoolExecutor(max_workers=max(1, args.max_workers)) as executor:
-        futures = [executor.submit(process_run, row, status, args, log_path) for row in rows]
-        for future in as_completed(futures):
-            try:
-                future.result()
-            except Exception as exc:  # noqa: BLE001 - keep other runs moving
-                append_jsonl(log_path, {"timestamp": utc_now(), "status": "run_worker_exception", "error": repr(exc)})
+    pass_index = 0
+    while True:
+        pass_index += 1
+        pending_rows = [
+            row
+            for row in rows
+            if status.row_status(str(row["run_accession"])) not in {"verified", "blocked"}
+        ]
+        if not pending_rows:
+            break
+        append_jsonl(
+            log_path,
+            {
+                "timestamp": utc_now(),
+                "status": "queue_pass_started",
+                "pass_index": pass_index,
+                "pending_runs": len(pending_rows),
+            },
+        )
+        with ThreadPoolExecutor(max_workers=max(1, args.max_workers)) as executor:
+            futures = [executor.submit(process_run, row, status, args, log_path) for row in pending_rows]
+            for future in as_completed(futures):
+                try:
+                    future.result()
+                except Exception as exc:  # noqa: BLE001 - keep other runs moving
+                    append_jsonl(log_path, {"timestamp": utc_now(), "status": "run_worker_exception", "error": repr(exc)})
+        rows_after_pass = status.snapshot()
+        counts_after_pass = pd.Series([r.get("status", "unknown") for r in rows_after_pass]).value_counts().to_dict() if rows_after_pass else {}
+        append_jsonl(
+            log_path,
+            {
+                "timestamp": utc_now(),
+                "status": "queue_pass_finished",
+                "pass_index": pass_index,
+                "status_counts": counts_after_pass,
+            },
+        )
+        if not any(r.get("status") not in {"verified", "blocked"} for r in rows_after_pass):
+            break
+        if args.queue_passes > 0 and pass_index >= args.queue_passes:
+            break
+        time.sleep(max(0, args.pass_delay))
     stop.set()
     monitor.join(timeout=5)
     rows_out = status.snapshot()

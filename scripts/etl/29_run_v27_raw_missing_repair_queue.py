@@ -88,6 +88,45 @@ def file_name_from_url(url: str) -> str:
     return name
 
 
+def interleave_by_dataset(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Keep per-dataset priority order while avoiding one-source bursts."""
+    groups: dict[str, list[dict[str, Any]]] = {}
+    for row in rows:
+        groups.setdefault(str(row.get("dataset", "")), []).append(row)
+    ordered_keys = list(groups)
+    interleaved = []
+    while any(groups.values()):
+        for key in ordered_keys:
+            if groups[key]:
+                interleaved.append(groups[key].pop(0))
+    return interleaved
+
+
+def observed_target_bytes(rows: list[dict[str, Any]]) -> tuple[int, dict[str, int]]:
+    total = 0
+    by_dataset: dict[str, int] = {}
+    for row in rows:
+        dataset = str(row.get("dataset", ""))
+        target_dir = Path(str(row.get("target_fastq_dir", "")))
+        for url in split_semicolon(row.get("fastq_urls", "")):
+            try:
+                name = file_name_from_url(url)
+            except ValueError:
+                continue
+            final_path = target_dir / name
+            part_path = target_dir / f"{name}.v27part"
+            path = final_path if final_path.exists() else part_path
+            if not path.exists():
+                continue
+            try:
+                size = path.stat().st_size
+            except FileNotFoundError:
+                continue
+            total += size
+            by_dataset[dataset] = by_dataset.get(dataset, 0) + size
+    return total, by_dataset
+
+
 def run_curl(url: str, part_path: Path, args: argparse.Namespace) -> tuple[bool, str]:
     part_path.parent.mkdir(parents=True, exist_ok=True)
     cmd = [
@@ -96,6 +135,10 @@ def run_curl(url: str, part_path: Path, args: argparse.Namespace) -> tuple[bool,
         "--fail",
         "--retry",
         str(args.curl_retries),
+        "--retry-connrefused",
+        "--retry-all-errors",
+        "--retry-max-time",
+        str(args.retry_max_time),
         "--retry-delay",
         "5",
         "--connect-timeout",
@@ -185,6 +228,7 @@ def monitor_loop(status: Status, stop: threading.Event, out_dir: Path, poll_seco
         counts = pd.Series([r.get("status", "unknown") for r in rows]).value_counts().to_dict() if rows else {}
         active = [r for r in rows if r.get("status") == "downloading"]
         total_bytes = sum(int(r.get("downloaded_bytes", 0) or 0) for r in rows)
+        observed_file_bytes, observed_by_dataset = observed_target_bytes(status.rows)
         atomic_write_json(
             state_path,
             {
@@ -194,6 +238,11 @@ def monitor_loop(status: Status, stop: threading.Event, out_dir: Path, poll_seco
                 "active": active[:12],
                 "downloaded_bytes_observed": total_bytes,
                 "downloaded_gib_observed": round(total_bytes / 1024**3, 6),
+                "observed_file_bytes": observed_file_bytes,
+                "observed_file_gib": round(observed_file_bytes / 1024**3, 6),
+                "observed_file_gib_by_dataset": {
+                    key: round(value / 1024**3, 6) for key, value in sorted(observed_by_dataset.items())
+                },
             },
         )
         pd.DataFrame(rows).to_csv(status_path, index=False)
@@ -258,8 +307,10 @@ def main() -> None:
     parser.add_argument("--max-runs", type=int, default=0)
     parser.add_argument("--poll-seconds", type=int, default=30)
     parser.add_argument("--curl-retries", type=int, default=8)
+    parser.add_argument("--retry-max-time", type=int, default=1800)
     parser.add_argument("--speed-limit", type=int, default=1024)
     parser.add_argument("--speed-time", type=int, default=300)
+    parser.add_argument("--interleave-datasets", action="store_true")
     parser.add_argument("--authorize-download", action="store_true")
     args = parser.parse_args()
 
@@ -267,6 +318,8 @@ def main() -> None:
     log_path = args.out_dir / "download_log.jsonl"
     queue = pd.read_csv(args.queue)
     rows = queue.sort_values("repair_priority").to_dict(orient="records")
+    if args.interleave_datasets:
+        rows = interleave_by_dataset(rows)
     if args.max_runs:
         rows = rows[: args.max_runs]
     if not args.authorize_download:

@@ -330,14 +330,17 @@ def main() -> None:
     parser.add_argument("--min-coverage", type=int, default=5)
     parser.add_argument("--min-sample-regions", type=int, default=50_000)
     parser.add_argument("--max-samples", type=int, default=0, help="0 means all queued rows.")
+    parser.add_argument("--state-tag", default="", help="Optional suffix for state/status/log files when running a supplemental queue.")
+    parser.add_argument("--skip-dataset-finalize", action="store_true", help="Only write per-sample outputs; do not rewrite dataset-level matrices.")
     parser.add_argument("--authorize-bismark", action="store_true")
     args = parser.parse_args()
 
     args.out_root.mkdir(parents=True, exist_ok=True)
-    state_path = args.out_root / "v21_raw_etl_state.json"
-    status_csv = args.out_root / "v21_raw_etl_sample_status.csv"
-    command_manifest_path = args.out_root / "v21_raw_etl_command_manifest.csv"
-    log_path = args.out_root / "v21_raw_etl_log.jsonl"
+    tag = f"_{args.state_tag.strip().replace('/', '_')}" if args.state_tag else ""
+    state_path = args.out_root / f"v21_raw_etl_state{tag}.json"
+    status_csv = args.out_root / f"v21_raw_etl_sample_status{tag}.csv"
+    command_manifest_path = args.out_root / f"v21_raw_etl_command_manifest{tag}.csv"
+    log_path = args.out_root / f"v21_raw_etl_log{tag}.jsonl"
 
     if not args.authorize_bismark:
         state = {
@@ -417,7 +420,7 @@ def main() -> None:
                 append_jsonl(log_path, {"timestamp": utc_now(), "event": "sample_failed", "dataset": dataset, "sample_id": sample_id, "error": str(exc)[-2000:]})
             pd.DataFrame(sample_status).to_csv(status_csv, index=False)
 
-    dataset_rows = finalize_dataset_matrices(args.out_root, sample_results)
+    dataset_rows = [] if args.skip_dataset_finalize else finalize_dataset_matrices(args.out_root, sample_results)
     pd.DataFrame(all_commands).to_csv(command_manifest_path, index=False)
     status_df = pd.DataFrame(sample_status)
     completed = int(status_df["status"].eq("completed").sum()) if not status_df.empty else 0

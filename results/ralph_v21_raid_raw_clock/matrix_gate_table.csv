@@ -1,0 +1,3 @@
+dataset,matrix_path,status,n_samples,n_regions,common_regions,metadata_overlap_fraction,age_coverage_fraction,beta_min,beta_max,beta_range_valid,sex_mt_excluded,processed_consistency_status,processed_consistency_median_corr,processed_common_regions,processed_common_samples,matrix_gate_passed,decision
+GSE121141,/data/mouse_methyl/processed_v21_raw_etl/GSE121141/GSE121141_raw_region_matrix_5kb.parquet,completed,7,167244,60278,1.0,1.0,0.0,1.0,True,True,completed,0.939409,126907,7,True,raw_matrix_ready_for_learn_pending_training_approval
+GSE80672,/data/mouse_methyl/processed_v21_raw_etl/GSE80672/GSE80672_raw_region_matrix_5kb.parquet,completed,23,184647,65862,1.0,1.0,0.0,1.0,True,True,completed,0.920575,118905,23,True,raw_matrix_ready_for_learn_pending_training_approval

@@ -87,6 +87,17 @@ results/**
 !results/v23_cloud_max_batch/feature_interpretation/*.csv
 !results/v23_cloud_max_batch/feature_interpretation/*.json
 !results/v23_cloud_max_batch/feature_interpretation/*.md
+!results/ralph_v21_raid_raw_clock/
+!results/ralph_v21_raid_raw_clock/*.csv
+!results/ralph_v21_raid_raw_clock/*.json
+!results/ralph_v21_raid_raw_clock/*.md
+!results/ralph_v21_raid_raw_clock/*.txt
+!results/v24_raw_signal_screen/
+!results/v24_raw_signal_screen/*.csv
+!results/v24_raw_signal_screen/*.json
+!results/v24_raw_signal_screen/*.md
+!results/v24_raw_signal_screen/predictions/
+!results/v24_raw_signal_screen/predictions/*.csv
 
 # OS/editor noise
 .DS_Store

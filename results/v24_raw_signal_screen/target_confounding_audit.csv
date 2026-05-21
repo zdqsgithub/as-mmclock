@@ -1,0 +1,5 @@
+target_id,target_kind,status,reason,n_samples,n_datasets,n_tissues,class_counts,dataset_counts,tissue_counts,label_dataset_cramers_v,label_tissue_cramers_v,label_age_eta2,confounding_risk
+age_weeks_raw_v24,regression,passed,target passed sample and group gates,30,2,3,{},"{'GSE80672': 23, 'GSE121141': 7}","{'blood': 22, 'brain_cortex': 7, 'fibroblast': 1}",0.5272099302545488,0.44775776150393304,0.9670713785119492,moderate_confounding
+cr_vs_control_raw_v24,binary,passed,target passed sample and class gates,23,1,2,"{'CR': 12, 'control': 11}",{'GSE80672': 23},"{'blood': 22, 'fibroblast': 1}",0.0,0.22268088570756167,0.02761152978476821,low
+dataset_batch_raw_v24,binary,passed,target passed sample and class gates,30,2,3,"{'GSE80672': 23, 'GSE121141': 7}","{'GSE80672': 23, 'GSE121141': 7}","{'blood': 22, 'brain_cortex': 7, 'fibroblast': 1}",1.0,1.0,0.16674490128271802,high_confounding
+tissue_blood_vs_brain_raw_v24,binary,passed,target passed sample and class gates,29,2,2,"{'blood': 22, 'brain_cortex': 7}","{'GSE80672': 22, 'GSE121141': 7}","{'blood': 22, 'brain_cortex': 7}",0.9999999999999999,0.9999999999999999,0.2043746106467951,high_confounding

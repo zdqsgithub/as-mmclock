@@ -1,0 +1,13 @@
+dataset,sample_id,run_accessions,r1_paths,r2_paths,n_runs,n_fastq_files,pilot_priority,queue_status,bismark_authorized,training_authorized
+GSE121141,GSM3426754,SRR8032927;SRR8032928,/data/mouse_methyl/raw/GSE121141/fastq/SRR8032927_1.fastq;/data/mouse_methyl/raw/GSE121141/fastq/SRR8032928_1.fastq,/data/mouse_methyl/raw/GSE121141/fastq/SRR8032927_2.fastq;/data/mouse_methyl/raw/GSE121141/fastq/SRR8032928_2.fastq,2,4,0,planned_pilot,False,False
+GSE121141,GSM3426755,SRR8032929;SRR8032930,/data/mouse_methyl/raw/GSE121141/fastq/SRR8032929_1.fastq;/data/mouse_methyl/raw/GSE121141/fastq/SRR8032930_1.fastq,/data/mouse_methyl/raw/GSE121141/fastq/SRR8032929_2.fastq;/data/mouse_methyl/raw/GSE121141/fastq/SRR8032930_2.fastq,2,4,0,planned_pilot,False,False
+GSE121141,GSM3426757,SRR8032932;SRR8032933,/data/mouse_methyl/raw/GSE121141/fastq/SRR8032932_1.fastq;/data/mouse_methyl/raw/GSE121141/fastq/SRR8032933_1.fastq,/data/mouse_methyl/raw/GSE121141/fastq/SRR8032932_2.fastq;/data/mouse_methyl/raw/GSE121141/fastq/SRR8032933_2.fastq,2,4,0,planned_pilot,False,False
+GSE80672,GSM2132712,SRR3440565,/data/mouse_methyl/raw/GSE80672/fastq/SRR3440565_1.fastq,/data/mouse_methyl/raw/GSE80672/fastq/SRR3440565_2.fastq,1,2,1,planned_pilot,False,False
+GSE80672,GSM2132713,SRR3440566,/data/mouse_methyl/raw/GSE80672/fastq/SRR3440566_1.fastq,/data/mouse_methyl/raw/GSE80672/fastq/SRR3440566_2.fastq,1,2,1,planned_pilot,False,False
+GSE80672,GSM2132714,SRR3440567,/data/mouse_methyl/raw/GSE80672/fastq/SRR3440567_1.fastq,/data/mouse_methyl/raw/GSE80672/fastq/SRR3440567_2.fastq,1,2,1,planned_pilot,False,False
+GSE93957,GSM2465615,SRR5195621,/data/mouse_methyl/raw/GSE93957/fastq/SRR5195621_1.fastq,/data/mouse_methyl/raw/GSE93957/fastq/SRR5195621_2.fastq,1,2,2,planned_pilot,False,False
+GSE93957,GSM2465616,SRR5195622,/data/mouse_methyl/raw/GSE93957/fastq/SRR5195622_1.fastq,/data/mouse_methyl/raw/GSE93957/fastq/SRR5195622_2.fastq,1,2,2,planned_pilot,False,False
+GSE93957,GSM2465617,SRR5195623,/data/mouse_methyl/raw/GSE93957/fastq/SRR5195623_1.fastq,/data/mouse_methyl/raw/GSE93957/fastq/SRR5195623_2.fastq,1,2,2,planned_pilot,False,False
+GSE60012,GSM1463666,SRR1534514,/data/mouse_methyl/raw/GSE60012/fastq/SRR1534514_1.fastq,/data/mouse_methyl/raw/GSE60012/fastq/SRR1534514_2.fastq,1,2,3,planned_pilot,False,False
+GSE60012,GSM1463667,SRR1534515,/data/mouse_methyl/raw/GSE60012/fastq/SRR1534515_1.fastq,/data/mouse_methyl/raw/GSE60012/fastq/SRR1534515_2.fastq,1,2,3,planned_pilot,False,False
+GSE60012,GSM1463668,SRR1534516,/data/mouse_methyl/raw/GSE60012/fastq/SRR1534516_1.fastq,/data/mouse_methyl/raw/GSE60012/fastq/SRR1534516_2.fastq,1,2,3,planned_pilot,False,False

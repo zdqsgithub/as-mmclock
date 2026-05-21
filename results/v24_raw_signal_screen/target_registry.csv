@@ -1,0 +1,5 @@
+target_id,target_kind,label_column,positive_label,negative_label,dataset_scope,include_values,min_total,min_class_count,min_groups,recommended_local_model,primary_metric,priority,biological_question
+age_weeks_raw_v24,regression,age_days,,,all,,24,0,2,ridge,mae_weeks,primary_exploratory,Chronological age signal in the gate-passed raw-derived methylation matrix.
+cr_vs_control_raw_v24,binary,intervention,CR,control,GSE80672,CR;control,20,8,1,logistic,roc_auc,primary_aux_exploratory,Calorie-restriction-associated methylation signal in raw-derived GSE80672 blood samples.
+dataset_batch_raw_v24,binary,dataset_batch,GSE80672,GSE121141,all,GSE121141;GSE80672,20,5,1,logistic,balanced_accuracy,confounding_probe,"Dataset/batch separability probe used to flag confounding, not a biological endpoint."
+tissue_blood_vs_brain_raw_v24,binary,tissue,blood,brain_cortex,all,blood;brain_cortex,20,5,1,logistic,balanced_accuracy,confounding_probe,Tissue separability probe used to flag age/CR model confounding.

@@ -1,0 +1,4 @@
+dataset,sample_id,run_accessions,r1_paths,r2_paths,n_runs,n_fastq_files,pilot_priority,queue_status,bismark_authorized,training_authorized
+GSE80672,GSM2132852,SRR3440750,/data/mouse_methyl/raw/GSE80672/fastq/SRR3440750_1.fastq,/data/mouse_methyl/raw/GSE80672/fastq/SRR3440750_2.fastq,1,2,0,planned_pilot_gse80672_cr_gate,False,False
+GSE80672,GSM2132905,SRR3440835,/data/mouse_methyl/raw/GSE80672/fastq/SRR3440835_1.fastq,/data/mouse_methyl/raw/GSE80672/fastq/SRR3440835_2.fastq,1,2,1,planned_pilot_gse80672_cr_gate,False,False
+GSE80672,GSM2132736,SRR3440596,/data/mouse_methyl/raw/GSE80672/fastq/SRR3440596_1.fastq,/data/mouse_methyl/raw/GSE80672/fastq/SRR3440596_2.fastq,1,2,2,planned_pilot_gse80672_cr_gate,False,False

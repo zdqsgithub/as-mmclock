@@ -147,6 +147,15 @@ def parse_cov_paths_to_regions(paths: list[Path], sample_id: str, min_coverage: 
     return series, stats
 
 
+def sample_region_gate_error(series: pd.Series, stats: dict[str, Any], min_sample_regions: int) -> str | None:
+    n_regions = int(len(series))
+    stats["sample_region_gate_min_regions"] = int(min_sample_regions)
+    stats["sample_region_gate_status"] = "pass" if n_regions >= min_sample_regions else "fail"
+    if n_regions < min_sample_regions:
+        return f"Sample region QC failed: n_regions={n_regions} < min_sample_regions={min_sample_regions}"
+    return None
+
+
 def split_paths(value: Any) -> list[Path]:
     return [Path(item) for item in str(value or "").split(";") if item]
 
@@ -155,14 +164,31 @@ def existing_covs(run_dir: Path) -> list[Path]:
     return sorted([path for path in run_dir.glob("*.bismark.cov.gz") if path.stat().st_size > 0])
 
 
-def existing_bams(run_dir: Path) -> list[Path]:
-    return sorted(
-        [
-            path
-            for path in run_dir.glob("*.bam")
-            if path.stat().st_size > 0 and ".temp." not in path.name
-        ]
+def bam_passes_quickcheck(path: Path, env_dir: Path) -> bool:
+    samtools = env_dir / "bin" / "samtools"
+    if not samtools.exists():
+        return True
+    completed = subprocess.run(
+        [str(samtools), "quickcheck", "-q", str(path)],
+        text=True,
+        capture_output=True,
+        check=False,
     )
+    return completed.returncode == 0
+
+
+def existing_bams(run_dir: Path, env_dir: Path) -> list[Path]:
+    candidates: list[Path] = []
+    reports = list(run_dir.glob("*_PE_report.txt")) + list(run_dir.glob("*_SE_report.txt"))
+    has_report = any(path.stat().st_size > 0 for path in reports)
+    if not has_report:
+        return candidates
+    for path in sorted(run_dir.glob("*.bam")):
+        if path.stat().st_size <= 0 or ".temp." in path.name:
+            continue
+        if bam_passes_quickcheck(path, env_dir):
+            candidates.append(path)
+    return candidates
 
 
 def process_sample(row: dict[str, Any], args: argparse.Namespace) -> tuple[str, str, pd.Series | None, dict[str, Any], list[dict[str, Any]]]:
@@ -179,6 +205,8 @@ def process_sample(row: dict[str, Any], args: argparse.Namespace) -> tuple[str, 
         series = frame.iloc[:, 0].rename(sample_id)
         stats = json.loads(sample_stats_path.read_text(encoding="utf-8"))
         stats["resume_status"] = "reused_sample_region_beta"
+        if error := sample_region_gate_error(series, stats, args.min_sample_regions):
+            raise RuntimeError(error)
         return dataset, sample_id, series, stats, commands
 
     r1_paths = split_paths(row["r1_paths"])
@@ -193,7 +221,7 @@ def process_sample(row: dict[str, Any], args: argparse.Namespace) -> tuple[str, 
     for run_accession, r1, r2 in zip(run_accessions, r1_paths, r2_paths, strict=True):
         run_dir = sample_dir / "runs" / run_accession
         run_dir.mkdir(parents=True, exist_ok=True)
-        bam_candidates = existing_bams(run_dir)
+        bam_candidates = existing_bams(run_dir, Path(args.env_dir))
         if not bam_candidates:
             cmd = [
                 str(Path(args.env_dir) / "bin" / "bismark"),
@@ -213,7 +241,7 @@ def process_sample(row: dict[str, Any], args: argparse.Namespace) -> tuple[str, 
             ]
             run_command(cmd, run_dir, run_dir / "01_bismark_alignment", Path(args.env_dir))
             commands.append({"dataset": dataset, "sample_id": sample_id, "run_accession": run_accession, "step": "bismark_alignment", "command": " ".join(cmd)})
-            bam_candidates = existing_bams(run_dir)
+            bam_candidates = existing_bams(run_dir, Path(args.env_dir))
         else:
             commands.append({"dataset": dataset, "sample_id": sample_id, "run_accession": run_accession, "step": "bismark_alignment_reused", "command": f"existing_bam={bam_candidates[0]}"})
         if not bam_candidates:
@@ -245,7 +273,10 @@ def process_sample(row: dict[str, Any], args: argparse.Namespace) -> tuple[str, 
 
     series, stats = parse_cov_paths_to_regions(cov_paths, sample_id, args.min_coverage)
     pd.DataFrame({sample_id: series}).to_parquet(sample_matrix_path)
+    gate_error = sample_region_gate_error(series, stats, args.min_sample_regions)
     write_json(sample_stats_path, stats)
+    if gate_error:
+        raise RuntimeError(gate_error)
     return dataset, sample_id, series, stats, commands
 
 
@@ -297,6 +328,7 @@ def main() -> None:
     parser.add_argument("--bismark-threads", type=int, default=8)
     parser.add_argument("--extract-threads", type=int, default=4)
     parser.add_argument("--min-coverage", type=int, default=5)
+    parser.add_argument("--min-sample-regions", type=int, default=50_000)
     parser.add_argument("--max-samples", type=int, default=0, help="0 means all queued rows.")
     parser.add_argument("--authorize-bismark", action="store_true")
     args = parser.parse_args()

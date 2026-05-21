@@ -1,0 +1,29 @@
+{
+  "datasets": {
+    "GSE121141": 7,
+    "GSE80672": 23
+  },
+  "interpretation_guardrail": "small-n exploratory raw-derived screen; target-associated signal only",
+  "interventions": {
+    "CR": 12,
+    "control": 18
+  },
+  "matrix": "/home/zdq-as/mouse_methyl_work/results/v24_raw_signal_screen/raw_v24_gse121141_gse80672_common_complete_region_matrix_5kb.parquet",
+  "matrix_gate_table": "/home/zdq-as/mouse_methyl_work/results/ralph_v21_raid_raw_clock/matrix_gate_table.csv",
+  "metadata": "/home/zdq-as/mouse_methyl_work/results/v24_raw_signal_screen/raw_v24_signal_metadata.csv",
+  "n_regions_complete_all_samples": 58215,
+  "n_regions_intersection": 147762,
+  "n_samples": 30,
+  "sexes": {
+    "F": 1,
+    "M": 29
+  },
+  "status": "prepared",
+  "target_registry": "/home/zdq-as/mouse_methyl_work/results/v24_raw_signal_screen/raw_v24_biological_signal_targets.csv",
+  "timestamp": "2026-05-21T04:44:30.044000+00:00",
+  "tissues": {
+    "blood": 22,
+    "brain_cortex": 7,
+    "fibroblast": 1
+  }
+}

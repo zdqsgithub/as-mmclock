@@ -1,0 +1,14 @@
+{
+  "already_completed_rows": 6,
+  "datasets": {
+    "GSE121141": 7,
+    "GSE80672": 24,
+    "GSE93957": 12
+  },
+  "n_queue_rows": 43,
+  "new_rows": 37,
+  "policy": "read_only_fastq_balanced_expansion_after_v21_gate",
+  "queue_path": "/home/zdq-as/mouse_methyl_work/results/ralph_v21_raid_raw_clock/raw_etl_queue_v24_balanced_expansion.csv",
+  "selection_audit_path": "/home/zdq-as/mouse_methyl_work/results/ralph_v21_raid_raw_clock/raw_etl_queue_v24_balanced_expansion_selection_audit.csv",
+  "timestamp": "2026-05-20T23:41:15.495105+00:00"
+}

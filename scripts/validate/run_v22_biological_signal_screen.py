@@ -40,7 +40,16 @@ except ImportError:  # pragma: no cover - runtime capability
 
 LOCAL_ROOT = Path("/home/zdq-as/mouse_methyl_work")
 REMOTE_ROOT = Path("/root/autodl-tmp/mouse_methyl_work")
-ROOT = REMOTE_ROOT if REMOTE_ROOT.exists() else LOCAL_ROOT
+
+
+def path_exists_safe(path: Path) -> bool:
+    try:
+        return path.exists()
+    except PermissionError:
+        return False
+
+
+ROOT = REMOTE_ROOT if path_exists_safe(REMOTE_ROOT) else LOCAL_ROOT
 DEFAULT_MATRIX = ROOT / "results" / "multidataset_v8_3_ablation" / "all6" / "all_rrbs_region_matrix_5kb.parquet"
 DEFAULT_METADATA = ROOT / "metadata" / "model_sample_metadata_v8.csv"
 DEFAULT_TARGET_REGISTRY = ROOT / "metadata" / "v22_biological_signal_targets.csv"
@@ -798,8 +807,9 @@ def write_report(
     )
     report_text = "\n".join(lines) + "\n"
     (out_dir / "v22_biological_signal_screen_report.md").write_text(report_text, encoding="utf-8")
-    DOC_REPORT.parent.mkdir(parents=True, exist_ok=True)
-    DOC_REPORT.write_text(report_text, encoding="utf-8")
+    if out_dir.resolve() == DEFAULT_OUT.resolve():
+        DOC_REPORT.parent.mkdir(parents=True, exist_ok=True)
+        DOC_REPORT.write_text(report_text, encoding="utf-8")
 
 
 def main() -> None:

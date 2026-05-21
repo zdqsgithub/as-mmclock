@@ -74,6 +74,8 @@ Required stress-test:
 - v21 raw ETL queue/watchdog: `scripts/etl/23_run_raw_bismark_queue.py`, `scripts/etl/24_raw_etl_watchdog.py`
 - v21 AutoDL export/import: `scripts/train/export_v21_autodl_package.py`, `scripts/train/import_v21_autodl_results.py`
 - v21 feature interpretation: `scripts/validate/run_v21_feature_interpretation.py`
+- v24 raw ETL balanced expansion and signal screen report: `doc/20_analysis/59_20260521_v24_raw_etl_balanced_expansion_report.md`
+- v24 raw signal input preparer: `scripts/validate/prepare_v24_raw_signal_inputs.py`
 - v13 delivery outputs: `results/v13_delivery_freeze/`
 - v13 route decision: `results/ralph_v13_strategy/v13_route_decision_state.json`
 
@@ -111,12 +113,14 @@ the matrix gate failed (`1,814` common 5kb regions with v8.2, below `50,000`).
 Future Route B work needs a different candidate or a revised data-generation RFC;
 `GSE83947` does not authorize training or autoresearch.
 
-v21 raw pilots have now passed matrix gates for `GSE121141` and `GSE80672`.
-This validates the local FASTQ->Bismark COV->5kb matrix ETL path for two
-priority datasets, but the current raw pilot matrix is still too small for
-formal ML, CR, random-label, AutoDL, or biological-interpretation success
-claims. The next v21 step is age/condition-balanced raw expansion before
-autoresearch.
+v21/v24 raw pilots and the first balanced expansion have passed matrix gates
+for `GSE121141` and `GSE80672`. The current raw-derived complete common matrix
+has `30` samples and `58215` 5kb regions. A small-n local ML signal screen found
+a promising GSE80672 CR-associated methylation signal (AUC `0.8636`; random
+label AUC `0.4848`) but did not produce a useful raw age clock (GroupKFold MAE
+`43.603w`). `GSE93957` is stopped for re-evaluation after four zero-usable-region
+samples under the current mm10/Bismark COV parser. Raw-derived DL should wait
+for more raw samples.
 
 ## Guardrails
 

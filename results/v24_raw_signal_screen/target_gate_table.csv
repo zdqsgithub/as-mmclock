@@ -1,0 +1,5 @@
+target_id,target_kind,status,reason,n_samples,n_classes,classes,n_datasets,n_tissues
+age_weeks_raw_v24,regression,passed,target passed sample and group gates,30,,,2,3
+cr_vs_control_raw_v24,binary,passed,target passed sample and class gates,23,2.0,control;CR,1,2
+dataset_batch_raw_v24,binary,passed,target passed sample and class gates,30,2.0,GSE121141;GSE80672,2,3
+tissue_blood_vs_brain_raw_v24,binary,passed,target passed sample and class gates,29,2.0,brain_cortex;blood,2,2

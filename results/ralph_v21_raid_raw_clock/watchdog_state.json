@@ -1,0 +1,10 @@
+{
+  "current_sample": null,
+  "exit_code": null,
+  "pid": null,
+  "queue_path": "results/ralph_v21_raid_raw_clock/raw_etl_queue.csv",
+  "recommended_parallel_samples": 3,
+  "retry_count": 0,
+  "status": "not_started",
+  "timestamp": "2026-05-21T04:35:41.546887+00:00"
+}

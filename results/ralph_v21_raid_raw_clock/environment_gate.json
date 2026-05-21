@@ -1,0 +1,74 @@
+{
+  "bismark": {
+    "command": "/home/zdq-as/mouse_methyl_work/tools/route_b_bismark_env/bin/bismark --version",
+    "exists": true,
+    "returncode": 0,
+    "version_head": [
+      "Bismark - Bisulfite Mapper and Methylation Caller.",
+      "",
+      "                       Bismark Version: v0.24.2"
+    ]
+  },
+  "bowtie2": {
+    "command": "/home/zdq-as/mouse_methyl_work/tools/route_b_bismark_env/bin/bowtie2 --version",
+    "exists": true,
+    "returncode": 0,
+    "version_head": [
+      "/home/zdq-as/mouse_methyl_work/tools/route_b_bismark_env/bin/bowtie2-align-s version 2.5.5",
+      "64-bit",
+      "Built on runnervmn36qa"
+    ]
+  },
+  "ct_index_count": 6,
+  "disk": {
+    "etl_root": {
+      "free_gib": 28507.874,
+      "path": "/data/mouse_methyl/processed_v21_raw_etl",
+      "total_gib": 37103.745,
+      "used_gib": 6733.205
+    },
+    "project_root": {
+      "free_gib": 4398.933,
+      "path": "/home/zdq-as/mouse_methyl_work",
+      "total_gib": 7568.506,
+      "used_gib": 2788.07
+    },
+    "raw_root": {
+      "free_gib": 28507.874,
+      "path": "/data/mouse_methyl/raw",
+      "total_gib": 37103.745,
+      "used_gib": 6733.205
+    }
+  },
+  "environment_gate_passed": true,
+  "ga_index_count": 6,
+  "project_imports": {
+    "command": "/home/zdq-as/mouse_methyl_work/.venv-core/bin/python -c import pandas, numpy, sklearn, pyarrow; print('imports_ok')",
+    "exists": true,
+    "returncode": 0,
+    "version_head": [
+      "imports_ok"
+    ]
+  },
+  "reference_dir": "/home/zdq-as/mouse_methyl_work/references/GRCm38_ensembl102",
+  "reference_fasta_exists": true,
+  "samtools": {
+    "command": "/home/zdq-as/mouse_methyl_work/tools/route_b_bismark_env/bin/samtools --version",
+    "exists": true,
+    "returncode": 0,
+    "version_head": [
+      "samtools 1.23.1",
+      "Using htslib 1.23.1",
+      "Copyright (C) 2025 Genome Research Ltd."
+    ]
+  },
+  "timestamp": "2026-05-21T04:35:39.228353+00:00",
+  "uv": {
+    "command": "uv --version",
+    "exists": true,
+    "returncode": 0,
+    "version_head": [
+      "uv 0.11.7 (x86_64-unknown-linux-gnu)"
+    ]
+  }
+}

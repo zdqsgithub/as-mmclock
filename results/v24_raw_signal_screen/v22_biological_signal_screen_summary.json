@@ -1,0 +1,19 @@
+{
+  "autodl_manifest_only": true,
+  "exec_time_sec": 1.8,
+  "interpretation_guardrail": "target-associated methylation signal; mechanism not inferred",
+  "local_dl_started": false,
+  "matrix": "results/v24_raw_signal_screen/raw_v24_gse121141_gse80672_common_complete_region_matrix_5kb.parquet",
+  "metadata": "results/v24_raw_signal_screen/raw_v24_signal_metadata.csv",
+  "n_aligned_samples": 30,
+  "n_benchmark_rows": 4,
+  "n_interpreted_feature_rows": 400,
+  "n_random_label_rows": 4,
+  "n_regions": 58215,
+  "n_selected_feature_rows": 17000,
+  "n_targets": 4,
+  "n_targets_passed": 4,
+  "out_dir": "results/v24_raw_signal_screen",
+  "target_registry": "results/v24_raw_signal_screen/raw_v24_biological_signal_targets.csv",
+  "timestamp": "2026-05-21T04:42:34.652999+00:00"
+}

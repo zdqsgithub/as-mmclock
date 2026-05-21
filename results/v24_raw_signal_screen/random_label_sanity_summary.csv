@@ -1,0 +1,5 @@
+pearson_r,pearson_pval,mae_weeks,rmse_weeks,r2,target_id,target_kind,model_name,preprocess,n_feature_prefilter,min_train_feature_presence,randomize_labels,cv_strategy,n_samples,n_classes,classes,accuracy,balanced_accuracy,macro_f1,roc_auc,average_precision
+-0.1953,0.30092318186911493,42.583,48.428,-0.3882,age_weeks_raw_v24,regression,ridge,robust,500,0.9,True,GroupKFold_dataset_batch,30,,,,,,,
+,,,,,cr_vs_control_raw_v24,binary,logistic,robust,500,0.9,True,StratifiedKFold_within_scope,23,2.0,control;CR,0.4348,0.4394,0.4305,0.4848,0.4931
+,,,,,dataset_batch_raw_v24,binary,logistic,robust,500,0.9,True,StratifiedKFold_within_scope,30,2.0,GSE121141;GSE80672,0.6667,0.4348,0.4,0.0,0.5733
+,,,,,tissue_blood_vs_brain_raw_v24,binary,logistic,robust,500,0.9,True,StratifiedKFold_within_scope,29,2.0,brain_cortex;blood,0.6207,0.4091,0.383,0.0,0.5645

@@ -75,6 +75,7 @@ Required stress-test:
 - v21 AutoDL export/import: `scripts/train/export_v21_autodl_package.py`, `scripts/train/import_v21_autodl_results.py`
 - v21 feature interpretation: `scripts/validate/run_v21_feature_interpretation.py`
 - v24 raw ETL balanced expansion and signal screen report: `doc/20_analysis/59_20260521_v24_raw_etl_balanced_expansion_report.md`
+- v26 data download provenance, repair, and expansion research report: `doc/20_analysis/60_20260521_v26_data_download_repair_research_report.md`
 - v24 raw signal input preparer: `scripts/validate/prepare_v24_raw_signal_inputs.py`
 - v13 delivery outputs: `results/v13_delivery_freeze/`
 - v13 route decision: `results/ralph_v13_strategy/v13_route_decision_state.json`
@@ -121,6 +122,16 @@ label AUC `0.4848`) but did not produce a useful raw age clock (GroupKFold MAE
 `43.603w`). `GSE93957` is stopped for re-evaluation after four zero-usable-region
 samples under the current mm10/Bismark COV parser. Raw-derived DL should wait
 for more raw samples.
+
+v26 audited the local raw download provenance and public expansion candidates.
+Existing raw FASTQ datasets were traced to the AS-DS-Ops SRA Toolkit workflow
+(`prefetch` then `fasterq-dump`) with SSD cache under
+`/mouse_methyl_work/raw_downloads` and final FASTQ under
+`/data/mouse_methyl/raw`. The highest-yield next downloads are processed
+COV/BEDGRAPH parser pilots for `GSE225166/GSE225173` and `GSE233734`, followed
+by existing v11.3 processed backlogs (`GSE175410`, `GSE224442`, `GSE92486`,
+`GSE129712`). Targeted raw repair should wait until the active v25 ETL queue is
+stable.
 
 ## Guardrails
 

@@ -1,0 +1,9 @@
+dataset,sra_runs_total,runs_with_complete_fastq,runs_missing_or_incomplete_fastq,library_layouts,library_strategies,repair_class_counts_json
+GSE120137,739,573,166,SINGLE,Bisulfite-Seq,"{""not_attempted_or_log_missing"": 162, ""orphan_lock_retry"": 4}"
+GSE121141,116,12,104,PAIRED,Bisulfite-Seq,"{""fasterq_timeout_retry_or_ena"": 1, ""not_attempted_or_log_missing"": 102, ""orphan_lock_retry"": 1}"
+GSE45361,23,22,1,SINGLE,Bisulfite-Seq,"{""not_attempted_or_log_missing"": 1}"
+GSE52266,128,128,0,NAN;SINGLE,Bisulfite-Seq;MBD-Seq,{}
+GSE60012,173,109,64,PAIRED;SINGLE,Bisulfite-Seq;RNA-Seq,"{""not_attempted_or_log_missing"": 64}"
+GSE80672,380,266,114,PAIRED,Bisulfite-Seq,"{""fasterq_timeout_retry_or_ena"": 1, ""not_attempted_or_log_missing"": 112, ""orphan_lock_retry"": 1}"
+GSE80761,4,4,0,SINGLE,Bisulfite-Seq,{}
+GSE93957,62,59,3,PAIRED,Bisulfite-Seq,"{""fasterq_timeout_retry_or_ena"": 1, ""not_attempted_or_log_missing"": 2}"

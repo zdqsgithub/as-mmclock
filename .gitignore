@@ -98,6 +98,8 @@ results/**
 !results/v24_raw_signal_screen/*.md
 !results/v24_raw_signal_screen/predictions/
 !results/v24_raw_signal_screen/predictions/*.csv
+!results/v26_data_repair_research/
+!results/v26_data_repair_research/*.csv
 
 # OS/editor noise
 .DS_Store

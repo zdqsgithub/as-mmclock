@@ -178,14 +178,31 @@ def download_one_file(
     part_path = target_dir / f"{name}.v27part"
     if expected_size > 0 and part_path.exists() and part_path.stat().st_size > expected_size:
         part_path.unlink()
-    ok, detail = run_curl(url, part_path, args)
+    last_detail = ""
+    for attempt in range(1, max(1, args.file_attempts) + 1):
+        ok, detail = run_curl(url, part_path, args)
+        if not ok:
+            last_detail = f"attempt_{attempt}:{detail}"
+        else:
+            ok, detail = verify_file(part_path, expected_size, expected_md5)
+            if ok:
+                break
+            last_detail = f"attempt_{attempt}:post_download_{detail}"
+            if expected_size > 0 and detail.startswith("size_mismatch:"):
+                try:
+                    actual = int(detail.split(":")[1])
+                except (IndexError, ValueError):
+                    actual = 0
+                if actual > expected_size:
+                    part_path.unlink(missing_ok=True)
+        if attempt < max(1, args.file_attempts):
+            time.sleep(max(0, args.file_attempt_delay))
+    else:
+        ok = False
+        detail = last_detail or "download_attempts_exhausted"
     if not ok:
         size = part_path.stat().st_size if part_path.exists() else 0
         return False, str(final_path), detail, size
-    ok, detail = verify_file(part_path, expected_size, expected_md5)
-    if not ok:
-        size = part_path.stat().st_size if part_path.exists() else 0
-        return False, str(final_path), f"post_download_{detail}", size
     if final_path.exists():
         return False, str(final_path), "blocked_target_appeared_during_download", final_path.stat().st_size
     part_path.replace(final_path)
@@ -308,6 +325,8 @@ def main() -> None:
     parser.add_argument("--poll-seconds", type=int, default=30)
     parser.add_argument("--curl-retries", type=int, default=8)
     parser.add_argument("--retry-max-time", type=int, default=1800)
+    parser.add_argument("--file-attempts", type=int, default=12)
+    parser.add_argument("--file-attempt-delay", type=int, default=30)
     parser.add_argument("--speed-limit", type=int, default=1024)
     parser.add_argument("--speed-time", type=int, default=300)
     parser.add_argument("--interleave-datasets", action="store_true")
